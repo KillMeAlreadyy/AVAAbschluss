@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+    <title>ChatGPT Implementation</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body onload="typeWriter()">
+
+    <div class="container">
+        <div class="header">
+            <h1><img style="vertical-align:top; padding: 0px 20px 0px 0px;" height="50" src="{{ url_for('static', filename='ava.png') }}">DocuWare Support</h1>
+        </div>
+        <div class="body">
+            <p class="message" id="introduction"></p>        
+			<p class="message" id="howcanihelp" style="display: none;"></p>
+			<p class="message user_message" id="userquestion" style="display: none;"></p>
+			<p class="message" id="justamoment" style="display: none;"></p>
+        </div>
+        <div class="footer">
+            <div class="header">
+                <h2>Type your question below:</h2>
+            </div>
+            <form method="POST" action="/process_data" onsubmit="return justamoment(); " autocomplete="off">
+                <input type="text" name="input_data" id="input_data">
+                <button type="submit">Send</button>
+            </form>
+
+        </div>
+    </div>
+	<div class="logwarn">
+		<p>Thank you for trying this <b>ALPHA</b> version of AVA.  All of your converstations are being <b>logged</b>, so that we can improve this chatbot.  <b><u>DO NOT PUT ANY CUSTOMER DATA or CONFIDENTIAL DATA in this chat bot!</u></b></p>
+		<p><a href="https://docuwaregroup-my.sharepoint.com/:p:/g/personal/jon_langdon_docuware_com/ERVzYhg21a1AmoPuSUDmG2kB_7i4suan7O0p4YK5TpbGnw?e=1cOV5f" target="_blank">Click here to find out how I work</a></p>
+	</div>
+	<script>
+		var i = 0;
+		var k = 0;
+		var j = 0;
+		var txt = 'Hello, my name is AVA. I am a chatbot based on GPT Artificial Intelligence. I can answer questions about how to use DocuWare and help troubleshoot some issues. I am highly capable of processing natural language, so please feel free to ask me questions in complete sentences like you would ask another person.';
+		var txt2 = 'How may I help you today?';
+		var txt3 = "Just a moment while I look that up.";
+		var speed = 20; /* The speed/duration of the effect in milliseconds */
+
+		function typeWriter() {
+		  if (i < txt.length) {
+			document.getElementById("introduction").innerHTML += txt.charAt(i);
+			i++;
+			setTimeout(typeWriter, speed);
+		  }
+		  else {
+			typeWriter2(); 
+		  }
+		}
+		
+		function typeWriter2() {
+			 document.getElementById("howcanihelp").style.display = 'block';
+			 if (k < txt2.length) {
+			   document.getElementById("howcanihelp").innerHTML += txt2.charAt(k);
+			   k++;
+			   setTimeout(typeWriter2, speed);
+             }
+		}
+		
+		function typeWriter3() {
+			 document.getElementById("justamoment").style.display = 'block';
+			 if (j < txt3.length) {
+			   document.getElementById("justamoment").innerHTML += txt3.charAt(j);
+			   j++;
+			   setTimeout(typeWriter3, speed);
+             }
+		}
+		
+		function justamoment() {
+			document.getElementById("userquestion").style.display = 'block';
+			document.getElementById("userquestion").innerHTML = document.getElementById('input_data').value;
+			setTimeout(typeWriter3, 500);
+		}
+			
+
+	</script>	
+
+</body>
+
+</HTML>

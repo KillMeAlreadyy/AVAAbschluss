@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+    <title>ChatGPT Implementation</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+    <style>
+        #overlay {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 9999;
+        }
+
+        #form {
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #fff;
+            padding: 20px;
+            z-index: 99999;
+        }
+		
+		#justified {
+			display: flex;
+			justify-content: center;
+		}
+		
+    </style>
+
+<body onload="typeWriter2()">
+
+    <div class="container">
+        <div class="header">
+            <h1><img style="vertical-align:top; padding: 0px 20px 0px 0px;" height="50" src="{{ url_for('static', filename='ava.png') }}">DocuWare Support</h1>
+        </div>
+        <div class="body">
+            <p class="message">Hello, my name is AVA. I am a chatbot based on GPT Artificial Intelligence. I can answer questions about how to use DocuWare and help troubleshoot some issues. I am highly capable of processing natural language, so please feel free to ask me questions in complete sentences like you would ask another person.</p>
+			<p class="message">How may I help you today?</p>
+            <p class="message user_message">{{ question }}</p>
+			<p class="message">Just a moment while I look that up.</p>
+            <p class="message" id="answer">{{ answer|safe }}</p>
+			<p class="message" id="newquestionp" style="display: none;"><a href="./" id="newquestiona"></a></p>
+        </div>
+		
+		 <div class="footer">
+      
+            
+                <h3>Is that answer not what you expected?</h3>
+            
+            <form  class="footer" action="/bad_bot" method="POST">
+                <input type="hidden" name="uuidtxt" id="uuidtxt" value="{{ uuidtxt }}">
+				<input type="hidden" name="input_data" id="input_data" value="{{ question }}">
+				<input type="hidden" name="output_data" id="output_data_data" value="{{ answer }}">
+				<textarea id="badreason" name="badreason" placeholder="Please give me feedback about why my answer was not good.  Please be as precise as possible.  Explain why my answer is bad/wrong/etc. Please include what you would have expected me to respond with!"></textarea>
+                <button type="submit" value="Submit">Submit</button>
+            </form>
+      
+        </div>
+	</div>
+		
+	<div class="logwarn">
+		<p>Thank you for trying this <b>ALPHA</b> version of AVA.  All of your converstations are being <b>logged</b>, so that we can improve this chatbot.  <b><u>DO NOT PUT ANY CUSTOMER DATA or CONFIDENTIAL DATA in this chat bot!</u></b></p>
+		<p><a href="https://docuwaregroup-my.sharepoint.com/:p:/g/personal/jon_langdon_docuware_com/ERVzYhg21a1AmoPuSUDmG2kB_7i4suan7O0p4YK5TpbGnw?e=1cOV5f" target="_blank">Click here to find out how I work</a></p>
+	</div>
+		
+	<script>
+		var j = 0;
+		var txt2 = 'Try a new question!'
+		var speed = 20; /* The speed/duration of the effect in milliseconds */
+		
+	
+		function typeWriter2() {
+			 document.getElementById("newquestionp").style.display = 'block';
+			if (j < txt2.length) {
+			document.getElementById("newquestiona").innerHTML += txt2.charAt(j);
+			j++;
+			setTimeout(typeWriter2, speed);
+		  }
+		}
+	</script>	
+
+
+	
+
+</body>
+
+
+</HTML>
