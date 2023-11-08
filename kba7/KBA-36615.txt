@@ -1,0 +1,16 @@
+What is the most recent version of the needed components to install Intelligent Indexing v1?
+
+
+
+Question:
+What is the most recent version of the needed components to install Intelligent Indexing v1?
+
+Answer:
+Tomcat: Tomcat 9
+
+Java: Java 8 or OpenJDK 8
+
+SQL: MSSQL 2014 or higher (Express will work but there is a data size restriction.)
+
+*This article applies to On-Premise systems only.
+

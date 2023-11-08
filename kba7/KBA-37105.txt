@@ -1,0 +1,16 @@
+How to use the custom search from our SDK?
+
+
+Question:
+What is the custom search? What is the difference to the search dialogs, which you can see and configure in Configurations > Filecabinets? 
+Answer: 
+The custom search is a dialog that is only available in our Platform API.Normal dialogs can have various settings that can be extremely diverse per customer, Filecabinet and Dialog. They have different GUIDs, different constraints like mandatory fields and they can hide fields by having different result lists.
+As a developer you do not know the correct GUID in advance and even if you know which dialog to use, someone can change it in the UI. It can also help to retrieve the SelfRelation of a Document a bit less.
+ 
+ 
+Question:
+How to use the custom search?
+ 
+Answer:
+For REST use the normal search examples but use the GUID 00000000-0000-0000-0000-000000000000.
+For .NET API change the code for retrieving the dialog: var dialog = cabinet.GetDialogFromCustomSearchRelation();

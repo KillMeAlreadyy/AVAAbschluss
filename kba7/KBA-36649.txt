@@ -1,0 +1,12 @@
+Minor Major Update
+
+
+
+Question:
+1. What is a Major Update
+2 What is a Minor Update
+ 
+Answer:
+1. A Major Update is an update from Version 6.12 to 7.1 or from 7.1 to 7.2
+2. A Minor Update is an update in between 7.4 for example from build 7.4.0.52506 to build 7.4.0.52520
+

@@ -1,0 +1,7 @@
+How do I route DocuWare Desktop Apps through a proxy?
+
+
+Question:How do I route my DocuWare Desktop Apps through a proxy?
+Answer:On the workstation where the Desktop Apps are installed there are two configuration files which need to be adjusted. These config files can be found in the following directory:C:\Program Files (x86)\DocuWare\Desktop
+Within the config files these keys will need to be added and adjusted.  
+DocuWare.DesktopService.exe.config:​<system.net>​   <defaultProxy enabled="true" useDefaultCredentials = "true">​      <proxy autoDetect="false" bypassonlocal="false" proxyaddress="http://myproxy:8080" usesystemdefault="false" />​   </defaultProxy>​   <connectionManagement>​      <add address = "*" maxconnection = "10" />​   </connectionManagement>​</system.net>​​DocuWare.Desktop.exe.config:​​<system.net>​   <defaultProxy enabled="true" useDefaultCredentials = "true">​      <proxy autoDetect="false" bypassonlocal="false" proxyaddress="myproxy:8080" usesystemdefault="false" />​   </defaultProxy>​</system.net>KBA applicable for both Cloud and On-premise Organizations.

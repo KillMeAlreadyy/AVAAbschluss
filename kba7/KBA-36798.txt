@@ -1,0 +1,13 @@
+Are Storage locations Supported?
+
+
+Question:
+Are Storage locations supported?
+ 
+Answer:
+DocuWare supports a broad spectrum of storage media for storing documents. This includes local hard disks, (virtual) network storage media, and external storage systems. 
+Storage locations are considered external components. Therefore, the configuration and maintenance of these storage locations are the responsibility of the end user and is outside of our standard Support contract.
+ 
+For more information on supported storage locations, visit our Knowledge Center.
+ 
+KBA is applicable to On-premise Organizations ONLY.

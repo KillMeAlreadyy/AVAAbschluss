@@ -1,0 +1,23 @@
+ERROR: "The device is busy or locked" when scanning
+
+
+Behavior:
+The following error message is displayed when attempting to scan with DocuWare Desktop;
+
+"The device is busy or locked. Close any other apps that are using this device or wait for it to finish the current process and then try again"
+ 
+Solution:
+Please consider the following resolutions as this error can result from a variety of factors;
+
+Make sure the scanner is physically connected to the workstation.
+	 
+In the "Scanner:" dropdown list within the scanner settings section of the desktop application, ensure you're using the TWAIN option. If you do not see your scanner name with the (TWAIN) 
+	option next to it in the list, please visit the scanner's manufactures website and download the TWAIN driver.
+	 
+ Uninstall any old or unnecessary scanner drivers from programs and features.
+	 
+Ensure no other applications are open which is currently using the scanner.
+	 
+Restart DocuWare Desktop application and  DocuWare Desktop service then try your scan again.
+
+KBA applicable for both Cloud and On-premise Organizations.

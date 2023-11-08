@@ -1,0 +1,25 @@
+Differences between Transfer and Synchronization
+
+
+Question: 
+When attempting to move documents from one File Cabinet to another, what is the different between Transfer and Synchronization?
+ 
+Answer:
+The Transfer and Synchronization plugins provide a method to move and copy documents with their respective index data from one file cabinet to another. Understanding the differences between Transfer and Synchronization in DocuWare can better equip you in selecting the appropriate transfer method to achieve your organization's desired outcome.
+ 
+Transfer:
+
+Transfer jobs are a one-way migration of documents, target file cabinet cannot exchange data with source.
+A transfer can transfer the versions of a document, applicable for file cabinets with Version Management enabled.
+Offered for both Cloud and On-premise Organizations.
+
+Synchronization:  
+
+The documents and index data can be exchanged in both directions. From the source to a target file cabinet and vice versa.
+Cannot transfer a documents versioning for file cabinets with Version Management enabled.
+Offered for On-premise Organizations only.
+
+In conclusion, DocuWare Transfer would be an ideal solution for mass document exportation. An ideal use case for DocuWare Transfer would be a file cabinet migration from one system to another DocuWare system. 
+DocuWare Synchronization is best suited for synching data between one file cabinet to another. An ideal use case of this would be synching an On-premise file cabinet with a DocuWare Cloud file cabinet to ensure both cabinets have the same documents.  
+Now that you have been provided the differences between DocuWare Transfer and Synchronization, see KBA-36336 and KBA-36538 to configure your own transfer or sync job.
+KBA is applicable to both On-Premise & Cloud Organizations.

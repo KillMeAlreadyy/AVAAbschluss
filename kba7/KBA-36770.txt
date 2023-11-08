@@ -1,0 +1,26 @@
+Configurations page doesn't reflect language change
+
+
+Behavior:
+When opening Configurations page via Desktop Apps, the Configuration page doesn't reflect the recently changed language?
+ 
+Answer:
+Complete the following to resolve this issue; 
+ 
+1. Start by following KBA-36449.
+ 
+2. From the drop down under your username, select Desktop Apps > Connect Desktop Apps.
+
+ 
+3. Open DocuWare Desktop Apps and confirm an active connection.
+ 
+
+ 
+4. Once an active connection has been confirmed, open "Configurations" from your Desktop Apps and we should now see the page displayed in our preferred language.
+ 
+
+ 
+
+Note: This change of language will only affect the user that has implemented the change.
+ 
+KBA applicable for both Cloud and On-premise Organizations.

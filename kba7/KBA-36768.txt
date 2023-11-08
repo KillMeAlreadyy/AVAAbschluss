@@ -1,0 +1,12 @@
+Desktop apps stop working after SSL Certificate is applied
+
+
+Behavior: 
+Desktop apps stop working after applying or updating your SSL certificate. 
+
+Answer: 
+To resolve this behavior, please log into the web client and re-connect your Desktop applications as seen below; 
+
+
+
+KBA is applicable for On-premise Organizations Only.

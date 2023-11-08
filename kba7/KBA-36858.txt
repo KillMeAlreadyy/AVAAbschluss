@@ -1,0 +1,16 @@
+ERROR: "No Inbox available" when using DocuWare Desktop Apps.
+
+
+Behavior:
+While attempting to import, print, or scan with DocuWare Desktop apps, the following error occurs;
+ 
+
+ 
+Solution:
+This behavior occurs when the user connected to the Desktop application has no permissions to a document tray. The following can be done to identify and alleviate this issue;
+
+ Check the user connected in the desktop application. In some occasions, the user connected to the desktop app can differ from the user login into the web client.
+
+You can create a new document tray for the user (KBA-36297), or give the user permissions to an existing tray. 
+
+KBA is applicable to both Cloud and On-Premise Organizations.

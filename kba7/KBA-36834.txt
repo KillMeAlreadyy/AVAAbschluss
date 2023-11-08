@@ -1,0 +1,26 @@
+How do I unblock blocked DocuWare .zip setup/hotfix files?
+
+
+Behavior:
+When attempting to install hotfix or install files, you are presented with a visible error, an error in EventViewer or an error in logging such as the following:
+ 
+
+
+"A fatal error has occurred"
+"An unknown/unhandled exception has occurred."
+"Error due to general protection fault."
+"Could not load the assembly file://**/*.dll."
+	Note: This assembly may have been downloaded from the Web. If an assembly has been downloaded from the Web, it is flagged by Windows as being a Web file, even if it resides on the local computer. This may prevent it from being used in your project. You can change this designation by changing the file properties. Only unblock assemblies that you trust.
+
+This may also affect the DocuWare Desktop applications that are installed from the Web Client.
+
+Solution:
+If you have extracted a blocked .zip file then all contents of that package will be blocked. DocuWare Setup files have many files and unblocking them one at a time may be a long process. It is recommended to delete the original extracted .zip file and re-download the file. When you have finished downloading the .zip file, please complete the following:
+1. Locate your .zip file, right-click the file and select "Properties"
+
+
+2. If the Unblock check box is within the General tab, check it and click-on Apply.
+
+Once completed, you can now extract the .zip file as all files have been unblocked now.
+This KBA is applicable for On-premise Organizations ONLY.
+

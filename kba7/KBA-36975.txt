@@ -1,0 +1,6 @@
+How to generate a text file listing all ports and the processes utilizing them
+
+
+Question:How can we generate a text file that lists all ports, alongside the processes which are utilizing them? Answer:To generate a text file detailing all ports and processes utilizing them, please refer to the following guide;
+Open Command Prompt and Run as administrator Run the following command;netstat -ano >> c:\ports.txt This will generate a text file on the C drive, or you can change this to any location you'd like by adjusting the command. This is helpful in cases when predefined DocuWare ports are used by a different application conflicting the connection. Please see scenario on above example, which can be found here.
+KBA applicable for both Cloud and On-premise Organizations 

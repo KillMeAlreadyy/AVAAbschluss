@@ -1,0 +1,7 @@
+Workflow and notification server do not start after a server migration.
+
+
+Behavior:After migrating your DocuWare system, the workflow and notification services will not start. The service logs or event viewer display one of the following errors.Note: Service logs are located in C:\programdata\Docuware\logsProcessServer::Error: Server already Logged in.   
+orINVALID_SERVERPASS_ID
+Solution:Your system user will need to be re-created. The following KBA explains this process: Recreate system user
+KBA applicable for On-premise Organizations ONLY.

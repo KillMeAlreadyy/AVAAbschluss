@@ -1,0 +1,17 @@
+ERROR: "The path to the Omnipage SDK is not configured properly in the registry"
+
+
+
+Behavior:
+When attempting to import documents into DocuWare via an import configuration, you get the following error:
+
+
+
+Upon further inspecting the "DocuWare.Recognition.Worker.Host" log (found at the DocuWare Desktop folder after enabling debug logs for the Desktop Apps), the following error message is also present:
+
+
+
+Solution:
+Uninstall all of the installed Desktop Apps on the machine, and re-install the Desktop apps again to alleviate this error.
+
+KBA applicable for both Cloud and On-premise Organizations.

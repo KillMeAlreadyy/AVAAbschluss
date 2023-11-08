@@ -1,0 +1,4 @@
+ERROR: "A newer version of DocuWare is already installed" when installing DocuWare
+
+
+Behavior:When attempting to install DocuWare, you receive the following error message;Answer:This issue often occurs when there is a newer server setup version installed on the machine. This issue can be resolved by going to the control panel and uninstalling "DocuWare Server Setup".KBA is applicable for On-premise Organizations ONLY. 

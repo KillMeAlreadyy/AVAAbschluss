@@ -1,0 +1,6 @@
+Database Simulation option grayed out During upgrade (MySQL)
+
+
+Question:Why is the simulation option greyed out during the upgrade process?Answer:When using MySQL Database, the upgrade simulation can only be performed under the following conditions:
+DocuWare setup must be executed on the machine where the database server is installed.MySQL tools are utilized for the simulation and must be located within the MySQL location.
+KBA is applicable to On-premise Organizations ONLY.

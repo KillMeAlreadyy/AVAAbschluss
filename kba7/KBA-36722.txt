@@ -1,0 +1,8 @@
+Is it possible to monitor the same folder with multiple import jobs?
+
+
+Question:Is it possible to monitor the same folder with multiple import jobs?
+ 
+Answer:
+By product design, each folder can only be monitored by one import job. 
+Attempting to monitor the same folder with more then one job will result in an error message.KBA applicable for both Cloud and On-premise Organizations.

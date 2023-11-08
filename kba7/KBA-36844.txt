@@ -1,0 +1,11 @@
+Cloud Major Version Update Notifications: Who and When
+
+
+
+Question:
+Who would receive Cloud update notifications and when would they be notified?
+Answer:
+Prior to major version updates, emails regarding the cloud organization update will be sent out to the Organization Administrator, as well as the Authorized DocuWare Provider for indirect customers.
+These emails will be sent out, 28, 14, and 3 days prior to the scheduled update. It is not possible to unsubscribe from these emails.
+KBA applicable for Cloud Organizations ONLY.
+

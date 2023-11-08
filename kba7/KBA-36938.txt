@@ -1,0 +1,20 @@
+Can you provide us with the IP address from our cloud system and its background services?
+
+
+Question:
+Can you provide us with the IP address from our cloud System and its background services?
+We need this IP addresses to allow them in our firewall.
+
+Answer:
+Unfortunately, we cannot give out our public IP address from our services, as they can change at any time. The IP address from our services will always come from the address range published in the fallowing article.
+
+https://www.microsoft.com/en-us/download/details.aspx?id=56519
+
+To find out the exact range, that is being used by the backend services, you must first check what IP addresses are being blocked by the fire wall. When creating a Connect To Mail configuration, you should see a couple of addresses coming from an azure domain trying to access the mail service and getting blocked.
+
+To calculate the range, you can check the subnet mask of the addresses in the list and calculate if the blocked IP addresses fall in this range. To aid in calculating the correct IP address, you can use the fallowing tool:
+
+http://jodies.de/ipcalc
+
+This tool tells you what is the highest Host number provided in the IP range and the lowest IP number, and also how many addresses have a free host.
+ 

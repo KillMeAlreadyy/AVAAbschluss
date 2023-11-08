@@ -1,0 +1,90 @@
+Which DocuWare plug-ins require having an add-on module license ?
+
+
+Question:
+Which plug-ins require having an add-on module license for on-premise systems? 
+
+Answer:
+The following plug-ins require an add-on module license;
+ 
+General Section
+Mail Services
+
+
+Requires a Connect to Mail license
+
+
+Text and Barcode Recognition
+
+Available in on-premises: Requires a Barcode+Forms license
+
+
+Capture Section
+
+Document Processing
+
+Available in on-premises: The full scope of configuration also requires DocuWare Import and Barcode & Forms licenses
+
+
+Forms
+
+Available in on-premises: Requires a DocuWare Forms license
+
+
+Outlook Email
+
+Available in on-premises: Requires a Connect to Outlook license
+
+
+
+
+General Email
+
+Available in on-premises: Requires a Connect to Mail license
+
+
+Indexing Section
+
+Indexing Assistance
+
+Available in on-premises: Does not require any module license for use.
+
+
+Intelligent Indexing
+
+Available in on-premises: Requires an Intelligent Indexing license
+
+
+AutoIndex
+
+Available in on-premises: Requires an Autoindex license
+
+
+Document Storage Section
+
+File Cabinets
+
+Available in on-premises: Requires a Task Manager license for full configuration scope (For List configurations)
+
+
+Collaboration Section
+
+Notifications
+
+Available in on-premises: Requires a Task Manager license
+
+ Integrations Section
+
+Smart Connect
+
+Available in on-premises: Requires a Smart Connect license
+
+
+Data export
+
+Available in on-premises: Requires a DocuWare Export license
+	 
+
+KBA applicable for On-premise Organizations ONLY
+
+

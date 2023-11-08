@@ -1,0 +1,6 @@
+Item has already been added. Key in dictionary: 'OrganizationUrl connection'
+
+
+Behavior:When attempting to open the DocuWare Administration Tool, you receive the following error:Solution:To resolve this behavior, please complete the following; 
+Make a backup of the DocuWare.Administration.exe.settings file.(Default location: C:\Program Files (x86)\DocuWare\AdminTool or C:\Program Files (x86)\DocuWare\AdminTool Online)Within this file, navigate to the <AuthenticationServers> section and locate any entry that displays "OrganizationUrl connection"Once this entry has been found, delete the entry (delete all of the connections starting with "OrganizationURL" if there are multiple), save the changes, then attempt accessing the Admin tool again.
+KBA is applicable to both On-premise and Cloud Organizations.

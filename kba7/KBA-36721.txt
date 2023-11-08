@@ -1,0 +1,10 @@
+Is it possible to monitor network locations for my Import jobs?
+
+
+Question: 
+Is it possible to monitor network locations for my Import jobs?
+ 
+Answer:
+DocuWare import can indeed monitor and import from network locations. To achieve this, the user running the Desktop service must be a domain user and will needfull permissions over the monitored folders. 
+ 
+KBA applicable for both Cloud and On-premise Organizations. 

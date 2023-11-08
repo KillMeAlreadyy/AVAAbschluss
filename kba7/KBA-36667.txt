@@ -1,0 +1,8 @@
+"Error 1317" during the installation of DocuWare
+
+
+Behavior: During the installation of your DocuWare server you receive the following error."Error 1317. An error occurred while attempting to create the directory: C:\Users\Administrator\Desktop\Docuware"
+(This error can be found in the setup logs C:\programdata\Docuware\Setuplogs)
+Solution:Access the security properties of the folder referenced in the error and make sure the SYSTEM user has full control.
+Afterwards select re-try on the installer.
+KBA applicable for On-premise Organizations ONLY.

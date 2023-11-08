@@ -1,0 +1,9 @@
+Source Profile contains 0 right, which is not allowed to be on field level!
+
+
+Behavior:During the upgrade process, entering your DocuWare credentials returns the following error;
+Solution:This can occur when a user creates a File cabinet or Document tray, but does not give administration permissions to the DocuWare Organization Administrator. If any users were recently deactivated, make sure they did not create any trays or cabinets. Please confirm that all cabinets and tray are accessible by the organization admin before continuing the upgrade.
+If unsure which cabinets or trays are causing the error above, click-on the following for how to check the owner permissions for File cabinets or Document Trays.
+KBA applicable for On-premise Organizations ONLY.
+ 
+ 

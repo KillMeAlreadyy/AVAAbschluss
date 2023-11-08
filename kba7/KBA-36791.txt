@@ -1,0 +1,193 @@
+Configuration plug-in user rights
+
+
+Question:
+Which rights are needed to access each of the plug-ins shown on the Configurations page? 
+
+Answer:
+Requirements for each plug-in is as follows;
+
+General Section
+
+Organization Settings
+
+Required Role: Organization Administrator
+Required Functional Right: None
+
+
+Product Overview
+
+Required Role: Organization Administrator
+Required Functional Right: None
+
+
+User Management
+
+Required Role: None
+Required Functional Right: Manage Users
+
+
+Audit Reports
+
+Required Role: None
+Required Functional Right: View Audit Reports
+
+
+Mail Services
+
+Required Role: Organization Administrator
+Required Functional Right: None
+
+
+Text and Barcode Recognition
+
+Required Role: None
+Required Functional Right: Configure Text, and Barcode Recognition
+
+
+Preconfigured Solutions
+
+Required Role: Organization Administrator
+Required Functional Right: None
+
+
+Capture Section
+
+Document Processing
+
+Required Role: None
+Required Functional Right: Configuring document processing
+
+
+Forms
+
+Required Role: None
+Required Functional Right: Configuring Forms
+
+
+Outlook Email
+
+Required Role: None
+Required Functional Right: Configuring Connect to Outlook
+
+
+
+
+General Email
+
+Required Role: None
+Required Functional Right: Configuring Connect to Mail
+
+
+Indexing Section
+
+Indexing Assistance
+
+Required Role: None
+Required Functional Right: Configuring field masks, configuring select lists
+
+
+Intelligent Indexing
+
+Required Role: None
+Required Functional Right: Configure Intelligent Indexing
+
+
+AutoIndex
+
+Required Role: None
+Required Functional Right: Configuring Autoindex
+
+
+Document Storage Section
+
+File Cabinets
+
+Required Role: None
+Required Functional Right: Configure file cabinets
+
+
+Document Relations
+
+Required Role: None
+Required Functional Right: Configure file cabinets
+
+
+Deletion Policies
+
+Required Role: None
+Required Functional Right: Configuring deletion rules
+
+
+Transfer
+
+Required Role: None
+Required Functional Right: Configuring document transfer
+
+
+Synchronization
+
+Required Role: None
+Required Functional Right: Configure file cabinet synchronization
+
+
+Collaboration Section
+
+Notifications
+
+Required Role: None
+Required Functional Right: Configuring notifications
+
+
+Request
+
+Required Role: None
+Required Functional Right: Configure request
+
+
+Stamps
+
+Required Role: None
+Required Functional Right: Configure Stamp
+
+
+Personal
+
+Document Trays
+
+Required Role: None
+Required Functional Right: Configuring document trays
+
+
+Integrations Section
+
+Smart Connect
+
+Required Role: None
+Required Functional Right: Configuring Smart Connect
+
+
+Web Services
+
+Required Role: None
+Required Functional Right: Configuring web services
+
+Webhooks
+
+Required Role: Organization Administrator
+Required Functional Right: None
+
+
+Data export
+
+Required Role: None
+Required Functional Right: DocuWare Export
+
+
+FTP
+
+Required Role: Organization Administrator
+Required Functional Right: None
+
+KBA applicable for both Cloud and On-premise Organizations.
+

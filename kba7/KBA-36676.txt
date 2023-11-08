@@ -1,0 +1,19 @@
+Chrome continuously prompts to install Desktop apps to use any feature.
+
+
+
+Behavior: 
+After updating Google Chrome, Chrome continuously prompts me to install DocuWare Desktop apps to use any features.
+Solution:
+Please refer to the following post as it details the recent security changes that have been implemented in Chrome, which may cause issues with DocuWare Desktop apps. 
+Chrome browser security change: Time to switch to HTTPS
+The following work around can be applied until the needed changes are made to your DocuWare system;
+
+On your workstation, open a Chrome browser and paste the following into the web address bar: chrome://flags/#unsafely-treat-insecure-origin-as-secure
+	 
+Enter your DocuWare URL into the text box, then select "Enabled" from the drop down list to the right. 
+
+Once completed, restart your Chrome browser and try again as this issue should be resolved.
+
+KBA applicable for On-premise Organizations Only.
+

@@ -1,0 +1,6 @@
+(JIS) Value does not fall within the expected range when storing with Connect to Outlook
+
+
+Behavior:The following error is displayed when storing with Connect to Outlook:Solution:When experiencing this behavior, please perform the following, 
+Remove the existing Desktop App Connection from the Desktop Apps. Clear Cache & Cookies in Microsoft Edge, specifically. More on clearing cookies can be found here. Sign in to DocuWare in Microsoft Edge. Re-connect the Desktop Apps from the dropdown menu underneath their username. Restart DocuWare Desktop Service. Re-launch Outlook & test.
+KBA applicable for both Cloud and On-premise Organizations.

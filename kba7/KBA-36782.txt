@@ -1,0 +1,9 @@
+ERROR: "This implementation is not part of the Windows FIPS Validated cryptographic algorithms"
+
+
+Behavior:While importing, scanning, or printing documents via the DocuWare Desktop app, you receive the following error;"This implementation is not part of the Windows FIPS Validated cryptographic algorithms"Solution:
+Currently, DocuWare Desktop Apps does not support FIPS enabled environments. 
+ 
+To Disable FIPS on the local machine:
+Access the "Local Security Policy" of the machine.  Navigate to Local Policies  > Security Options. Look for the policy "System Cryptography :Use FIPS compliant algorithms for encryption, hashing, and signing" and disable it. Apply your changes then select OK.  Restart the DocuWare desktop service and application, then reprocess your documents.
+KBA is applicable to both Cloud and On-premise Organizations.

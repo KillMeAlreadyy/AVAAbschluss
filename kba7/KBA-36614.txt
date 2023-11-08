@@ -1,0 +1,4 @@
+User Sync App will run manually but not on a schedule
+
+
+Problem:User Sync App will run manually but not on a schedule.AD Sync logs (found in C:\ProgramData\Docuware\Logs\ADSync) show error:  "Password was saved with a different user account"Solution:The user running the task in Task Scheduler must be the same as the Author of the task:Either change the user to the same as the author, or simply recreate the schedule through the User Sync App.This KBA is applicable to both Cloud and On-premise Organizations.

@@ -1,0 +1,6 @@
+Does Intelligent Indexing need to be updated with DocuWare?
+
+
+Question:Does Intelligent Indexing need to be updated with DocuWare?Answer:Intelligent Indexing does not need to be updated when upgrading your DocuWare version. Intelligent Indexing is its own entity, which would work with all supported versions of DocuWare.
+ 
+KBA is applicable for On-Premise Organizations ONLY.

@@ -1,0 +1,8 @@
+Microsoft Edge continuously prompts to install Desktop apps to use any features
+
+
+Behavior: After updating Microsoft Edge, it continuously prompts me to install DocuWare Desktop apps to use any features.
+Solution:Please refer to the following post as it details the recent security changes that have been adopted by Edge.Chrome browser security change: Time to switch to HTTPS
+The following work around can be applied until the needed changes are made to your DocuWare system;
+On your workstation, open a Edge browser and paste the following into the web address bar: edge://flags/#unsafely-treat-insecure-origin-as-secure Enter your DocuWare URL into the text box, then select "Enabled" from the drop down list to the right. Once completed, restart your Edge browser and try again as this issue should be resolved.
+KBA applicable for On-premise Organizations ONLY.

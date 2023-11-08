@@ -1,0 +1,13 @@
+How to handle throttled requests made to the Cloud system
+
+
+
+Question:
+Since throttling has been introduced in the DocuWare Cloud, what is a way of handling this?
+
+Answer:
+Since introducing throttling in the DocuWare Cloud, more information can be found here, the use of a library such as Polly can be used in order to retry these throttled requests.
+We have an example project from our GitHub page which shows how this can be implemented.
+
+KBA applicable only for Cloud Organizations.
+

@@ -1,0 +1,19 @@
+"Error 1609" when installing DocuWare Desktop
+
+
+Behavior:
+Desktop apps fails to install with the following error.
+ 
+" Error 1609. An error occurred while applying security settings. Users is not a valid user or group. This could be a problem with the package, or a problem connecting to a domain controller on the network. 
+Check your network connection and click Retry, or Cancel to end the install. Unable to locate the user's SID, system error 1332"
+ 
+Solution:
+This error occurs when DocuWare Desktop is installed on a system with Non-US regional settings or that is not natively a US English versions of windows. 
+
+To resolve this issue, we can manually create a local group account with the English name "Users" and include the same users located in the previous local group.
+Alternatively, we can rename the non-English named group to "Users"
+ 
+KBA applicable for both On-premise and Cloud Organizations.
+ 
+ 
+ 

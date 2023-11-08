@@ -1,0 +1,8 @@
+ERROR: "Invalid Class" when running the Desktop Apps Silent installation
+
+
+Behavior:When running the Desktop Apps silent installation, we receive the following error message;
+ 
+"Invalid Class"Solution:This error can occur due to an issue with Microsoft WMI. To correct any issues Microsoft WMI may have, please do the following;
+Open Command Prompt as Administrator.Enter the command, winmgmt /resetrepository
+Once done, please reattempt the installation.KBA applicable for both Cloud and On-premise Organizations.

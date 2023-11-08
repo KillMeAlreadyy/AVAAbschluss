@@ -1,0 +1,7 @@
+Cloud DNS/URL architectural changes (7.8+)
+
+
+Cloud DNSPrior to DocuWare 7.8, when the Cloud DNS/URL was changed, DocuWare automatically checked the workflows for hard-coded URLs and replaced them with the new URL.For example:Before: my.docuware.cloud/docuware/forms/...After: mynew.docuware.cloud/docuware/forms/...Unfortunately, we can no longer offer this convenient service due to architectural changes.
+This means that hard-coded URLs in workflows will no longer automatically change when the cloud DNS is changed.
+We recommend using the workflow system variable "Organization Domain" because this variable always dynamically provides the current cloud URL.An example use case that has been seen is the ability to add links to a DocuWare Form or a document/result list (using URL Integration) in the dialog of a workflow task. The user with this task can click on the link to perform further steps like compiling a form or reviewing documents.In another use case, the Organization Domain can be used within a web service or email activity where users provide hardcoded URLs to forms, documents, or result lists.
+KBA is applicable to Cloud Organizations ONLY. 

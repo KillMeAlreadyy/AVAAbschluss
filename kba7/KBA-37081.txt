@@ -1,0 +1,9 @@
+How to find out if a server is physical or virtual
+
+
+Question:How can you tell if your DocuWare Server is physical or virtual?
+Solution:To find this information on your DocuWare Server, open Command Prompt and type in either of the following commands:
+ 
+Command 1: systeminfo | findstr /i modelIf this command is run on a Virtual server, you’ll see a mention of VMWare. This command will provide you with information specific to the model of the server. Command 2:systeminfo 
+This command will provide you with general information about the system, including the needed System Model. 
+KBA is applicable for On-premise Organizations ONLY.

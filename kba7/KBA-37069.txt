@@ -1,0 +1,7 @@
+Intellix V2 Docker Containers not restarting automatically
+
+
+Scenario:Intelligent Indexing V2 is installed on Windows Server 2019 or 2022 and uses the built-in Docker SQL Express. The three containers (app, MSSQL, Solr) do not start automatically after a reboot. They can be started manually via an administrator Powershell without any issue. After the reboot, the containers either do not start or start and then exit. 
+Solution:To resolve this behavior, please refer to the following steps below;
+Please stop Intelligent Indexing via the Stop-Intellix script. With a text editor, open the file docker-compose.yml located in ...\Intellix-master\windows\setup\run. There you can find the following at the bottom of the file:networks:  intellix:  Add the highlighted text below in the same format:networks:  intellix:     external:     name: nat Save this file, then start Intelligent Indexing via the Start-Intellix script.
+KBA is applicable to On-premise Organizations ONLY.

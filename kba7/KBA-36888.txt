@@ -1,0 +1,33 @@
+How to configure a Trusted Application User
+
+
+Question:
+How do you configure a Trusted Application User?
+ 
+Answer: 
+To configure a Trusted Application User, please complete the following;
+(Note: Only an organization administrator can create a Trusted Application User.)
+
+1. First, enable "Trusted application user allowed" within the designated file cabinet settings as shown depicted below;
+ 
+
+
+ 
+ 
+2. Open DocuWare Administration, then navigate to Your Organization>User Administration>Trusted Application Users. Right-click "Trusted Application Users", then select "Create New User".
+ 
+
+ 
+3. Next, enter the user name and password as it is in DocuWare, then click OK.
+ 
+
+
+4.  Select the "+" symbol to the right of File Cabinets, which will display the available file cabinets that can be assigned. Use the arrows to add or remove file cabinet(s) for this user. Lastly, select OK and Apply to save your changes.
+Once completed, the Trusted Application User registration is complete and ready for use.
+ 
+
+ 
+For more information on Trusted Application User, please see DocuWare Knowledge Center.
+ 
+KBA is applicable for both Cloud and On-premise Organizations.
+ 

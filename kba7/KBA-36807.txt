@@ -1,0 +1,102 @@
+DWCloud HowTo report decreasing performance in DocuWare Cloud
+
+
+
+Behavior:
+You are experiencing a decrease in performance in the processing of tasks within DocuWare Cloud.
+Example(s):
+
+Opening documents in DocuWare Viewer takes longer than, e.g. an hour ago
+Performing a search for Documents is fast, at the beginning of the day, but during lunchtime the search is very slow
+Storing documents in file-cabinet A is fast, but storing documents in file-cabinet B takes time
+
+Answer:
+For further troubleshooting the described scenario, preparing answers to following questions, will speed up the processing of your enquiry at DocuWare.
+
+Which operations are slow? (storing, searching, displaying of documents etc.?)
+Which file cabinets and baskets are affected by the behavior?
+When did you experience the performance issues (date & time)? 
+
+One time occurrence or regular behavior?
+
+
+Can you connect the decrease to a certain action or operation? 
+
+Maybe since the upgrade to a newer version or since adding new jobs like Auto-Index or Workflow (please add the name of the process)?
+
+
+Have you tested your current internet speed?
+
+Did you try with a different internet connection, e.g. mobile? 
+
+
+Do you also receive exceptions during those performance decreases?
+
+See below an example of helpful information:
+
+Which operations are slow? 
+
+Searching for documents is slower than normal
+
+
+Which file cabinets and baskets are affected by the behavior?
+
+File-cabinet Documents 
+
+
+When did you experience the performance issues (date & time)?
+
+28th of January 20XX between 11 a.m. and 1 p.m.
+One time occurrence or regular behavior?
+
+Searches regularly decrease in this time range
+
+
+
+
+Can you connect the decrease to a certain action or operation (please add the name of the process)? 
+
+We have introduced a new Auto-Index with the name "Sync Data from ERP-System" 
+
+
+Have you tested your current internet speed?
+
+According to the latest speed test, my connection has 20 Mbit/s
+
+
+Do you also receive messages during those performance decreases?
+
+No messages are displayed in the WebClient
+
+
+
+Please consider performing the following steps to enable a more precise investigation and faster resolution:
+
+Activate the Diagnostic Mode within your profile and repeat the slow operations (storing, searching, displaying of documents)
+
+You can activate the diagnostic mode by opening your profile settings and selecting the option as shown below
+
+Please upload screenshots of the repeated operations to the support request, you will see information like below (below example contains good reaction speeds)
+
+
+
+Should you notice, that specific documents are slower than others, please provide the following information
+
+Edit index entries > System entries (usernames have been obscured for the article)
+ 
+
+
+If only a specific file-cabinets searches is slower, then please provide the "Administrative information" (Configurations > File-Cabinets > File Cabinet Name > More options > Scroll to page ending)
+
+​​​​​​​
+ Above information has been obscured for the article only. Please provide all details
+
+
+​​​​​​​Should you receive any error message normally indicated by a message bar in the upper right corner, please add a screenshot of this message to Test data
+
+​​​​​​​​​​​​​​​​​​​​​Please check here for more information on how to upload logs and screenshots KBA-36198
+
+
+
+ 
+

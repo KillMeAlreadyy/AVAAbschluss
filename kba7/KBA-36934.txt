@@ -1,0 +1,7 @@
+DocuWare Cloud Document History Limits
+
+
+Question:Are there any limitations to the document history in DocuWare Cloud?Answer:When viewing document history, you may notice an entry called "Archived".  The archival of Document history occurs to better optimize your DocuWare Cloud. These logs are accessible, then archived based on the following criteria:
+Once customers reach the 5GB limit, their Audit logs are archived. Only the last 30 days remain accessible in the web client.  After the archiving is done, new audit log events are logged as normally until the 5GB limit is reached.    
+If you require document history data that has already been archived, contact DocuWare Support so the full set of archived data can be retrieved. Upon your request, please supply DocuWare Support with a time frame to pull the data from, alongside any other info such as the file cabinet in question for example. 
+KBA applicable to DocuWare Cloud Organizations ONLY.

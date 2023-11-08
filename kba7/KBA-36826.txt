@@ -1,0 +1,6 @@
+How do I increase the number of concurrent jobs in DocuWare Desktop Apps?
+
+
+Question:How do I increase the number of current jobs DocuWare Desktop Apps can process?Answer: To increase the number of jobs the desktop apps can process, please complete the following;
+Go to C:\Program Files (x86)\DocuWare\Desktop and open the file named DocuWare.DesktopService.exe.config. Search through the file and locate the "ConcurrencyMaximum". By default, this value is set as two and represents the number of jobs your Desktop application will process at a time.  You can increase this value up to twice the true core count of the CPU, but shouldn't be set higher. Higher value's will use more CPU resources. 4. Once your changes are made save the file and restart your DocuWare desktop application and service
+KBA applicable for both Cloud and On-premise Organizations

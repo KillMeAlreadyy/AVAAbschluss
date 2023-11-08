@@ -1,0 +1,9 @@
+Where can I find a backup of my server config/settings files?
+
+
+Question:Where can I find a backup of my DocuWare server config/settings files?
+ 
+Answer:You can find backups of config/settings files within the following paths below. These backups are made as a result of any minor/major upgrades made to the DocuWare system.
+ 
+DocuWare 7.1-7.2C:\ProgramData\DocuWare\ConfigBackupDocuWare 7.3+C:\ProgramData\DocuWare\ClientConfigBackup1. Navigate to the referenced path for your respective DocuWare version, and displayed will be a variety of date folders.2. Open the appropriate date folder, and you will find a folder for each module containing all the config/settings files.Note: For Cloud organizations, you will only find configuration/settings files for Desktops Apps and related modules.
+KBA is applicable to Cloud and On-premise Organizations.

@@ -1,0 +1,24 @@
+How can I identify users utilizing a client license via DocuWare Mobile?
+
+
+
+Question:
+How can I identify users utilizing a client license via DocuWare Mobile?
+
+Answer:
+Please refer to the following information to allow you to view users logged in to DocuWare via DocuWare Mobile;
+
+Open the DocuWare Administration Tool and log in as an organization administrator. 
+	 
+ Select the "Connections Overview" icon at the top of the application.
+(Note: If the icon is missing, select your organization name and the icon will appear)
+
+	 
+ In the Connections Overview, locate the user and expand their node.
+
+	 
+Here, all applications the user is currently logged into will be displayed. In the example below, the user is logged into both the mobile client and the web client.
+
+
+KBA applicable for both Cloud and On-premise Organizations.
+

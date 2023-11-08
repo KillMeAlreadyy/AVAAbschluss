@@ -1,0 +1,21 @@
+How do I autorotate documents with DocuWare Desktop apps?
+
+
+
+Question:
+How do I autorotate documents while being processed within DocuWare Desktop apps?
+Answer: 
+The autorotate option can be initiated from different parts of the application depending on which plugin is being used. Please refer to the following to enable autorotate within each Desktop App function;
+DocuWare Import:
+The autorotate setting can be enabled during the creation of the import job. Select "Autoroate scanned PDF's" then save your import job. If your import job has already been created, edit the job and option to enable autorotate will still be displayed as seen below;
+
+ 
+DocuWare Scan:
+The option can be found in the scan settings of the job. Click-on "Open Scanner settings" then enable the option "Autorotate & deskew"
+
+ 
+DocuWare Printer:
+Currently, there are no options to auto rotate printed document with DocuWare printer. Please ensure the documents are in the correct direction before printing them. 
+
+KBA applicable for both Cloud and On-premise Organizations.
+

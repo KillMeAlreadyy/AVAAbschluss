@@ -1,0 +1,31 @@
+How can I see the total document count and size for each File Cabinet in DocuWare Cloud?
+
+
+
+Question:
+How can I see the total document count and size for each File Cabinet in DocuWare Cloud?
+
+Answer:
+Please refer to the following guide to view total document count and size for each File Cabinet for DocuWare Cloud; 
+
+Log into the DocuWare Web Client, select the drop down next to your name and click the "Configurations" option.
+
+Open the "Indexing Assistance" plugin.
+
+	 
+Click-on "New select list > External"
+
+	 
+Ensure that the Create select list from Database connection is enabled, then select "Configure data source"
+
+
+ Select the your organization's Database Connection in the first drop down, then select the "DWOCustomerQuota" table within the second dropdown depicted below. Check "Select all" when choosing the columns of the select list. Lastly, select OK on the bottom right of the page once completed.
+
+You will now see in the preview, the File Cabinet or Document Tray name, the total document count, and the total size of the documents (in bytes).
+
+	 
+Save the select list and you may now check total document count and size for each File Cabinet shown at any time.
+
+
+KBA applicable to Cloud Organizations ONLY. 
+

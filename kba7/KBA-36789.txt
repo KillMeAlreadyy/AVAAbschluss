@@ -1,0 +1,14 @@
+DocuWare Desktop Service stops as soon as its started.
+
+
+Behavior:The DocuWare desktop service stops as soon as its started. 
+ 
+Solution:
+This can occur when another application is using the same port as the DocuWare desktop service. To check if this is occurring, navigate to C:\Windows\Temp\DocuWare\Logs and look for the DocuWare.DesktopService.log. 
+Within this log you should find an error similar to the following,
+ 
+"HTTP could not register URL https://+:8091/ because TCP port 8091 is being used by another application".  
+ 
+Once this error has been identified, the following steps should resolve the issue:
+Find which application is using the port referenced in the error.In this example the port being used is 8091 Open an administrative CMD and paste the following, "netstat -ano > c:\ports.txt". This will write a text file named "ports" to the C:\ Drive. This file will containall connections and listening ports with their corresponding PID(process ID). Open this file and search for the port number referenced in the DocuWare.DesktopService.log. Any rows found with PID 4 can be ignored, these are system processes listening for traffic on that port.  Search the list until you find a row which matches your port number. There should be a connection "ESTABLISHED" to this port.This would signify another application is using the port. Notate the PID from the row where the referenced port is shown as displayed below. Open Task Manger, select the service tab, and sort the rows by their PID. Search the list of services until you find the PID which we found in our ports.txt file.  This is the service which is using the port needed by the DocuWare desktop service. This service will need to be stopped and/or disabled unless its port can be changed.Note: DocuWare's desktop service ports cannot be changed.  Once the referenced service is disabled or the port is changed DocuWare desktop service should start successfully. 
+KBA applicable for both cloud and On-premise organizations.

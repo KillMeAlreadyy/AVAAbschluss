@@ -1,0 +1,6 @@
+ERROR: "The invocation of the constructor on type 'DocuWare.Jobs.Activities.Separate' that matches the specified binding constraints threw an exception"
+
+
+Behavior: When running an Import job which splits documents, we're receiving the following error message, "The invocation of the constructor on type 'DocuWare.Jobs.Activities.Separate' that matches the specified binding constraints threw an exception"Solution:This error can occur when the machine running the Import jobs has an older version of the C++ Redistributable's installed, such as version 2013.In order to resolve this issue, please complete the following;
+Download and install both the x86 and x64 versions of Visual Studio 2015, 2017, 2019, and 2022 from the following link:Latest supported Visual C++ Redistributable downloads | Microsoft Docs Once installed, go to Windows Services and restart the "DocuWare Desktop Service"
+Once the service has restarted, documents should now be able to be processed by the Import job and should split successfully. KBA applicable for both Cloud and On-premise Organizations.

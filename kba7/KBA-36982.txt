@@ -1,0 +1,8 @@
+Running DocuWare Import without an active Windows session
+
+
+Question:How can I ensure that my DocuWare Import jobs continue running, even if I logout from my Windows session?Answer:To ensure that your DocuWare Import jobs continue to run when logging out of a Windows session, please consider the following scenarios when setting up DocuWare Import.
+ 
+The monitored folder is on a network pathA domain admin account will need to run the DocuWare Desktop Service, which has full access rights to the network path of the monitored folder.Using "Local System", which is used by default, will not provide the necessary access rights.The monitored folder is a local pathUsing "Local System" for the DocuWare Desktop Service should work without issue as long as the monitored folder is a local path on the same machine. 
+ 
+KBA applicable for both Cloud and On-premise Organizations 

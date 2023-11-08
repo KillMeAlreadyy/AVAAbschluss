@@ -1,0 +1,12 @@
+Is it possible to use Document Processing configurations on stored documents?
+
+
+Question:
+Is it possible to use Document Processing configurations on stored documents?
+
+Answer: 
+By product design, Document Processing configurations can not be used on documents stored in a file cabinet.
+ 
+KBA applicable for both Cloud and On-premise Organizations.
+ 
+ 

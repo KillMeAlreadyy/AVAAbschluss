@@ -1,0 +1,11 @@
+No scrollbars in tables after Windows 11 and Firefox update
+
+
+Behavior: 
+After switching to Windows 11 or updating to Firefox 100x, the scrollbars in the tables in DocuWare Web Client are no longer displayed. The problem is especially noticeable in the workflow tasks:
+
+ 
+ 
+Solution: 
+To see the scrollbars again as usual please open Firefox and perform the following steps:
+ Open the about:config page and confirm the security warning.  Now enter the following in the "Search setting name" field: widget.windows.overlay-scrollbars.enabledClick on the button with the two arrows to set the option to "false". Now enter the following in the search field: widget.non-native-theme.scrollbar.style Now set the value for the scrollbar style to 5 (Windows 11 style) or 4 (Windows 10 style). Restart Firefox. Now the scroll bars in the tables are available again.

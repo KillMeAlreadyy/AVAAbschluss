@@ -1,0 +1,14 @@
+How to update the DocuWare Desktop apps
+
+
+Question:How do I update the DocuWare Desktop Apps?Answer:In order to update the DocuWare Desktop Apps, there are three options which can be taken in order to do so;
+ 
+From Web Client
+From the Web Client, open the dropdown then select Desktop Apps > Install Desktop Apps.  This will start a download of the DocuWare Client Setup executable file. Be sure to open the ClientSetup.exe once it completes downloading.Select the "Update" option to begin the DocuWare Desktop Apps update process. 
+From Desktop App Icon on the Taskbar
+From the Windows Taskbar, click-on the up arrow to bring up all available icons. Look for the DocuWare icon, right-click then choose "Check for updates" If there are updates available, a yellow DocuWare icon with a notification will appear. Clicking-on the notification will bring up the DocuWare Client Setup, or you can right-click on the yellow DocuWare icon, then choose "Apply Update" Once selecting "Apply Update", this will bring up the DocuWare Client Setup where you can click the "Update" option to start the process.
+Using Silent Installation
+ 
+Updates can be pushed out to Client machines using Silent Installation. Please refer to KBA-36543, which details how to preform a silent installation and update of the DocuWare Desktop Apps.
+ 
+KBA applicable for both Cloud and On-premise Organizations 

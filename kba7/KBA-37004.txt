@@ -1,0 +1,4 @@
+How often is the Cloud Storage quota updated?
+
+
+Question:How long after documents are deleted will the Cloud Storage Quota be refreshed in Product Overview?Answer:DocuWare Cloud Storage Quota by design is set to run on scheduled intervals. Therefore, the quota may take up to 3 hours depending on the deletion time.KBA is applicable to Cloud Organizations ONLY.
