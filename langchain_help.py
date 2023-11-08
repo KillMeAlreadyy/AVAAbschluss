@@ -129,7 +129,7 @@ def get_file_data(url, filename):
         with open(filename, 'r') as file:
             maintext = file.read()
         
-        docArray.appen(Document(page_content=maintext, metadata={"source":url},))
+        docArray.append(Document(page_content=maintext, metadata={"source":url},))
         return(docArray)
     except requests.exceptions.InvalidSchema as e:
         print(f"No connection adapters were found for {url!r}:{e}")

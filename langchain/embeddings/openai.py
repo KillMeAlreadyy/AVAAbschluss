@@ -7,13 +7,14 @@ from langchain.utils import get_from_dict_or_env
 import tenacity
 from tenacity import retry
 
-openai = OpenAIEmbeddings(openai_api_key="")
+
 class OpenAIEmbeddings(BaseModel, Embeddings):
     client = Any
     document_model_name: str = "text-embedding-ada-002"
     query_model_name: str = "text-embedding-ada-002"
     embedding_ctx_length: int = -1
-
+    openai_api_key: Optional[str] = None
+    
     class Config:
 
         extra = Extra.forbid

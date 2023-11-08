@@ -1,0 +1,161 @@
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[32m2023-11-08 14:53:18 +0000[0m - dagit - [34mWARNING[0m - The `dagit` CLI command is deprecated and will be removed in dagster 2.0. Please use `dagster-webserver` instead.
+[32m2023-11-08 14:53:18 +0000[0m - dagit - [34mINFO[0m - Using temporary directory /home/Kevin/AVAAbschluss/tmpzx15o21g for storage. This will be removed when dagster-webserver exits.
+[32m2023-11-08 14:53:18 +0000[0m - dagit - [34mINFO[0m - To persist information across sessions, set the environment variable DAGSTER_HOME to a directory to use.
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[32m2023-11-08 14:53:21 +0000[0m - dagster.code_server - [34mINFO[0m - Started Dagster code server for file langchain_help.py in process 3695759
+[32m2023-11-08 14:53:21 +0000[0m - dagit - [34mINFO[0m - Serving dagster-webserver on http://0.0.0.0:3000 in process 3695751
+[32m2023-11-08 14:55:01 +0000[0m - dagster.code_server - [34mINFO[0m - Stopping server once all current RPC calls terminate or 60 seconds pass
+[32m2023-11-08 14:55:01 +0000[0m - dagster.code_server - [34mINFO[0m - Code server was interrupted
+[32m2023-11-08 14:55:01 +0000[0m - dagster.code_server - [34mINFO[0m - Shutting down Dagster code server for file langchain_help.py in process 3695759
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[32m2023-11-08 14:55:50 +0000[0m - dagit - [34mWARNING[0m - The `dagit` CLI command is deprecated and will be removed in dagster 2.0. Please use `dagster-webserver` instead.
+[32m2023-11-08 14:55:50 +0000[0m - dagit - [34mINFO[0m - Using temporary directory /home/Kevin/AVAAbschluss/tmpfktip6_5 for storage. This will be removed when dagster-webserver exits.
+[32m2023-11-08 14:55:50 +0000[0m - dagit - [34mINFO[0m - To persist information across sessions, set the environment variable DAGSTER_HOME to a directory to use.
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[32m2023-11-08 14:55:53 +0000[0m - dagster.code_server - [34mINFO[0m - Started Dagster code server for file langchain_help.py in process 3696765
+[32m2023-11-08 14:55:53 +0000[0m - dagit - [34mINFO[0m - Serving dagster-webserver on http://0.0.0.0:3000 in process 3696761
+[32m2023-11-08 14:57:45 +0000[0m - dagster.code_server - [34mINFO[0m - Stopping server once all current RPC calls terminate or 60 seconds pass
+[32m2023-11-08 14:57:45 +0000[0m - dagster.code_server - [34mINFO[0m - Code server was interrupted
+[32m2023-11-08 14:57:45 +0000[0m - dagster.code_server - [34mINFO[0m - Shutting down Dagster code server for file langchain_help.py in process 3696765
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[32m2023-11-08 14:57:52 +0000[0m - dagit - [34mWARNING[0m - The `dagit` CLI command is deprecated and will be removed in dagster 2.0. Please use `dagster-webserver` instead.
+[32m2023-11-08 14:57:52 +0000[0m - dagit - [34mINFO[0m - Using temporary directory /home/Kevin/AVAAbschluss/tmpyds4yk3w for storage. This will be removed when dagster-webserver exits.
+[32m2023-11-08 14:57:52 +0000[0m - dagit - [34mINFO[0m - To persist information across sessions, set the environment variable DAGSTER_HOME to a directory to use.
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[32m2023-11-08 14:57:55 +0000[0m - dagster.code_server - [34mINFO[0m - Started Dagster code server for file langchain_help.py in process 3697804
+[32m2023-11-08 14:57:55 +0000[0m - dagit - [34mINFO[0m - Serving dagster-webserver on http://0.0.0.0:3000 in process 3697796
+[32m2023-11-08 14:58:05 +0000[0m - dagster.code_server - [34mINFO[0m - Stopping server once all current RPC calls terminate or 60 seconds pass
+[32m2023-11-08 14:58:05 +0000[0m - dagster.code_server - [34mINFO[0m - Code server was interrupted
+[32m2023-11-08 14:58:05 +0000[0m - dagster.code_server - [34mINFO[0m - Shutting down Dagster code server for file langchain_help.py in process 3697804
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[32m2023-11-08 14:58:26 +0000[0m - dagit - [34mWARNING[0m - The `dagit` CLI command is deprecated and will be removed in dagster 2.0. Please use `dagster-webserver` instead.
+[32m2023-11-08 14:58:26 +0000[0m - dagit - [34mINFO[0m - Using temporary directory /home/Kevin/AVAAbschluss/tmp0d4b54es for storage. This will be removed when dagster-webserver exits.
+[32m2023-11-08 14:58:26 +0000[0m - dagit - [34mINFO[0m - To persist information across sessions, set the environment variable DAGSTER_HOME to a directory to use.
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[32m2023-11-08 14:58:29 +0000[0m - dagster.code_server - [34mINFO[0m - Started Dagster code server for file langchain_help.py in process 3698070
+[32m2023-11-08 14:58:29 +0000[0m - dagit - [34mINFO[0m - Serving dagster-webserver on http://0.0.0.0:3000 in process 3698067
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2023-11-08 14:59:03 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698416 - RUN_START - Started execution of run for "__ASSET_JOB".
+2023-11-08 14:59:03 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698416 - ENGINE_EVENT - Executing steps using multiprocess executor: parent process (pid: 3698416)
+2023-11-08 14:59:03 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698416 - source_docs - STEP_WORKER_STARTING - Launching subprocess for "source_docs".
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2023-11-08 14:59:05 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698436 - STEP_WORKER_STARTED - Executing step "source_docs" in subprocess.
+2023-11-08 14:59:05 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698436 - source_docs - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-11-08 14:59:05 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698436 - source_docs - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2023-11-08 14:59:05 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698436 - LOGS_CAPTURED - Started capturing logs in process (pid: 3698436).
+2023-11-08 14:59:05 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698436 - source_docs - STEP_START - Started execution of step "source_docs".
+2023-11-08 14:59:05 +0000 - dagster - ERROR - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698436 - source_docs - STEP_FAILURE - Execution of step "source_docs" failed.
+
+dagster._core.errors.DagsterExecutionStepExecutionError: Error occurred while executing op "source_docs"::
+
+FileNotFoundError: [Errno 2] No such file or directory: 'wpCloud.pdf'
+
+Stack Trace:
+  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_core/execution/plan/utils.py", line 54, in op_execution_error_boundary
+    yield
+  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_utils/__init__.py", line 461, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_core/execution/plan/compute_generator.py", line 131, in _coerce_op_compute_fn_to_iterator
+    result = invoke_compute_fn(
+  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_core/execution/plan/compute_generator.py", line 125, in invoke_compute_fn
+    return fn(context, **args_to_pass) if context_arg_provided else fn(**args_to_pass)
+  File "/home/Kevin/AVAAbschluss/langchain_help.py", line 25, in source_docs
+    return list(get_docs())
+  File "/home/Kevin/AVAAbschluss/langchain_help.py", line 52, in get_docs
+    sources.append(get_pdffile_data("https://go.docuware.com/WPCloud-EN", "wpCloud.pdf"))
+  File "/home/Kevin/AVAAbschluss/langchain_help.py", line 143, in get_pdffile_data
+    reader = PdfReader(filename)
+  File "/home/Kevin/.local/lib/python3.8/site-packages/PyPDF2/_reader.py", line 317, in __init__
+    with open(stream, "rb") as fh:
+
+2023-11-08 14:59:05 +0000 - dagster - ERROR - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - search_index - Dependencies for step search_index failed: ['source_docs']. Not executing.
+2023-11-08 14:59:06 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698416 - ENGINE_EVENT - Multiprocess executor: parent process exiting after 2.48s (pid: 3698416)
+2023-11-08 14:59:06 +0000 - dagster - ERROR - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698416 - RUN_FAILURE - Execution of run for "__ASSET_JOB" failed. Steps failed: ['source_docs'].
+[32m2023-11-08 15:06:17 +0000[0m - dagster.code_server - [34mINFO[0m - Stopping server once all current RPC calls terminate or 60 seconds pass
+[32m2023-11-08 15:06:17 +0000[0m - dagster.code_server - [34mINFO[0m - Code server was interrupted
+[32m2023-11-08 15:06:17 +0000[0m - dagster.code_server - [34mINFO[0m - Shutting down Dagster code server for file langchain_help.py in process 3698070
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[32m2023-11-08 15:09:13 +0000[0m - dagit - [34mWARNING[0m - The `dagit` CLI command is deprecated and will be removed in dagster 2.0. Please use `dagster-webserver` instead.
+[32m2023-11-08 15:09:13 +0000[0m - dagit - [34mINFO[0m - Using temporary directory /home/Kevin/AVAAbschluss/tmpvn_g_0uo for storage. This will be removed when dagster-webserver exits.
+[32m2023-11-08 15:09:13 +0000[0m - dagit - [34mINFO[0m - To persist information across sessions, set the environment variable DAGSTER_HOME to a directory to use.
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[32m2023-11-08 15:09:16 +0000[0m - dagster.code_server - [34mINFO[0m - Started Dagster code server for file langchain_help.py in process 3702714
+[32m2023-11-08 15:09:16 +0000[0m - dagit - [34mINFO[0m - Serving dagster-webserver on http://0.0.0.0:3000 in process 3702695
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2023-11-08 15:10:17 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703292 - RUN_START - Started execution of run for "__ASSET_JOB".
+2023-11-08 15:10:17 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703292 - ENGINE_EVENT - Executing steps using multiprocess executor: parent process (pid: 3703292)
+2023-11-08 15:10:17 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703292 - source_docs - STEP_WORKER_STARTING - Launching subprocess for "source_docs".
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2023-11-08 15:10:18 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703319 - STEP_WORKER_STARTED - Executing step "source_docs" in subprocess.
+2023-11-08 15:10:18 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703319 - source_docs - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-11-08 15:10:18 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703319 - source_docs - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2023-11-08 15:10:19 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703319 - LOGS_CAPTURED - Started capturing logs in process (pid: 3703319).
+2023-11-08 15:10:19 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703319 - source_docs - STEP_START - Started execution of step "source_docs".
+2023-11-08 15:10:22 +0000 - dagster - ERROR - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - search_index - Dependencies for step search_index failed: ['source_docs']. Not executing.
+2023-11-08 15:10:22 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703292 - ENGINE_EVENT - Multiprocess executor: parent process exiting after 5.79s (pid: 3703292)
+2023-11-08 15:10:22 +0000 - dagster - ERROR - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703292 - RUN_FAILURE - Execution of run for "__ASSET_JOB" failed. Steps failed: ['source_docs'].
+[32m2023-11-08 15:10:59 +0000[0m - dagster.code_server - [34mINFO[0m - Code server was interrupted
+[32m2023-11-08 15:10:59 +0000[0m - dagster.code_server - [34mINFO[0m - Shutting down Dagster code server for file langchain_help.py in process 3702714
+[32m2023-11-08 15:10:59 +0000[0m - dagit - [34mINFO[0m - Server for dagit was shut down.
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[32m2023-11-08 15:21:07 +0000[0m - dagit - [34mWARNING[0m - The `dagit` CLI command is deprecated and will be removed in dagster 2.0. Please use `dagster-webserver` instead.
+[32m2023-11-08 15:21:07 +0000[0m - dagit - [34mINFO[0m - Using temporary directory /home/Kevin/AVAAbschluss/tmpd3jnc2dd for storage. This will be removed when dagster-webserver exits.
+[32m2023-11-08 15:21:07 +0000[0m - dagit - [34mINFO[0m - To persist information across sessions, set the environment variable DAGSTER_HOME to a directory to use.
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[32m2023-11-08 15:21:10 +0000[0m - dagster.code_server - [34mINFO[0m - Started Dagster code server for file langchain_help.py in process 3704931
+[32m2023-11-08 15:21:10 +0000[0m - dagit - [34mINFO[0m - Serving dagster-webserver on http://0.0.0.0:3000 in process 3704921
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2023-11-08 15:21:25 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705119 - RUN_START - Started execution of run for "__ASSET_JOB".
+2023-11-08 15:21:25 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705119 - ENGINE_EVENT - Executing steps using multiprocess executor: parent process (pid: 3705119)
+2023-11-08 15:21:25 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705119 - source_docs - STEP_WORKER_STARTING - Launching subprocess for "source_docs".
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2023-11-08 15:21:27 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705142 - STEP_WORKER_STARTED - Executing step "source_docs" in subprocess.
+2023-11-08 15:21:27 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705142 - source_docs - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-11-08 15:21:27 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705142 - source_docs - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2023-11-08 15:21:27 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705142 - LOGS_CAPTURED - Started capturing logs in process (pid: 3705142).
+2023-11-08 15:21:27 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705142 - source_docs - STEP_START - Started execution of step "source_docs".
+2023-11-08 15:21:32 +0000 - dagster - ERROR - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705142 - source_docs - STEP_FAILURE - Execution of step "source_docs" failed.
+
+dagster._core.errors.DagsterExecutionStepExecutionError: Error occurred while executing op "source_docs"::
+
+FileNotFoundError: [Errno 2] No such file or directory: '/home/Kevin/AVAAbschluss/kba7'
+
+Stack Trace:
+  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_core/execution/plan/utils.py", line 54, in op_execution_error_boundary
+    yield
+  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_utils/__init__.py", line 461, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_core/execution/plan/compute_generator.py", line 131, in _coerce_op_compute_fn_to_iterator
+    result = invoke_compute_fn(
+  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_core/execution/plan/compute_generator.py", line 125, in invoke_compute_fn
+    return fn(context, **args_to_pass) if context_arg_provided else fn(**args_to_pass)
+  File "/home/Kevin/AVAAbschluss/langchain_help.py", line 25, in source_docs
+    return list(get_docs())
+  File "/home/Kevin/AVAAbschluss/langchain_help.py", line 75, in get_docs
+    for filename in os.listdir(directory):
+
+2023-11-08 15:21:32 +0000 - dagster - ERROR - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - search_index - Dependencies for step search_index failed: ['source_docs']. Not executing.
+2023-11-08 15:21:32 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705119 - ENGINE_EVENT - Multiprocess executor: parent process exiting after 6.7s (pid: 3705119)
+2023-11-08 15:21:32 +0000 - dagster - ERROR - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705119 - RUN_FAILURE - Execution of run for "__ASSET_JOB" failed. Steps failed: ['source_docs'].
+[32m2023-11-08 15:22:22 +0000[0m - dagster.code_server - [34mINFO[0m - Stopping server once all current RPC calls terminate or 60 seconds pass
+[32m2023-11-08 15:22:22 +0000[0m - dagster.code_server - [34mINFO[0m - Code server was interrupted
+[32m2023-11-08 15:22:22 +0000[0m - dagster.code_server - [34mINFO[0m - Shutting down Dagster code server for file langchain_help.py in process 3704931
