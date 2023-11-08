@@ -1,0 +1,33 @@
+DocuWare Desktop: Login Token expired
+
+
+
+
+
+
+
+Behavior:
+In Desktop Apps you get the error message: "Login Token is expired"
+
+Solution:
+There are two different possible causes for this error message:
+
+The first cause is on client side and occurs only if the user didn’t use DocuWare Desktop on his client for a specific time. This can be "fixed" by increasing the value for parameter "MultiUsageTokenLifetime" in
+	...\DocuWare\Authentication Server\DWAuthenticationServer.exe.settings 
+	The default value is 14 days in 6.7 and 28 days since 6.8.
+
+	This behavior typically happens on terminal server farms. See also the following article:
+How to set up Desktop Apps in terminal server environment
+	 
+The second cause is on server side. The token for Job Server expires. This is basically a bug which was fixed with HotfixPack 32 for 6.8 resp. HotfixPack 02 for 6.9
+
+
+If you want to extend all the already created token until the end of this year, perform the following steps:
+
+Open your database management tool
+Go to database DWSystem table DWUserTokenIdentity
+Run this SQL statement:
+UPDATE dwusertokenidentity SET expiration = '2018-12-31 23:00:00'
+
+
+

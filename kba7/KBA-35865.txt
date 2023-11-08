@@ -1,0 +1,18 @@
+Error connecting: No suitable active server Authentication Server with guid ... found
+
+
+
+
+
+
+
+Behavior:
+When starting Docuware administration on a different PC than the DocuWare Server you get possibly the following error:
+"Error connecting: No suitable active server AuthenticationServer with guid ... found"
+Solution:
+In this case, an external connection for the DocuWare system must be created in DocuWare Administration.
+The external connection is at node DocuWare system>general>External connections . At this point, enter only a name for the external connection. This external connection can be assigned to all DocuWare servers (DocuWare system - server). This external connection can be choosen from any of the DocuWare server, and then click the line "external connection".
+In the opened window you can select the external connection from which you want to add to the server. After this assignment, the connection will be displayed in the respective server.
+Last but not least, you now need to define the server's IP address and port of the DocuWare server. For example, for the authentication server in a default installation [SERVER_IP] : 9000
+
+

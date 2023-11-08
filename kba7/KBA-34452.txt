@@ -1,0 +1,18 @@
+How to open DocuWare Service Control on Windows 7?
+
+
+
+
+
+
+
+Question:
+How can I open DocuWare Service Control on Windows 7?
+Solution:
+You must run DocuWare Service Control as a Windows administrator on Windows 7.
+If you open it using the service control icon in the notification field and try to start or stop a service, Service Control closes after a prompt appears, which you must confirm with "Yes".
+The system checks whether the user logged in is a local Windows administrator. If this is the case, you can open Server Control again and start and stop the services as usual.
+In the case of a normal user, User Account Control opens. If you now enter an administrator password, you can start/stop the DocuWare services via Service Control.
+Alternatively, to open Service Control directly as an administrator, navigate in the file system to the DocuWare.ServiceControl.exe file (standard installation path is C:\Program Files (x86)\DocuWare) and open the .exe using the Run as administrator context menu command. Log in as a local Windows administrator.
+
+

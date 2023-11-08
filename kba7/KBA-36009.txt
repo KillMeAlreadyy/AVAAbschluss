@@ -1,0 +1,17 @@
+Usage of ODBC drivers with DocuWare
+
+
+
+
+
+
+
+DocuWare officially supports MySQL, MSSQL and ORACLE database connections when using their native database drivers. Those database management systems as well as many others which are not officially supported can be connected via ODBC database drivers. There are hundreds of different ODBC drivers for databases in different versions. DocuWare does not test any of those ODBC drivers for functionality and therefore we cannot support any problems with connectivity when using these ODBC drivers. 
+Note:
+However here are some guidelines that usually allow to access the external database successfully:
+When connecting to supported databases like MySQL, Microsoft SQL Server and ORACLE use the native connection instead of ODBC.
+Try different versions of the ODBC driver. If you are using the latest, try an older version or the other way round. Our experience over time shows us that in most cases one of the available drivers for a database will work. The versions are often slightly different and this can influence funtionality with DocuWare. DocuWare has no list available which driver for which database will work.
+
+There are different ways to access the data when the ODBC connection is established. If your SQL command is not working try to access a database view or a database table instead. Using a view which was created from a complex SQL command is usually the best way. 
+
+

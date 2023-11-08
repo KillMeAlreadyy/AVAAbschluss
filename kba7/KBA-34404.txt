@@ -1,0 +1,14 @@
+Language of DocuWare Administration
+
+
+
+
+
+
+
+Question:
+Is it possible to change the language of the DocuWare Administration?
+Answer:
+The Language of DocuWare Windows Administration depends on regional settings.The language of DocuWare Windows Administration does not depend on the language of the Windows client. The language of the Administration depends on the regional setting of Windows. In case you want to have an English Administration on a German Windows, you have to select English regional settings.
+
+

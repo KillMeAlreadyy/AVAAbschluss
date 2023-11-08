@@ -1,0 +1,250 @@
+DocuWare Version 7 Update
+
+
+
+Starting with DocuWare 7, Updates are integrated in the DocuWare installation packages.
+Therefore, to get the latest version of an Update you need to download the complete DocuWare setup files again.
+
+Before you install the Update, please read and follow the Update installation instructions!
+
+Please check the following information before updating to DocuWare 7.0:
+If you plan to update to a later version than DocuWare 7.0 or plan to use DocuWare 7.0 only for a short time, please use the updated DocuWare 7.1 setup instead.
+We have greatly improved the DocuWare 7.1 setup and were able to add many checks for the workflow database.
+These checks prevent errors when upgrading to 7.1 and provide improved database integrity validation and will result in a better upgrade experience for all later upgrades.
+If you need to use DocuWare 7.0 and will not upgrade to any newer DocuWare version in the foreseeable future, make sure to check the dwworkflowengine database connection and database before running the DocuWare 7.0 setup at all.
+Additional dwworkflowengine database checks might be added to DocuWare 7.1 setup in the future, but will not be available to DocuWare 7.0 Setups due to technical reasons.
+For the suggested upgrade path, please refer to https://support.docuware.com/en-us/knowledgebase/article/KBA-34774
+
+Setup updated on: 2020-09-14 (PDF of included improvements can be found here)
+Build version: 7.0.0.8759
+Download link: https://go.docuware.com/download-dw7
+
+Included improvements:
+2020-09-14:
+
+Web Client: Opening a task list with an "Is (where clause)" condition for a keyword field causes the error message "Wrong condition: ..." to appear if the condition uses >, >=, < or <=
+
+2020-07-21:
+
+Connect to Outlook: Combination of mandatory and read only fields in Connect to Outlook results in warning message
+Setup: ORA-00942 Table "DWVerId" not found during upgrade from 6.12 to 7
+Document Tool: Previous versions are inaccessible after using the document tool to move files between disks
+Setup: Unable to upgrade customer as timestamp column "DateCreated" doens't accept some dates.
+
+2020-05-07:
+
+Windows Explorer Client: License is blocked for 30 minutes
+
+2020-02-12:
+
+Transfer/Synchronization: Transfer and Synchronization configurations become slower over time
+Smart Connect: Smart Search uses Client License even if connected to read-only Platform
+Deletion Policy: Deletion Policies may delete parts of documents when using automatic version management
+
+2019-10-11:
+
+User Synchronization: External User Directory configuration connecting via LDAP does not show users
+Workflow Manager: Workflow Upgrader is changing dates in Workflow History
+
+2019-09-02:
+
+Document Processing: Newly created import configurations use wrong date when storing documents
+Workflow Manager: It is not possible to complete a Workflow task via Integration link
+Workflow Designer: When publishing complex Workflows you will get this error: "The type initializer for '<Module>' threw an exception"
+
+2019-07-05:
+
+Autoindex: Misleading error message is shown when trying to assign 0 as fixed entry in numeric field
+Workflow: An error is shown when attempting to confirm several tasks that are opened in separate tabs from email notifications
+Autoindex: Timezone for Autoindex Workflows is always UTC+0:00
+
+2019-05-21:
+
+Windows Explorer Client: Changes are not saved when the message "File XYZ stored in DocuWare" is not confirmed
+Web Client: When an user tries to clip a document he will get an error message "The user XYZ has some field dependent right that restricts this operation for document with DocID XYZ.". This only happens if the user has an Index Value Profile assigned which contains the parameter CURRENTUSERLONGNAME()
+
+2019-05-13:
+
+Web Client: Searches that contain a space will not lead to the correct result
+Web Client: A search in multiple file cabinets leads to an error "Missing field XYZ". 
+Connect to Mail: Connect to Mail stops working correctly if encrypted mails are in a batch of mails
+Fulltext Server: The file "installdwtomcat.cmd", which can be found in the installation directory of the Fulltext Server, still refers to tomcat8.exe instead of tomcat9.exe. Due to this, two commands which are used to adjust the Java memory parameters will always fail
+
+2019-04-11:
+
+Windows Explorer Client: Using the "send-to" option in context menu of Windows Explorer Client leads to HRESULT error
+Transfer: When creating a transfer workflow from DocuWare 7.0 to DocuWare 7.1 no file cabinets are shown in configuration if the destination system has file cabinets containing table fields
+Autoindex: Using an Autoindex workflow with option "Remove data records" in conjunction with a database source, a duplicate entry leads to an error
+Workflow Manager: Out-of-Office enables subsitution rule immediately even if specified dates are set
+Forms: Line breaks in "Fixed Text" fields are lost in upgrade from DocuWare 6.12 to DocuWare 7
+
+2019-03-08:
+
+Document Processing: The replace text feature does not work for fields other than text, memo and keyword
+Web Client: Copy text to clipboard is not able to use clipboard under certain circumstances
+Windows Explorer Client: Indexes of documents are not visible in the columns of Windows Explorer Client
+
+2019-02-27:
+
+Connect to Mail: Dropping email attachments in case of errors
+Web Client: Sorting in folder structure doesn’t work for more than 100 documents
+Workflow Designer: Dates pulled from a file cabinet lookup are incorrect when in timezone behind UTC
+
+2019-02-01:
+
+Autoindex: If you activate and save the option "Change indexing for documents" in tab "Match data" in case of no matches found this cannot be changed anymore
+Workflow Manager:  Index values changed by Autoindex are not recognized as trigger conditions for Workflows
+Web Client: If a field is deleted it is not removed from any folder structures
+Connect to Mail: Docs stored in encrypted file cabinets with Connect to Mail are retrieved with CRP file format
+Desktop Apps: OCR recognition reads out a wrong sign for the swiss thousand separator
+
+2019-01-18:
+
+Document Processing: Day and month are reversed in index date field when capturing via DocuWare Import if the day is below 13
+Web Client: Sorting does not function in folder view
+Platform .NET API: GL Coding does not save when date fields are left empty
+File Cabinet: Autoindex cannot write back to decimal field
+Workflow Manager: Assigning a value to a global variable via a task may not continue the Workflow if Oracle database is used
+Full Text: When enabling "Add Wildcard to the Search" option in a Search Dialog no results are shown
+Stamps: White background of stamp is removed even though transparency is not set
+Web Client: Date index field is shown incorrectly in task list when in a time zone behind UTC time
+Workflow Manager: Length of trigger conditions statement based on an index field is limited to the length of the index field
+Document Tool: Document Tool will only restore documents in first storage location on disk
+Web Client: On occasion documents cannot be displayed past a certain page number in the viewer
+Web Client: Downloading documents as PDF with annotations may fail - error shown: "Create PDF task has timed out!" 
+Web Client: Downloading documents as PDF with annotations may cause hyperlinks within these to be lost
+
+2018-12-07:
+
+Web Client: Annotations are placed outside of page after download
+File Cabinet: It is not possible to search by wildcard for a keyword field
+File Cabinet: It is not possible to exclude certain fields from filter configuration of the dialog
+Workflow Manager: German "Umlaute" are ignored when searching in select lists
+Web Client: "500 - Internal Server Error" occurs when downloading certain documents
+Forms: Check box cut off on mobile devices
+Web Client: Duplicate fields and wrong sort order in search results. Error message: "An item with the same key has already been added." 
+Connect to Outlook: Quick Search not working after latest Windows Update if Connect to Outlook is already present
+Web Client: It is not possible to automatically store documents
+Request: Error message "Server is not responding! Please restart the job." appears, yet the request proceeds without error
+Connect to Outlook: Outlook "View Templates" add-in gets disabled
+Workflow Manager: Can't sort by certain fields in result list when using ORACLE
+Workflow Manager: User has to be Organization Administrator to create workflows
+Document Processing: Barcodes are not recognized
+User Synchronization: Not working correctly if users have bad elements
+File Cabinet: Export does not respect index filter restrictions
+Full Text: When searching with quotation marks more results than expected are displayed
+User Synchronization: No document tray created
+Document Processing: OCR textshot incorrect after page 25 for documents larger than 51 pages
+Administration: User creation only checks correctness for first 8 characters of the username (shortname)
+Administration: Only system administrators can open logging destinations
+Web Client: Strings not recognised by OCR in some cases
+
+2018-11-07:
+
+Web Client: "Invalid filecreator ticket!" or "Create PDF task has failed!" errors appear when printing large documents
+Workflow Manager: Workflow Manager operator "Like" does not work anymore in "Assign data"
+Fulltext: When a user with an index value profile carries out a fulltext search a "Stack Empty" error occurs
+Configuration: Index filtering based on other index fields are being ignored
+Workflow Manager: When a user is deleted who is controller or designer of a workflow it does not start any instances anymore
+Mobile: An error message occurs if open a workflow task in DocuWare Mobile (Oracle only)
+Database connections: Using database connections will create too many connections on the external database
+Workflow Manager: Clicking the "Edit" button in viewer will disable all other buttons, if you open the document via Workflow link
+Workflow Manager: A Javascript error occurs when you try to open a select list for a keyword field
+Web Client: Using "Automatic Image Correction" on documents in a document tray will give users an error "Enhance PDF Task Has Timed Out!"
+Web Client: Select lists based on large file connection files load extremely slow
+
+2018-10-29:
+
+Web Client: If searching over multiple file cabinets in some cases an error occurs "missing field store date"
+
+2018-10-24:
+
+Web Client: Changing index entries of all documents frequently fails
+Workflow Manager: Workflow date-only variables assigned by a date-only index value return an incorrect date in any timezone behind UTC (UTC -1, UTC-2, etc.)
+Web Client: Wrong field order when exporting a result list to csv file
+Workflow Manager: Document is locked by Workflow user and cannot be edited
+Document Processing: The option "begins with" for OCR and Barcode areas in Import/Printer/Scan configurations does not work anymore
+Document Tool: It is not possible to use the Document Tool without a document filter (Formerly known as Migration Workflow)
+Workflow Manager: Workflow cannot handle Web Service which accepts a boolean parameter
+Workflow Manager: Workflow variable WF_CURRENT_USER is not upgraded correctly to DocuWare 7 and therefore tasks cannot be confirmed
+Workflow Manager: Option "User of a group" assigned to a form field of a workflow is not sorted in alphabetical order
+Workflow Manager: Workflow system variable used in "where" clause of an external source causes exception in Workflow history and task
+
+2018-10-09:
+
+Fulltext: Fulltext does not find any documents, with the enabled option "Add wildcard to the search"
+Document Relations: Document relations in Web Client based on keyword fields show error when accessing the linked document: "Cannot find field "FIELDNAME" in source file cabinet"
+Web Client: User cannot turn off annotation overlay 1-5
+Web Client: Bitmap stamp is shifted to other position in case the stamp has no frame
+Smart Connect: A Smart Search configuration which is using a fulltext field (dynamic entry enabled) will lead to an error "500 - Internal Server Error - Wrong condition. Not parsed string ' [DocuWareFulltext] LIKE "* Smart Connect to perform a full text search*" '."
+Web Client: The system fields "Last access on" and "Last access by" are not set anymore
+Document Trays: After upgrading to DocuWare 7, the document trays cannot be used anymore. The following error occurs "Basket '[BASKETNAME]'(version 5.1.0.1) is not upgraded to latest version 7.0.0.24" (MySQL only)
+Web Client: Downloading more than one document creates multipage pdf containing all documents
+Web Client: Sometimes for documents captured by DocuWare Desktop only the first page is viewable in Web Client (Page 1/1+)
+Mobile: Select lists of Workflow form fields are not displayed on mobile devices for users without "Manage select list" right
+Workflow Designer: A change of the password is only possible if you change something in the user name before
+Configuration: Not able to open monitor view for plugins like Synchronization if Autoindex right is not granted
+Workflow Manager: E-mails within a workflow will be only send to one recipient even if several recipients have been defined
+Workflow Manager: LIKE-Operator fails in workflow when an index field or a variable is not filled
+One Click Indexing: Date picker switches day and month in the store dialog
+Web Client: Checked-out documents cannot be unclipped anymore. The error message "Document is associated with document in progress and cannot be removed" is displayed
+Workflow Manager: SELECT statements don't work anymore with decimal fields which contains a comma
+Web Client: The Option "Store Automatically" will not store data of numeric fields
+Workflow Manager: Error while confirming a Workflow task: “An item with the same key has already been added”
+
+2018-08-29:
+
+Configuration: Having many Document Trays is causing configuration to load very slow
+Web Client: A EMPTY() and NOTEMPTY() search does not work for database entries which contains empty strings
+Platform .NET API: The method ChunkUploadDocument returns the error message "DocuWare.Platform.ServerClient.DotNet exist an class FileInfoWrapper, in this class return one Stream on "public Stream CreateStream() that stream never is disposed on ChunkUploadDocument."
+Platform .NET API: The method dialog.GetDocumentsResult() does not work. The follwoing error message occurs "String was not recognized as a valid Boolean"
+File Cabinet: The option 'Add wildcard to the search' does not work anymore
+Administration: It's not possible to create new organization (Oracle only)
+Platform .NET API: Sometimes locking or unlocking a document via Platform API causes a fatal error
+Autoindex: It is not possible to create an Autoindex job without Task Manager/Workflow Manager license
+Workflow Manager: An error occurs when switching between pages of task lists (Oracle only)
+Stamps: Stamp sets field value to blank instead of NULL
+Workflow Manager: While checking a condition the following error occurs "UserVariableDefinition is not allowed!"
+Workflow Manager: Workflow Tasks (send request) based on older document versions are not working after upgrade to DocuWare 7
+Workflow Manager: The names of workflow variables are truncated to 27 characters after upgrade to DocuWare 7
+Web Client: Numeric fields are displayed with two additional decimal places after upgrading to DocuWare 7
+
+2018-08-09:
+
+Document Processing: Import into a document tray is not possible after the name of this document tray was changed
+Connect to Mail: Timeout for IMAP / Exchange server communication was increased
+Local Data Connector: External select list of the Local Data Connector does not work in store dialogs
+Web Client: It`s not possible to open the select list of a keyword fields if an index profile is used. This leads to the following message "Select list data cannot be retrieved."
+Workflow Manager: A Workflow Task (send request) cannot be processed further if the requested document was deleted
+Web Client: It is not possible to search for the predefined entry EMPTY() in a hidden dialog field
+Web Client: A user is not able to open a document in the viewer if he has an index value profile assigned
+Workflow Manager: Workflow variables with a "-" in the name are not converted properly when upgrading to DocuWare 7. This leads to the problem, that using a SQL-query in "assign data" steps will return no value.
+Platform .NET API: Using DocuWare.Platform.ServerClient.FileCabinetExtensions.AddDocumentSections with DocuWare 7 API returns "500 Internal Server Error" 
+Workflow Designer: If there is an apostrophe in the name of a file cabinet' - e.g. Peter's File Cabinet - there is an exception when you try to publish a Workflow
+	 
+
+2018-07-18:
+
+Web Client: All users need "modify" rights to store documents
+Notification: The new SMTP client library of Workflow requires the administrator to change the SMTP port
+Transfer: Changes in a filter of a transfer job are not saved
+Setup: The password field disappears when the first character of the entered password is "1" or "2"
+Autoindex: The option "Remove data records" generates an error for jobs which are using a file connection and for jobs between two file cabinets
+Setup: Old Workflows with deleted file cabinets cannot be upgraded to DocuWare 7
+Windows Explorer Client: Canceling of storing generates error "Unable to get property 'activeTool' of undefined or null reference"
+Autoindex: If the start option 'File Event' is adapted, all email notifications will be deleted
+Document Processing: DocuWare Desktop Apps throw an error when they should store to a select list only field - '403 Forbidden (Right GeneralSearch is not granted)'
+File Cabinet: System is locked after a file cabinet XML import
+Autoindex: If the external database is filtered, the index assignment crashes
+Workflow Manager: Workflow Engine is not working on MSSQL when using a port different than the default port (1433)
+Autoindex: When configuring the assign data step of the Autoindex workflow, the only option for populating decimal fields is "fixed entry" if the data source is a file cabinet
+Fulltext Server: Fulltext search returns no results when the user has "negative" index value profiles
+Autoindex: The option "Test SQL" of Autoindex doesn't give any feedback if the SQL statement is not correct
+Web Client: Document Trays are always using default OCR settings
+Workflow Designer: If a workflow has been unpublished by the designer, there are still records in the 'DWFCNotificationRules' table
+Web Client: If you use the Print option, a download is started instead of opening a new window with the PDF and the print dialog
+Document Processing: In configurations it is not possible to enter a fixed entry for a Keyword field if a dynamic entry was selected and saved before
+Workflow Manager: After an upgrade of a file cabinet which has more than 15 characters in table name (MSSQL / MySQL), existing instances and history cannot be accessed anymore
+Workflow Designer: Active instances are not shown in Workflow Designer for file cabinets with names longer than 15 characters - this occurs only with Oracle
+
+

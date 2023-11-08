@@ -1,0 +1,17 @@
+Microsoft Print to PDF Creates Faulty PDFs
+
+
+
+
+
+
+
+Problem:
+When using “Microsoft Print to PDF” to create a PDF file, the resulting document might have random errors embedded when it comes to text and numbers. This is often noticed when printing the document and suddenly it has different numbers on it.
+
+Solution:
+The problem occurs with the “Microsoft Print to PDF” option in the Edge browser.
+The resulting files are accurate on screen, but the text contains random errors when printed. For example, what was correctly displayed as “123456” on screen was “114447” on paper.
+The issue appears unrelated to the printer or print driver.
+
+

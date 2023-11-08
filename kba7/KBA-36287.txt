@@ -1,0 +1,27 @@
+How To Apply a new License File MySQL
+
+
+Scenario:You've recently made changes to your DocuWare licensing, such as added modules, company name change or system administrator change and need to have these changes reflected in DocuWare.
+NOTE: This example is for MySQL, MSSQL is similar. Users utilizing an Oracle database need to have their DBA perform this action.
+Solution:Please follow that steps detailed in this article in order to apply a new license file in MYSQL:
+1. Stop all DocuWare Services, except for the Database.
+
+2. Take a backup of the DWSystem Database!
+
+3. Open the DWSystem database and delete all entries from the following tables, in this order:
+-DWConnectionLicense
+
+-DWClientLicense
+
+-DWServerLicense
+
+-DWLicense
+
+4. After deleting all entries from the above tables, start Authentication Server Service only with the database.
+
+5. Open the Administration Tool, under your Organization, expand the "General" tab, select License and right-click, then select "Install New License File" and load the new license file.
+
+6. Stop, and then start all DocuWare Services.
+
+The new changes to your license should now be reflected within DocuWare.
+KBA applicable for On-premise Organizations ONLY.

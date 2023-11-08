@@ -1,0 +1,21 @@
+How to enable debug logging for DocuWare Desktop?
+
+
+
+Question:
+How to enable debug logging for DocuWare Desktop?
+Answer:
+Since DocuWare version 6.7, the DocuWare Logfile Collector tool can be used to create DocuWare Desktop logs. Please refer to the following guide to locate and utilize the DocuWare Logfile Collector: 
+1.  Navigate to the installation folder of DocuWare Desktop (default location: ...\DocuWare\Desktop\LogCollector\), then run the LogCollector.client.exe.
+
+2. Using the dropdown menu, select the log level of the logfile. After you selected the log level, the changes are automatically saved. 
+You also can activate logs for the DocuWare Printer and DocuWare Printer PS if they are installed (this option is grayed out if the printers are not installed).
+
+
+
+After log level has been set, reproduce the behavior and use the "Create Zip File" button to create the Zip file, which will contain all the log files.
+The "Send ZIP file to the Customer Feedback Service", can be used to directly upload Zip file to our Customer Feedback Service. The data collected from the Zip file is utilized to better improve the DocuWare Desktop Apps. 
+To enable debug logging for DocuWare Desktop before DocuWare 6.7, please refer to KBA-34383.
+KBA applicable for both Cloud and On-premise Organizations.
+ 
+

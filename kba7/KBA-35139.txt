@@ -1,0 +1,37 @@
+DocuWare Printer PS
+
+
+
+Behavior
+In certain instances, unsolvable issues using the DocuWare Printer may occur. Additionally, it might be not possible to print pdf files or from some applications, e.g. SAP.
+
+Solution
+After attempting various solutions provided by the DocuWare Support Portal or DocuWare Support, the next step would be to use the alternative DocuWare postscript printer called "DocuWare Printer PS". It should solve the issues described above and is available using the following download link: DocuWare Printer PS.
+
+Installation
+DocuWare Printer PS needs to be installed in addition to DocuWare Printer on all client machines.
+
+Unzip the provided archive file
+​Start the "Setup.exe" from the extracted folder
+"DocuWare Printer PS" will be installed combined with the needed "Ghostscript Lite" files
+
+​Silent Installation
+
+You need to read and accept the license terms by starting the DocuWare Printer PS setup without any parameters.
+Run the gslite.exe located to the DocuWare Printer PS zip file.
+Note: This software package is licensed under the GNU General Public License (GPL).
+Run the command "Setup.exe /help" to retrieve all information about possible startup parameters.
+To start the silent installation run the command "Setup.exe /verysilent".
+
+Constraints
+
+Using the application's name as a criterion for the printer configuration is not possible
+Printing documents containing transparency is not supported by Postscript
+Creating pdf files might be slower in comparison to DocuWare Printer
+
+Feedback
+Please send us a short feedback about your experiences using DocuWare Printer PS.
+Click here to send a feedback email
+
+KBA is applicable to both Cloud and On-premise Organizations. 
+

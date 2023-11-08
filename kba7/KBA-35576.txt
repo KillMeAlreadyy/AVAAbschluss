@@ -1,0 +1,27 @@
+How can I assist the Intelligent Indexing Service with learning index data?
+
+
+
+Question:
+How can I assist the Intelligent Indexing Service with learning index data?
+
+Solution:
+
+One Click Indexing (recommended and should always be used if possible)
+Manual correction using the keyboard (should only be performed as a last option and in exceptional cases)
+
+The Intelligent Indexing Service learns with each correction process. If a particular document type (an invoice for a specific company for example) was indexed incorrectly and  then stored to a file cabinet several times, this document type needs to be stored more often with correct index data to get accurate index entries suggestions.
+
+Correction steps:
+
+Clicking in the store dialog’s index field highlights this index field and the related location in the document.
+Select the required text passage in your document using One Click Indexing (activated automatically). You can either choose one word while clicking on it or a whole text passage keeping the left mouse button pressed and moving the cursor over it.
+If One Click Indexing carries on suggesting false index entries (cipher 1 is recognized as I or i) you should consider a manual correction by keyboard as the last resort.
+
+If you want to delete the complete learning progress for all document types, you can use the delete function for your “Modelspace” on the DocuWare Cloud configuration website.
+In order to do this, you need to proceed with the following steps:
+Please contact our support team for this.
+
+Beware!
+All learning progresses of all document types will be deleted and need to be relearned. All Intelligent Indexing data will be irretrievably deleted and restoring is impossible.
+

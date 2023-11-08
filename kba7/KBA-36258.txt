@@ -1,0 +1,33 @@
+ImpersonatedExec-error of the Content Upgrader in DocuWare 7
+
+
+Behavior:
+During the update from DocuWare 6.7 (or newer, up to DocuWare 6.12) to DocuWare 7 or DocuWare 7.1 the step "Upgrade Content database" fails with the error message "ImpersonatedExec: Exit Code treated as error."
+
+Solution:
+This means that the Content Upgrader failed to update one or more baskets or file cabinets.
+To solve the problem please follow the instruction:
+
+Please navigate to C:\ProgramData\DocuWare\SetupLogs\ and search for the latest CtServerUpgrader.log.
+If more CtServerUpgrader logs  are present, open all of them.
+	 
+Search for the following:
+ERROR: DocuWare.Common.Exceptions.DWDBException: The index 'IXfa52b34786484f568506d06304b1' is dependent on column 'DOCUMENTCHANGE'.
+	ALTER TABLE ALTER COLUMN DOCUMENTCHANGE failed because one or more objects access this column.
+
+Please keep in mind that the index name might be different on your system, so you might have to adjust your search (just parts of the message).
+
+	The message means that in the database [DWDATA] table [DWSYS] an index was not deleted correctly by setup and this causes the error message and block the upgrade.
+
+Check if the index name corresponds with the one from the error message.
+	 
+If the index name is the same as in the error message, you can delete the index in the database [DWDATA].[DWSYS] and rerun the setup.
+If you use different databases for webbaskets, check all [DWSYS] tables of all databases.
+
+This index has to be deleted for only the upgrade step from 6.12 to 7.
+
+​​​​​​​
+​​​​​​​Important: 
+Do not delete indexes other than the one specified in this exact context and only if the upgrader runs into the index error.
+Do not delete the index before running the upgrade or with versions less than DocuWare 6.12 and only if you upgrade to DocuWare 7.
+ 

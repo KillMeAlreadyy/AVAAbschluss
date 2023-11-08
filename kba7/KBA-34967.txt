@@ -1,0 +1,58 @@
+Connection to DocuWare Desktop cannot be established
+
+
+
+Behavior:
+The browser cannot establish a connection to DocuWare Desktop. In some cases, you get the error 
+"Windows User is not a DocuWare Desktop user"
+Solutions:
+There are several reasons that might cause such an issue. Please refer to the following solutions:
+
+DocuWare Desktop App or Desktop App Service is not started:
+	This behavior can occur when either the Desktop Apps or the Desktop Apps Service has failed to start. To address this issue, the Desktop Apps and/or the Desktop Apps Service must be restarted.
+	Please refer to Installing and Connecting Desktop Apps for more on Desktop Apps and how to restart these software components. 
+	 
+Content within the browser cache:
+	In some instances, browser cache history can prevent DocuWare Desktop Apps from establishing a connection. Please delete the browser cache and cookies, then reattempt to utilize DocuWare Desktop Apps.
+	 
+DocuWare Client is hosted using a self-signed SSL certificate:
+	The root certificate has to be imported to the Microsoft Certificate Store.
+	 
+Internet Explorer security zone of the Website:
+(Note: Solution for Internet Explorer ONLY)
+	It is necessary to check the Internet Explorer security zones. If establishing the connection does not work, try to add the DocuWare Web Client URL "http://SERVERNAME/DocuWare" to the Internet Explorer security zone "Local Intranet".
+	Check whether the Web Client is part of the same IE security zone as the URL for localhost "http://127.0.0.1" and "https://127.0.0.1" and to change this if it is not true.
+
+
+	Keep in mind that those settings are set by group policies in some environments, thus it is not allowed to add the Web Client URL to a specific Internet Explorer security zone. Therefore it might be necessary to add this URL by amending the group policies.
+	 
+Internet Explorer in enhanced security configuration is not supported:
+(Note: Solution for Internet Explorer ONLY)
+	Internet Explorer Enhanced Security Configuration can prevent DocuWare Desktop Apps from establishing a connection. Switch to a different browser (Firefox, Chrome) for connection creation or disable the enhanced security configuration. Please visit http://support.microsoft.com/kb/815141 for more information regarding Internet Explorer Enhanced Security Configuration.
+	 
+DocuWare Client is hosted using a self-signed SSL certificate:
+	The root certificate has to be imported to the Microsoft Certificate Store.
+	 
+DocuWare Client is hosted using SSL:
+(Note: Solution for Firefox ONLY)
+	The root certificate “DocuWare GmbH Local Authority” has to be exported from the Microsoft Certificate Store and imported to the Mozilla Firefox Certificate Store: Open https://127.0.0.1:8091 and add an exception for the certificate.
+
+	Alternatively, open Firefox Settings, then navigate to Privacy & Security and scroll-down to the Certificates section. Click-on "View Certificates..." , open the Authorities tab and select "Import... ". Select the exported “DocuWare GmbH Local Authority” certificate, then enable “Trust this CA to identify websites.” Once completed restart the browser and try to connect again.
+
+
+
+	 
+Antivirus or other Security Software 
+	DocuWare Desktop Service is trying to recognize which windows user from which session is accessing its functions. Usually the browser processes the user and the session can be found. In some cases the antivirus, which is not working 100% in user context can be the communication partner to DocuWare Desktop Service. During the connection procedure, the antivirus has to be stopped. Sometimes it is not enough to stop it using the icon menu option, but the complete process/service must be stopped.
+	 
+DocuWare Settings Service is not working properly (On-premise Only):
+	If the prior solutions failed to resolve the described behavior, this may indicate that the DocuWare Service Settings are not working as intended. Please refer to the following articles to address this:
+
+Known Issues - Web Configuration (Web Client Settings): KBA-34359
+Error in login with token: 'ClientProtocolManagers are not specified': KBA-34700
+
+
+
+KBA is applicable to both Cloud and On-premise Organizations.
+ 
+

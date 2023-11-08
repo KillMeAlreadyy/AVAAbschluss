@@ -1,0 +1,20 @@
+In LogCollector the Printer PS option is inactive
+
+
+
+
+
+
+
+Question:
+I am using the LogCollector for debugging but the option Printer PS is not active and it's not possible to do a mouse click.
+Solution:
+While installing Desktop App the LogCollector creates a path to the Printer PS program folder.
+If you don't install the Printer PS module a default location is used and stored in the file
+"C:\Program Files\DocuWare\Desktop\LogCollector\Settings\ApplicationsLogSettingsDesktop.xml"
+<Path>%PROGRAMFILES%\DocuWare\DocuWare Printer PS</Path>
+If the Printer PS is installed afterwards you can enter a storage location in the installation routine. If you using another path as the default, the LogCollector won't find the Printer PS. You have to enter the path manually in the ApplicationsLogSettingsDesktop.xml file.
+For Example:
+<Path>%PROGRAMFILES%\DocuWare\Desktop\DocuWare Printer PS</Path>
+
+

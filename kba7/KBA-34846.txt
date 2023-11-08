@@ -1,0 +1,21 @@
+How to change the language of the DocuWare Administration?
+
+
+
+
+
+
+
+Question:
+How to change the language of the DocuWare Administration?
+Solution:  
+The language in which the DocuWare Administration is loaded depends on the currently used Windows system language. 
+If you want to change the language of DocuWare Administration, please perform the following steps: 
+
+Make sure that the DocuWare Administration is closed
+Open "Clock, Language and Region" in the Control Panel
+Add the preferred language (German or English) or move it to the top if it was already installed
+Open the DocuWare Administration again
+
+
+

@@ -1,0 +1,54 @@
+Supported Barcode Types
+
+
+
+
+
+
+
+Question:
+Which barcode types are supported by DocuWare?
+Answer:
+These are the supported barcode types by DocuWare Scan/Import with Barcode & Forms:
+1D Barcode
+
+Code128
+Code39
+Code93
+Codabar
+Ean128
+Ean13
+Ean8
+Code 2of5
+Code 2of5 Iata
+Code 2of5 Industrial
+Code 2of5 Interleaved
+Code 2of5 Inverted
+Code 2of5 Matrix
+UpcA
+UpcE
+
+starting with DocuWare 6.5 also
+
+Code11
+RSS (RSS14, RSS14Stacked, RSSExpanded, RSSExpandedStacked, RSSLimited)
+Postal (DutchKIX, Postnet, AustralianPost, RoyalMail, Planet, IntelligentMail)
+MSI
+Telepen
+PharmaCode
+
+2D Barcode (starting with DocuWare 6.1)
+
+QR
+PDF417
+DataMatrix
+
+starting with DocuWare 6.5 also
+
+MircoQR
+MaxiCode
+Aztec
+
+Note: Barcodes need a minimum length of 3 characters.
+
+

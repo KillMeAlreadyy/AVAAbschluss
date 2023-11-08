@@ -1,0 +1,175 @@
+DocuWare Version 7.2 Update
+
+
+
+Since DocuWare 7, updates are integrated in the DocuWare installation packages.
+Therefore, to get the latest version of an update, you need to download the complete DocuWare setup files again.
+
+Before installing the update, please read and follow the Update installation instructions!
+
+Setup updated on: 2022-05-04 (PDF of included improvements can be found here)
+Build version: 7.2.0.11592
+Download link: https://go.docuware.com/download-dw72
+
+Included improvements:
+2022-05-04:
+
+Desktop: Support for future versions of Edge and Chrome with enhanced security features
+
+2022-03-02:
+
+Forms: User information is visible in the source code of a public form
+
+2022-01-25:
+
+Setup: Passwords of database users, DocuWare users and service users that contain blanks are logged in plain text to setup log
+
+2021-07-26:
+
+Setup: Setup may cause unexpected reboots if Desktop Apps and DocuWare services are installed on the same machine
+Desktop: Prevent blocking of local Desktop communication with upcoming browser security enhancements if using Web Client with HTTP
+
+2021-04-19:
+
+Platform .NET API: Updating/Appending of keywords via API with a value that has trailing spaces cannot be completed
+
+2021-01-26:
+
+Workflow Designer: While two workflow tabs are open and a copy of the workflow in the second tab is created, the second tab is closed and the copy is instead created for the workflow in the first tab.
+
+2020-12-08:
+
+Setup: Minor optimizations
+
+2020-11-30:
+
+Connect to Outlook: Oracle.ManagedDataAccess.dll is missing in Connect to Outlook root directory.
+User Management: Filtering groups when assigning a group to a user may lead to the text "No groups are created in your organization" as well as a loading circle to be displayed.
+
+2020-10-26:
+
+Web Client: Opening a document stored on Centera might cause the error message "The requested operation cannot be performed on a file with a user-mapped section open." to appear when opened by multiple users.
+
+2020-08-25:
+
+Fulltext Server: Performing a fulltext reset with the option "Reindex not processed or failed documents" removes fulltext information for documents which have been processed successfully from the database
+
+2020-08-04:
+
+Windows Explorer Client: When trying to save a file to Windows Explorer Client which has a file path which contains more than 260 characters, the error message "Unspecified error" is displayed
+Web Client: When trying to set an image stamp using a large high-resolution image, the error message "After wrapping the stamp content, the stamp is bigger than the document and cannot be set. Please select the stamp again and enter less text." is displayed
+
+2020-07-06:
+
+Platform.NET API: Too big expressions cause the Platform to crash
+Document Processing: Filter barcode with option "contains x characters" does not work for indexing
+WebClient: In case user settings are stored in the database, when closing viewer windows an error is shown "Service not available for unknown reason"
+Workflow Manager: Workflows and notifications are not triggered if you change keyword entry from a stamp
+Connect to Mail: During email storage process, Connect to Mail throws an error "Could not find default tray!"
+
+2020-06-12:
+
+Workflow Manager: Workflow Manager can't handle tablenames with whitespace
+Autoindex: Autoindex trigger does not work with "Last Access User" and "Last Access Date"
+Autoindex: Autoindex' "is empty" condition does not work with Microsoft SQL Server and DATE/DATETIME/DATETIME2 columns
+Document Processing: Document Processing configuration for french regions can‘t display decimal fields in DWCloud
+Autoindex: Autoindex with write back of system fields (except DWDOCID) does not work
+Autoindex: Autoindex with system field in File Cabinet filter does not work
+
+2020-06-02:
+
+Fulltext Search: Fulltext Scheduling does not work
+Platform .NET API:Temporary pdf files are not deleted automatically from C:\ProgramData\DocuWare\Temp\Platform\pdf folder
+
+2020-05-18:
+
+Web Client: Document Overview does not show pages with annotations
+Windows Explorer Client: Can't use "Save As" for storing a document when existing folder names contain slashes ( / ), colons ( : ) or backslashes ( \ )
+Windows Explorer Client: License is blocked for 30 minutes
+Autoindex: "Write Back" tab loads indefinitely if configuration writes system fields to external database
+Workflow Designer: Workflows are overwritten unintentionally under certain circumstances
+Web Client: Login with non-admin user may be very slow in large systems
+
+2020-04-23:
+
+Document Processing: Recognition of numeric/decimal fields may provide incorrect results if culture is set to Slovenian
+Connect to Mail: Configurations fail and are disabled with the error message "Could not find Default tray" even though default document tray exists
+
+2020-04-15:
+
+Autoindex: Autoindex sort order is incorrect if you sort by date
+Local Data Connector: LDC Service loses connection between local databases and cloud
+
+2020-04-03:
+
+Web Client: Problem when INT variable is used in "where clause" with null value
+Web Client: EMPTY() does not return any results when using Oracle
+Web Client: Default select list does not work when using Oracle
+Autoindex: Autoindex can no longer match on empty field from data source
+
+2020-03-16:
+
+Workflow Manager: Dash character in global Workflow variable causes external data assignments to crash
+Forms: A Form can't be submitted when a drop down field is populated with select list value with special characters 
+Web Client: Unable to edit clipped password protected documents
+Workflow Manager: Error "ORA-01722" in workflows when using decimals in connection with an Oracle database
+Workflow Manager: Wokflows using certain arithmetic expressions cannot be saved or published after system is updated
+
+2020-02-18:
+
+Fulltext Search: Complete Fulltext reindex does not affect pre-DocuWare 7 documents
+Smart Connect: Smart Search uses Client License even if connected to read-only Platform
+Background Process Service: DocumentTool does not encrypt migrated documents in file cabinets with encryption enabled
+Autoindex: Autoindex job cannot be stopped by user in case any problem occurred like if the process was aborted by the Background Process Service
+Web Services: "Test connection" on web service which requires authentication results in "401 Unauthorized" error
+
+2020-02-04:
+
+Synchronization: Text field filter cannot be edited if source file cabinet belongs to a different organization
+Request: Request job stuck at 85% completion
+Web Client: "Restricted file types" option only applies to Organization Administrators
+Connect to Outlook: Mandatory read-only fields will result in "Please fill all mandatory fields" error when storing
+Web Client: Documents are checked out even if the user does not have permissions to do so when using index filter profiles
+Workflow Designer: Using SOAP-based WSDL Web Service in Workflows Designer results in "Critical exception occurred: Object reference not set to an instance of an object." error.
+
+2020-01-07:
+
+Workflow Designer: Multi column select list in combination with Local Data Connector cannot be used
+Configuration: Error "newLockTypes" when trying to access SMTP configuration after reloading
+Autoindex: Autoindex job does not start when .csv file is too large
+
+2019-12-09:
+
+Workflow Manager: Filtering a large task list takes a very long time
+Synchronization: Option "remove deleted documents also in target file cabinet" does not work between two organizations
+Workflow Manager: It is not possible to approve multiple tasks
+Workflow Manager: Workflow history is not sorted correctly
+Workflow Manager: No instances will be created for a file cabinet that has been created by importing a file cabinet settings file (Oracle only)
+Autoindex: "File Count has changed" does not work as trigger condition
+Connect to Mail: Storing an e-mail does not use the local time zone of the client
+User Synchronization: Empty Active Directory user group makes synchronization stop working
+Autoindex: A new index field is not recognized as match code
+Connect to Mail: Using the value "Names of attachment" for indexing doesn't work
+
+2019-11-18:
+
+Connect to Mail: Configuration assignment for roles is not stored correctly and throws an error
+Web Client: Parts of Chinese translation missing
+Stamps: Brazilian time zone wrong when placing stamps
+Connect to Mail: Configurations get disabled because file path exceeds length limitation for very long document names
+
+2019-11-07:
+
+Workflow Manager: Wrong user assignment when selecting multiple users in workflow task
+Autoindex: Altering the trigger of a copied Autoindex job alters the original job
+Workflow Manager: Parallel task sends out notification about task assignment instead of escalation reminder email
+User Synchronisation: Network ID will not be created
+Connect to Mail: Configurations get disabled on wrong error messages
+Autoindex: Instant Autoindex configuration cannot be set to inactive
+Autoindex: Instant Autoindex stops working consecutively
+Workflow Manager: Documents can be opened from task list even though users do not have the required permission
+Setup: Settings Service is not installed when installing backend server only
+Stamps: Stamps fill index fields even though users do not have the required permission
+
+ 
+

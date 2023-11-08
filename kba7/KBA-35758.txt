@@ -1,0 +1,34 @@
+The configuration with name ... is not available.
+
+
+
+
+
+
+
+Question:
+Why do i get the following error message while printing, scanning or importing documents with DocuWare Desktop:
+"The configuration with name '...' is not available."
+
+
+Answer:
+This error is caused because the DocuWare Job Server can not reach the Settings Service. 
+Therefore please check in file "C:\ProgramData\DocuWare\ServerConfig\dwmachine.config" the http address for the parameter "LocalWebServices". The address should contain the server name of the web server, if possible:
+...
+<Setting Key="LocalWebServices" Value="http://[server name]/DocuWare/" Encrypted="false" />
+...
+
+If a different port is used than 80, it is also necessary to edit the file "...\DocuWare\Web\JobServer\web.config".
+Change the value for the parameter "SettingsServiceUrl":
+...
+<add key="SettingsServiceUrl" value="http://[server name]:[port]/DocuWare/Settings/SettingsService.svc" />
+...
+
+After the change please restart the application pool "DocuWare Job Server App Pool" in IIS.
+
+Please adjust the Internal address in the DocuWare Administration under the Web connections as well.
+This address is used when creating the dwmachine.config and must be accessible for alle DocuWare server and application pools.
+Note:
+The Settings Service has to be accessible by the user that is assigned to the "DocuWare Job Server App Pool".
+
+

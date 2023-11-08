@@ -1,0 +1,43 @@
+Rename of “File_cabinet” will fail. DWSYS.ARCHIVE size is 32 MYSQL
+
+
+
+Behavior:
+When upgrading to DocuWare versions 7 or higher, old file cabinet tables are re-named. If the length of the re-named tables exceeds 32 characters in the database, the update will fail with an error message shown below.
+
+“Rename of DOCUWARE_TESTING_FILE__CABINETS will fail. DWSYS.ARCHIVE size is 32”
+The underlined value will be the name of the file cabinet which is failing. 
+This error would be located in C:\Programdata\DocuWare\Setuplogs\CTServerUpgrader.log.
+Solution:
+Please complete the following to resolve this behavior;
+1.Within the DWData database, right-click > Edit Table. Enter the new adjusted name in the Table Name field and select accept (A safe length is 25 character or less). There are 6-7 tables for each cabinet which need to be renamed. Don’t change the suffix, ie. _DSKS.  Make sure to take note of the old table name, we will need it fir later queries.
+
+***Before attempting the changes in the following KBA, please take a complete database backup. If performed Incorrectly your DocuWare system will not work.***
+
+                          Before                                                                                      After         
+                                                  
+
+NOTE: Making these changes does not have an impact on the name of the file cabinet from the web client side. The file cabinet name will be exactly the same for users.
+
+   2. Now changes need to be made to the DWSYS table located in the DWData database.
+There is a reference within this table to the old file cabinet name, the below query is a find and replace, which updates this value. This query only needs to be ran once for each adjusted file cabinet.
+
+  UPDATE DWData.DWSys 
+               Set Archive = replace (archive,'OLDTABLENAME','NEWTABLENAME');
+In our example the query would look like so:
+
+
+ 
+3. Lastly changes to the DWFilecabinet table located in the DWSystem database need to be made. The settings column of the adjusted file cabinet needs to be updated to reflect the new name. 
+The below query is a find and replace for that value. This query only needs to be ran once for each adjusted file cabinet.
+  Update DWSystem.DWFileCabinet 
+             Set settings = replace (settings,'OLDTABLENAME','OLDTABLENAME');
+ 
+In our example the query would look like so:
+
+
+Once all affected file cabinets are adjusted you can select the "Retry" option on the installer to re-attempt the upgrade.
+
+For systems using MSSQL, please see KBA-36276 to execute this process successfully.  
+KBA applicable for On-premise Organizations ONLY.
+

@@ -1,0 +1,8 @@
+Ports used by DocuWare
+
+
+Question:Which ports are used by DocuWare Modules?
+Solution:These ports are used by DocuWare.
+Authentication Server9000Content Server (up to 6.12)9001Workflow Server9002Imaging Server (up to 6.1)9009, 9011Web Service (up to 6.7)9007, 9008Internet Server (up to 5.1b)9003Thumbnail Server (up to 6.12)9006, 9015Notification Server (up to 7.3)9005Workflow Manager9018, 8117, 8118CONNECT to SAP9004CONNECT to Mail9019CONNECT to Toshiba(up to 7.2)8001DocuWare Desktop8090, 8091, 8109, 8110Fulltext Server9012, 8005DWRequest9013, 9014IIS (Default)80, 443MySQL (Default)3306MS SQL Server (Default)1433Oracle (Default)1521
+KBA is applicable to On-premise Organizations ONLY.
+Weitere Informationen zu den Ports und IP-Bereichen

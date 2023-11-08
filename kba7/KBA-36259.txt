@@ -1,0 +1,13 @@
+DocuWare Cloud Update from version 7.1 to 7.3
+
+
+Your DocuWare Cloud System will be updated from DocuWare version 7.1 to 7.3 soon.
+As you will skip DocuWare version 7.2 and to make sure that you are informed about all changes and technical notes we have collected the most important links and information:
+ 
+
+What's new in DocuWare Version 7.2
+Technical Notes for DocuWare Version 7.2
+	 
+What's new in DocuWare Version 7.3 
+Technical Notes for DocuWare Version 7.3
+

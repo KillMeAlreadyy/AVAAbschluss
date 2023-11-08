@@ -1,0 +1,52 @@
+How to set Timeouts for Database Connections and Commands?
+
+
+
+
+
+
+
+Question:
+How to set Timeouts for Database Connections and Commands?
+
+Answer:
+Settings for the database connections are contained in the file DocuWare.DAL.dll.config. There is a separate copy of this file for Authentication Server, Content Server and Workflow Server.
+Timeout for Connections and Commands
+Apart from the regular commands, DocuWare also has commands with a long expected run-time. These commands are usually run for administrative operations, e.g. creating a new column, column index or fulltext. The length of time a command takes when run for these tasks depends on the size of the tables involved, which is why such commands take more time than regular commands. If necessary, you can adjust the values, which are all in seconds.
+
+
+
+
+ConnectionTimeout="x"
+
+
+Timeout for creating a connection to the database,
+			default value: 30 sec.
+
+
+
+
+CommandTimeout="y"
+
+
+Timeout for standard commands, default value: 30 sec.
+
+
+
+
+LongCommandTimeout="z"
+
+
+Timeout for commands with a long expected run-time,
+			default value: 600 sec. (from DocuWare 5.1b SP3)
+
+
+
+
+If you use a DocuWare version older than 5.1b SP3…
+
+… and large fulltext file cabinets, you should go to the DocuWare.DAL.dll.config file in the Workflow Server and manually set the LongCommandTimeout value to 1200.
+… and would like to add file cabinet fields or column indexes later, you should go to the DocuWare.DAL.dll.config file in the Content Server and manually set the LongCommandTimeout value to 1200. A higher value is particularly useful if you are using MySQL.
+
+
+

@@ -1,0 +1,24 @@
+How to install DocuWare Administration for DocuWare Cloud
+
+
+
+
+
+
+
+Question:
+How to install DocuWare Administration for DocuWare Cloud?
+Answer:
+You can download the DocuWare Administration via the DocuWare Web Client. Navigate to the Web Client and click on the Drop Down Button next to your company name. Choose option "Install Desktop Apps":
+
+An .exe file will be downloaded automatically. If not, please check if the download is blocked by your Browser Settings!
+Run the downloaded exe file. After some seconds the following dialog is displayed:
+
+Click on "Show administrative options" and you can select DocuWare Administration to be installed. Click Start Button and the Administration will be installed.
+
+You can find DocuWare Administration in Start/ All programs list.
+When starting the DocuWare Administration you can use two arts of authentication methods - Desktop Apps Authentication or the DocuWare Authentication.
+If you use the DocuWare Authentication method, your organization settings are automatically entered. You just have to type in your username and password. When you login for first time, you should enter also  Adress: cloud-northeurope-emeak-0.admin.docuware.cloud or cloud-northeurope-emeak-1.admin.docuware.cloud  and Port: 9000. After that the connection will be automatically created.
+If you use the Desktop Apps Authentication method, then your active Desktop Apps connection will be automatically used for logging in. Please notice, that for the Desktop Apps Authentication method first you have to establish the connection between the WebClient and your Desktop Apps.
+
+

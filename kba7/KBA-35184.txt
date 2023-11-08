@@ -1,0 +1,107 @@
+How to hide Desktop Apps in Client Setup
+
+
+
+
+
+
+
+Question:
+How can certain Desktop Apps be hidden in the Client Setup?
+Answer:
+There are certain situations in which you want to hide or unhide specific Desktop Apps from the installation window, for example if the organization does not own an appropriate license or there is no need for it.
+You can hide any of the apps that are installable from the Client Setup:
+ 
+
+To do this, please follow these steps:
+
+Open the file C:\Program Files (x86)\DocuWare\Web\Platform\ClientSetup\ClientSetup.Settings.xml in a text editor
+Navigate to the Modules section (shown below)
+  ...
+	  <Modules>
+	      <Module Id="C2Outlook">true</Module>
+	      <Module Id="EditSend">true</Module>
+	      <Module Id="Scanner">true</Module>
+	      <Module Id="Printer">true</Module>
+	      <Module Id="Import">true</Module>
+	      <Module Id="SmartConnect">true</Module>
+	      <Module Id="WEC32">true</Module>
+	      <Module Id="WEC64">true</Module>
+	      <Module Id="AdminTool">true</Module>
+	      <Module Id="Workflow Designer">true</Module>
+	      <Module Id="IndexCleaner">true</Module>
+	      <Module Id="UrlCreator">true</Module>
+	      <Module Id="Update">true</Module>
+	  </Modules>
+	  ...
+Configure the respective Desktop Apps to be shown (true) or hidden (false) in the Client Setup. Use the table below to determine which Id value corresponds to which Desktop App.
+	 
+	
+
+
+Id value
+Desktop App
+
+
+
+
+C2Outlook
+Connect to Outlook
+
+
+EditSend
+Edit & Send App
+
+
+Scanner
+DocuWare Scanner
+
+
+Printer
+DocuWare Printer
+
+
+Import
+DocuWare Import
+
+
+SmartConnect
+Smart Connect
+
+
+WEC32
+Windows Explorer Client (32bit)
+
+
+WEC64
+Windows Explorer Client (64bit)
+
+
+AdminTool
+DocuWare Administration
+
+
+WorkflowDesigner
+Workflow Designer
+
+
+IndexCleaner
+DocuWare Index Cleaner
+
+
+UrlCreator
+DocuWare URL Creator
+
+
+Update
+DocuWare Update
+				 
+
+
+
+
+Save the file to confirm your changes
+
+Please note that a restart of the DocuWare Platform Services App Pool may be necessary to make the changes effective.
+
+

@@ -1,0 +1,36 @@
+Which DocuWare module needs a Client License?
+
+
+
+
+
+
+
+Question:
+Which DocuWare module needs a Client License?
+
+Answer:
+The DocuWare modules listed in the picture below are all require a client license.
+However, it is possible to login with the same DocuWare User, on the same device (+ an additional mobile device) on all these DocuWare modules with only one client license.
+
+Note:
+In order to use only one client license in the Web Client and/or the URL integration both modules have to be started in the same browser.
+
+
+The license need of the DocuWare Desktop are:
+
+DocuWare Printer         no Client License needed
+DocuWare Import         no Client License needed
+DocuWare Web Scan   no Client License needed
+Smart Connect 
+
+Smart Search   → uses the URL integration, which requires one client license
+Smart Index          no Client License needed
+
+
+
+Please note that you have to install the latest HotfixPack for the differnet DocuWare versions, only with the HotFixPack we can guarantee the described behavior.
+
+If you want to check the current license usage, you can use this KB article.
+
+

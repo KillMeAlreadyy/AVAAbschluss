@@ -1,0 +1,24 @@
+MySQL doesn’t have enough free memory
+
+
+
+
+
+
+
+Behavior:
+MySQL doesn’t have enough free memory.
+Cause:
+When upgrading DocuWare, the assigned memory of the MySQL database is not automatically increased. This means that up-to-date DocuWare systems, which come from older versions, may not be able to use the memory needed.
+Solution:
+Before increasing the memory, please stop the database and all DocuWare services. Create a backup of the "my.ini" file located in the installation directory of the database (default directory: C:\Program Files (x86)\DocuWare\Internal Database). Then, open the file and modify the following parameters:
+Default:                                                          Recommended value:
+innodb_buffer_pool_size=512M                     innodb_buffer_pool_size=1536M 
+innodb_log_file_size=10M                             innodb_log_file_size=200M
+
+Before you restart the database, it is important that you copy the two files "ib_logfile0" and "ib_logfile1" (C:\Program Files (x86)\DocuWare\Internal Database\data) into another directory (example into the desktop). You can then start the database and check whether the two files have been written with the new file size. If this doesn’t work, please re-import the original "my.ini" file and copy back the two other original files "ib_logfile0" and "ib_logfile1".
+
+After the database starts without any problems, you can now start the DocuWare services.
+If you are encountering unknown problems, please contact the DocuWare Support with the appropriate logs and screenshots of the problem. 
+
+

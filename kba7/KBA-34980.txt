@@ -1,0 +1,29 @@
+Which APIs are available in DocuWare Cloud?
+
+
+
+
+
+
+
+
+Question:
+Which APIs are available in DocuWare Cloud?
+
+Answer:
+URL Integration
+Available using the custom Cloud Web Client URL as a base address.
+More information can be found in our Knowledge Center.
+
+Platform Services/Platform .NET API
+Available using the custom Cloud Platform URL.
+More information can be found in our Knowledge Center.
+
+Validation
+Available.
+More information can be found in our Knowledge Center.
+
+GAPI & JAPI
+Not available.
+
+

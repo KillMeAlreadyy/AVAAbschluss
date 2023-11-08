@@ -1,0 +1,17 @@
+Silverlight disabled in Google Chrome
+
+
+
+
+
+
+
+Problem:
+Some parts of the Configuration cannot be used because the browser does not support Silverlight anymore.
+Solution:
+In April 2015, Google Chrome version 42 was released, which disables NPAPI plugins by default. Microsoft Silverlight is also based on NPAPI.
+As a workaround you can enable it manually via chrome://flags/#enable-npapi. Make sure you restart Google Chrome afterwards. Note that you need to exit the process running in the background via the Google Chrome icon in systemtray as well.
+
+Since September 2015, Chrome completely removed the NPAPI support. This means Silverlight does not work and some parts of the DocuWare Configuration cannot be opened via Google Chrome anymore. Please use Internet Explorer for the configuration of these modules.
+
+

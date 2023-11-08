@@ -1,0 +1,14 @@
+Error during installation after the license has been selected out of a network folder
+
+
+
+
+
+
+
+Behavior:
+If you use a DocuWare license file during the installation of DocuWare, which is stored in a network location, you may run into some errors.
+Solution:
+Please make sure that the DocuWare license is stored locally on the server before it is being used in the setup wizard.
+
+

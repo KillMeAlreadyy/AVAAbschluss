@@ -1,0 +1,17 @@
+Change "UseOcrForNativepdf"
+
+
+Behavior: Documents imported, scanned, or printed via DocuWare Desktop apps do not index correctly. When one click indexing is utilized it returns number and symbols. 
+Solution:Broken text-shots can cause documents that were brought into DocuWare via Desktop Apps to be read incorrectly. You can set the value" UseOcrForNativepdf" to true which forces a brand new text-shot to be created.
+For DocuWare Versions 7.3 - 7.5, Cloud:
+1. Navigate to the Text and Barcode Recognition module, located on the Configurations page:
+2. Scroll to the bottom and click on "More Options"
+3. Click the "+" sign at the bottom then with the drop down select "UseOcrForNativePdf"
+4.Enter the value "true". After this is saved, attempt to process a few more documents and make sure they're being indexed correctly. 
+For DocuWare Versions 6.12 - 7.2:
+1. The file which needs to be adjusted is located in.C:\Program Files (x86)\DocuWare\Desktop. You want to find and open the file name "DocuWare.DesktopService.exe.config".
+2. When you open the file you want to find the app settings key named "UseOcrForNativePdf"
+3. The default value is "false", you want to change this value to "true" then save your changes.
+4. Once the changes have been made and saved you must restart the DocuWare Desktop Application and service for the change to take affect.
+5. After the restart you should attempt to process a few more documents and make sure they're being indexed correctly.
+KBA applicable for both Cloud and On-premise Organizations.

@@ -1,0 +1,26 @@
+Download DocuWare Version 7
+
+
+DocuWare Version 7 is available for download as a zip file. 
+Please read the documentation you find in the folder “! Documentation” 
+
+DocuWare Setup Version 7 
+Technical Notes for DocuWare version 7 
+What's New / Neues / Nouveautés / Novedades in DocuWare Version 7 
+
+before you run the upgrade.
+
+The file “DW7.zip” has a size of around 1.35GB. To download it please use the following link:
+https://go.docuware.com/download-dw7
+
+Latest version of the “What’s new” and the “What has changed” documentation you can download here:
+Neues in DocuWare Version 7 
+What's new in DocuWare Version 7 
+Novedades de DocuWare versión 7
+Nouveautés de DocuWare version 7 
+
+Technical Notes: Änderungen mit DocuWare Version 7 
+Technical Notes: Changes with DocuWare Version 7
+
+A list of fixed bugs in this version can be found here:
+https://www.docuware.com/main.asp?sig=dlx&lan=de&loc=de&dwdbname=DOCUWARE%207%20FIXED%20BUGS&dwdblan=ALL 

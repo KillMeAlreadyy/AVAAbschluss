@@ -1,0 +1,17 @@
+Intelligent Indexing offers unexpected index proposals
+
+
+
+
+
+
+
+Behavior:
+Intelligent Indexing offers unexpected index proposals
+
+For every DocuWare Intelligent Indexing document tray, there is one store dialog of a file cabinet assigned. This means that all specified settings of this file cabinet will take effect. If the option “Document name” ticked for any of the file cabinet fields, DocuWare modules like Connect to Mail, Connect to Outlook and DocuWare Import must fill these fields during their automatic import process. If there was no index value specified for this index field in Import configuration DocuWare will use default values (not expected values in Intelligent Indexing Store Dialog). For example: Connect to Mail would always take the Email value subject and DocuWare Import the document name of the imported file. Intelligent Indexing can not overwrite these values.
+
+Solution:
+Please check the field settings for the “Document name” option in the DocuWare Administration and adapt the field settings or DocuWare Module configuration accordingly.
+
+

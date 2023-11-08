@@ -1,0 +1,10 @@
+DocuWare Update path
+
+
+Due to the many releases of new DocuWare versions,  it can be confusing from which DocuWare version you can update to. The following chart displays the possible upgrade paths that can be implemented to reach your desired DocuWare version. 
+Chart Overview
+* recommended update path
+Other Resources 
+ Refer to "How to Upgrade DocuWare correctly" which highlights upgrade information that should be considered before planning an update. Update Paths to DocuWare 6.12 can also be referred to for additional upgrade paths for systems on versions 6.11 and below
+Additional Information: An ODBC file cabinet can be open in any version of DocuWare. DocuWare 5 thick client (Windows client) is a hybrid version that can act like a DocuWare 4 client. In other words, you can register or create any DocuWare 4 ODBC file cabinet with a DocuWare 5.x thick client. This will facilitate the conversion from DocuWare 4 ODBC type file cabinet to any version of DocuWare 5/6.x.
+KBA is applicable for On-premise Organizations ONLY.

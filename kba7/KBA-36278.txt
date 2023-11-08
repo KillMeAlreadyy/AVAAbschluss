@@ -1,0 +1,20 @@
+How to manually create Notification Database connection.
+
+
+Behavior: When attempting to create a database connection for Notification's, but the option is missing.
+Solution:We can manually adjust the use for “Email notification” on the database side.
+   1. Create a new database connection in the DocuWare Admin Tool by right-clicking the "Data Connections" tab, then select "Create New Database Connection"
+
+   2.Name it “DWnotification”. For now, select any one of the available “used for” options when creating the connection.
+
+   3. In the database section you can enter dwnotification as the database, then enter the username and password for your database, then Select "Finish".
+
+   4. Once completed, open your database and run the following query.***Make sure you have a complete database backup before making any changes you your database.***
+MSSQL:
+ use dwsystem       update DWSystemSettings       set settings = replace (cast (settings as nvarchar(max)),'usedForNotifications="false"','usedForNotifications="true"')       where type like '%databaseconnection%'       and cast (settings as nvarchar(max)) like '%<name>DWnotification</name>%'
+ 
+MySQL:
+use Dwsystem;     update dwsystemsettings     set settings = replace(settings,'usedForNotifications="fasle"','usedForNotifications="true"')     where type like '%databaseconnection%'     and settings like '%<name>DWnotification</name>%' 
+   5. Your database connection “DWnotification” has now had “email notification’s” enabled.
+   6. If you were in the process of upgrading your DocuWare system, you may now proceed with your upgrade.
+This KBA is applicable to On-Premise systems ONLY.

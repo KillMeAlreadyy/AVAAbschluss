@@ -1,0 +1,32 @@
+How to increase the number of CPU cores utilized by DocuWare Desktop OCR
+
+
+
+Question:
+How to increase the number of CPU cores that OCR uses on a client machine for DocuWare Import, Scanner or Printer?
+ 
+Answer:
+When you install DocuWare Desktop Apps on a client machine there is a settings file created specifying the parameters of OCR. Adjusting a certain value in this file will result in OCR utilizing up to a maximum of 4 cores on a client machine regardless of the size or amount of documents being processed by DocuWare Import, Scanner or Printer.
+
+
+Navigate to where DocuWare Desktop Apps are installed on your client machine. The example below shows the location of the installed Desktop Apps on the C drive.
+
+"C:\Program Files(x86)\DocuWare\Desktop"
+Make a backup of the file named "DesktopOcr.settings", rename the backup file's extension to .bak
+Edit the file in Notepad
+Locate the value labeled "MaxCount"
+Change this value from -1 to 4
+
+
+
+  </OcrProviders>
+  <ProcessPool OcrProcessCapacity="100" MaxCount="4" MinCount="0" TimeoutForProcesses="600000"/>
+  <Logging />
+</OcrServiceSettings>
+
+
+
+Restart the DocuWare Desktop Service and the Docuware Desktop Apps
+
+
+

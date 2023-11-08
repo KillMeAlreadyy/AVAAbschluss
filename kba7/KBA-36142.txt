@@ -1,0 +1,9 @@
+Update-installation instructions since DocuWare 7
+
+
+Note:The installation of latest Updates (formerly known as HotfixPacks) is highly recommended for all DocuWare systems. Your DocuWare system is always kept up-to-date by installing the latest Update.Starting with DocuWare 7, Updates are integrated in the DocuWare installation packages.Therefore, to get the latest version of an Update you need to download the DocuWare setup files again.Download link DocuWare 7.1: https://go.docuware.com/download-dw71Download link DocuWare 7.2: https://go.docuware.com/download-dw72Download link DocuWare 7.3: https://go.docuware.com/download-dw73Download link DocuWare 7.4: https://go.docuware.com/download-dw74Download link DocuWare 7.5: https://go.docuware.com/download-dw75Download link DocuWare 7.6: https://go.docuware.com/download-dw76Download link DocuWare 7.7: https://go.docuware.com/download-dw77As soon as new Hotfixes are available, an updated version of the DocuWare installation package is provided, including all fixes and improvements.With running the familiar setup routine again, the latest improvements are installed on your existing DocuWare system.For new installations, downloading the latest version of the setup files ensures that the DocuWare system is up-to-date after finishing the installation.To run the update, you need the following information:  
+DocuWare Service user login credentials (Windows administrator)Database login credentialsDocuWare administrator login credentialslatest DocuWare license file
+Before you start the installation:
+Please make sure that you have a current backup of the system. This includes documents, databases and a file backup of the DocuWare installation folderVerify that the DocuWare setup ZIP file is not blocked (KBA-35001)
+After finishing the installation:
+Clear the browser cacheUpdate the DocuWare Desktop AppsAll manual adaptations which were made in config or settings files have to be done again

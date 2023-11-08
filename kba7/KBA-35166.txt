@@ -1,0 +1,18 @@
+Older file cabinet xml file not usable as template anymore
+
+
+
+
+
+
+
+
+Behavior:
+You exported the settings of a file cabinet as xml file in Docuware Administration or Web Configuration. If this xml was created with a DocuWare  version older than the current installed version of the system where you want to use it as template it might possibly not work. 
+If you try to use such an older xml as a template when creating a new file cabinet you receive the following message:
+"The file you have chosen is not a valid file cabinet settings file. Please select another file or set the file cabinet structure manually." 
+
+Solution:
+There are possible internal database changes every few versions that affect the structure of file cabinets in new versions and therefore use of xml files created by earlier versions. These xml files cannot be used then.
+
+

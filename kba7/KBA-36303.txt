@@ -1,0 +1,30 @@
+Printer PS " DocuWare Desktop is not connected"
+
+
+Behavior:
+Printing via DocuWare Printer PS is unresponsive, you then receive a pop-up error "DocuWare Desktop is not connected" . You've checked desktop application and everything is connected correctly, all other desktop application functions are working correctly.
+
+
+
+Solution:
+ Check %localappdata%\temp\DocuWare\DocuWare Printer PS for a "Script" file. In this file you should see this error "Getting account SID failed. Not found".
+
+   1. Open up CMD prompt and type the following command "whoami /user" it should return the SID of the user you're currently logged in as. You will need the entire SID value.
+
+
+   2. Go to C:\Program Files\DocuWare\DocuWare Printer PS\Macros, make a copy of the "DocuWare.vbs script" file, then open it in a text editor. 
+
+
+   3. Look for the Function "ReadFromRegistry()", below it you will see "userSid = getSid(wshShell)". You need to replace the getSid(wshShell) with the physical SID.
+
+
+
+Before:
+
+
+After:
+
+
+   4. Save the file, stop DocuWare desktop application, and restart the DocuWare desktop service. Start the desktop application and try to print the document again.
+KBA applicable for both Cloud and On-premise Organizations.
+ 

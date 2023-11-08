@@ -1,0 +1,47 @@
+How to create Debug Logging for DocuWare Services
+
+
+Question:
+How to enable Debug Logging for DocuWare Services?
+Logging in DocuWare 7:
+
+Part 1 preparation - clean up the log folder:
+As the log files can contain a lot of entries that are not related to the current behavior, it is better to create a new log that only contains the issue. This will help us to analyze the Logfiles more quickly and does not lead to wrong conclusions.
+
+To delete the log files, please follow these simple steps:
+1a. Open the DocuWare Service Control (1a) and click on "Open Log Folder" (1b). 
+
+image 1a
+1b. The Log folder opens in a new Windows Explorer Window: Delete all files in this folder (1b)
+
+
+image 1b
+
+Part 2: To enable logging in DocuWare 7, you have to open the DocuWare Service Control and click on "Open Log Administration". For each element in the list, you can choose
+(2.a) a custom Log Level
+
+
+image 2a
+or you can change all Levels at once in the General section. Please make sure to click the button "Set Log Levels" (2b)
+
+
+image 2b
+
+Part 3: For Web Client and Settings related issues, it is necessary to activate the so called ETW Listener(s). Change to the Tab "Advanced" and check both: Platform and Settings.
+Then safe the changes. Don't close the Log File Administrator.
+Note: If you close the Log File Administrator, you will be prompted to deactivate the debug logging or keep it on debug. In this case you have to make sure, to deactivate the debug logging manually after you have reproduced the behaviour
+
+
+Final Part 4
+Now its time to zip the Log files and attach the zip file to your support ticket. Just open the Log Folder again (See Part 1b) and create a zip file.
+Answer until Version 6.12:
+DocuWare Administration tool has a unique feature built-in into the program that allows creating debug log files for most DocuWare services and thick client applications.
+Here is a quick guideline on how to enable Debug Log files for DocuWare services:
+Make sure you disable the detailed logging afterwards once you have generated debug log files else the system may get slow.
+
+Open DocuWare Administration tool and go to Local > System Debug Logging
+In System Debug Logging window you can hook on the specific DocuWare Server you want to track to get a detailed log of it. The server logs are created in the folder %ALLUSERSPROFILE%\DocuWare\Logs\ and the client logs (DocuWare Administration or DocuWare Windows Client for instance) in the folder %temp%\DocuWare\Logs by default.
+
+
+NOTE: When submitting the log files to DocuWare Support Department make sure to compress in zip format file because some file are large.  
+Once you have enabled debug-logging you have to replicate the problem so that it generates the logs (Please delete the existing logs before replicating the behaviour to have logs that only consist the needed information). Once the logs has been generated please compress them in a zip format file and send it to the DocuWare Support or upload the files to your case support portal online. 
