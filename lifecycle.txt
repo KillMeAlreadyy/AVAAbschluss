@@ -1,0 +1,47 @@
+DocuWare Support Lifecycle Policy
+In order to maintain the best possible support and improve efficiency in delivering hot fixes and updates each DocuWare version will be supported for 3 years from its release date.
+This policy provides you with a clear guide as to the latest that a customer should be updated, ensuring ongoing security in a fully supported product version. 
+
+Below is a table of the End of Support dates for the currently supported versions. 
+
+Version Number 	
+End of Support Date 
+ 
+
+7.7
+
+7.6
+
+7.5
+
+7.4
+
+7.3 	
+October 31st 2025
+
+May 31st 2025
+
+October 31st 2024
+
+May 31st 2024
+
+June 30th 2023 (no new hot fixes or updates)
+
+7.2 	
+October 31st 2022 (discontinued already)
+
+7.1 	
+April 30th 2022 (discontinued already)
+
+7.0 	
+June 30th 2021 (discontinued already)
+
+6.12 and prior	
+October 31st 2020 (discontinued already) 
+
+5.x and prior 	
+February 28th 2017 (discontinued already)  
+ 
+Please note that at the end of the version’s lifecycle, technical support will be provided as far as practical but will be limited to usage and configuration questions in most cases.  We will address specific technical problems as far as possible, however to achieve a timely solution we may advise that an update to a recent DocuWare version is required as discontinued DocuWare versions can no longer receive updates or hotfixes. 
+
+Support for DocuWare 7.3 will be limited to general trouble-shooting and hot fix packs already published. 

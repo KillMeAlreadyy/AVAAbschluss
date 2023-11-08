@@ -1,0 +1,73 @@
+24/5 Support
+
+DocuWare offers worldwide support 24 hours a day on 5 days a week (Monday-Friday) in case of business-critical incidents.
+We are using the "Follow-the-Sun" model. Meaning, that depending on which DocuWare support location is active, 
+it will take over and respond to Support Requests coming from customers and partners around the world. 
+
+Requirements to receive 24/5 support: 
+
+Active Support- and Maintenance Subscription, Cloud- or Partner-Agreement 
+Communication is offered in English only. 
+Data transfer between support locations in the European Union and in the United States of America is allowed. Data transfer has to be confirmed when reporting a new Support Request. 
+Available only for business-critical incidents. 
+What is a business-critical incident? 
+The DocuWare System is not available for a group of users - these users are not able to perform their normal tasks.  
+DocuWare key features not available (Login, Search, Storage, Document Access or Display) 
+The negative business impact is increasing quickly. 
+Possible data loss  
+ 
+Not covered by 24/5 Support are problems or interruptions during or caused by a planned upgrade, migration or extension of the system out of the local business hours. 
+3rd level support or assistance by DocuWare’s R&D Teams may not be available.
+Requests related to custom applications which are sold in specific sales regions only, are not covered (e.g. Connect to Datev, RecSolutions, BCT Software)
+Public holidays and other announced business closures are not covered.
+DocuWare support locations and regular service hours: 
+
+EMEA support team in Germering (Germany), Barcelona (Spain), Sofia (Bulgaria)
+Monday to Thursday:            9 a.m. to 5 p.m. CET (Central European Time) 
+Friday:                                   9 a.m. to 4 p.m. CET 
+ 
+Americas support team in New York, USA 
+Sunday:                                 7 p.m. to 12 midnight EST (Eastern Standard Time) 
+Monday to Thursday:            12 a.m. to 3:30 a.m. EST & 8:30 a.m. to 12 midnight EST   
+Friday:                                   12 a.m. to 3:30 a.m. EST & 8:30 a.m. to 8:00 p.m. EST   
+Public holidays – Business closures 
+DocuWare support is not offered on any local public holiday or announced business closure. 
+Your Support Request will NOT be transferred to any other location irrespective of whether it is a holiday or business closure in Americas or EMEA.
+How does this work? 
+
+When you need technical support in case of a business-critical incident you can report a Support Request in our Support Portal any time.  
+Requests coming by phone or email cannot be processed as 24/5 Support Requests. 
+Select “English” as communication language. 
+Select a priority and add reasons. More details about prioritization of Support Requests can be found here. 
+Please describe in the “Reasons for Priority” field why you think your request is business critical. In case your description is not sufficient, it may happen that the priority is downgraded on our side during qualification. 
+Describe your request in ENGLISH language: 
+Certain information is very important 
+Where exactly does the problem occur? 
+Which and how many PC's/Users are affected? 
+Which error message is shown or can be found in the log file? 
+When did the problem first occur? 
+Is it possible to reproduce the problem? 
+What changes have been made recently to the system configuration? 
+Do not forget to upload test data (screenshots, logfiles, sample documents). 
+This can be done after the Support Request is submitted. 
+If your Support Request is reported outside of the service hours of your local responsible support location: 
+…the title of your Support Request will be pre-fixed automatically with “24/5 - …” after it has been submitted to us 
+…the Support Request will be transferred automatically to the responsible support team of the active support location 
+…the support team will receive an active notification about your new critical Support Request. 
+…a Software Support Specialist will get in contact with you as soon as possible. 
+If the Support Request cannot be solved within the service hours of the active support region the request will be handed over to the local region as soon as this support team is available. 
+The Support Request will be handled in your responsible local support region from this point on. A hand-over to other support region will be done on case-by-case decision only if necessary. 
+FAQs
+
+Which Support Requests are transferred to active support location? 
+Support Requests are transferred only if they have... 
+both Business Impact AND Urgency = High and English as selected communication language. 
+Business Impact = Normal AND Urgency = High and English as selected communication language. 
+Business Impact = High AND Urgency = Normal and English as selected communication language. 
+Data Transfer Option is set to “Allowed” 
+ 
+How can I check if my Support Request has been transferred? 
+You can check the title of your Support Request in the Support Cockpit. If the title of your new Support Request starts with “24/5 - …”, then it was transferred to active support region.
+ 
+Can my Support Request Priority be downgraded by support? 
+Please note that we will have to change the priority if you cannot provide clear and meaningful reasons when entering the request into the portal. In this case your Support Request will be transferred back to the local region and you will get a response during the normal business hours of that region. 
