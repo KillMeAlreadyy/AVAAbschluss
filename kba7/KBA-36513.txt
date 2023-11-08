@@ -1,0 +1,15 @@
+Terminal Server Warning when installing Desktop apps.
+
+
+Question:
+Why am I receiving a terminal server warning when installing the Desktop apps from a non-terminal server environment?
+
+Answer:
+By product design, when installing DocuWare Desktop Apps in a Windows server environment you will receive this warning. This occurs because Windows server environments by default are terminal servers.
+In environments which are not windows servers, a check against the registry will be done to determine if it's a terminal server or not.
+
+
+
+KBA applicable for both Cloud and On-premise Organizations.
+ 
+ 

@@ -1,0 +1,55 @@
+What needs to be checked before an update?
+
+
+
+Question:
+What do I have to check before I start a DocuWare Update?
+Answer: 
+1. Please check the following points before attempting an update of your DocuWare system.
+
+Is the version you want to update to directly in the update path? (https://support.docuware.com/knowledgebase/article/KBA-34774)
+Is the database supported for the new DocuWare Version? (https://help.docuware.com/#/home/82276/2/2)
+Are there pending windows updates or other installations that need to be finished beforehand?
+Is the used setup up to date (latest version)? (https://support.docuware.com/updates-hotfixes/)
+
+2. The needed logins for an installation are:
+
+Administrative Windows user to run the setup initially.
+Windows user for DocuWare services. The user should have all rights to all DocuWare paths, network paths included. Can be the same as the admin user for the setup.
+Administrative DocuWare user.
+Administrative database user (create, delete and edit databases).
+
+3. Check the database versions.
+
+They should all be the same version as your DocuWare system is right now.
+If not, please update them, by running the setup of the current DocuWare version, or run the upgraders by hand, if confident.
+If the update still yields a different result then expected, please don't hesitate to contact DocuWare Support.
+
+
+
+ dwsystem.dworgdbversion
+ This is the only version from 7.2 on
+
+
+ dwdata.dwsys
+ Contains version information only until 7
+
+
+ dwdata.dwcabinets 
+ Contains version information only in 7 and 7.1
+
+
+ dwworkflowengine.changesets 
+ Exists only until 7.1, will be deleted in newer versions
+
+
+
+4. Please make sure that the DWWorkflowEngine database is present after the update to DocuWare 7.
+The database is created during this update and needed for the further updates.
+Check the dwworkflowengine.changesets table, to make sure that the database is on the fitting DocuWare version before updating.
+
+5. Please make sure to make a backup of your DocuWare system and your database before attempting an update.
+
+For questions or error analysis, please contact your DocuWare Partner, or the DocuWare Support.
+Further information regarding the Update and DocuWare in general can be found at https://support.docuware.com
+

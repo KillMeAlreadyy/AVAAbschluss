@@ -1,0 +1,13 @@
+ERROR: "There was an issue installing the prerequisites" (Desktop apps)
+
+
+Behavior:
+When attempting to update or install DocuWare Desktop Apps you receive the error;
+"There was an issue installing the prerequisites"
+
+Solution:
+This normally occurs when your anti-virus scanner prevents the installation of a required desktop application component. This can occur even when your anti-virus scanner does not send any notifications stating files were blocked.
+
+You can follow this article to prevent these type of conflicts,  Avoid conflicts with Virus scanners and proxys. Alternatively, you may have to temporarily disable your anti-virus application to successfully install the DocuWare Desktop Application.
+
+KBA applicable for both Cloud and On-premise Organizations.

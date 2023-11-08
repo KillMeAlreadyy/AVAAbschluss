@@ -1,0 +1,7 @@
+Windows Authentication Login not working since upgrade to 7.4 or higher
+
+
+Behavior:After upgrade to DocuWare version 7.4 or higher, you are using Windows login and receive a prompt to enter your Windows credentials. After entering the credentials, the prompt pops up blank requesting your input again.
+Solution:To resolve this issue, please implement the following;
+Start the IIS on the DW server and open "*servername*\Sites\Default Web Site\DocuWare\Identity" in the address bar and select "Authentication". Open the Windows Authentication "Providers" Remove the provider "Negotiate" under Windows Authentication. Restart the IIS and delete the browser cache and cookies on client side.In addition, the server address (http://*servername*) should be added to the local intranet in the client's "internet options".
+KBA applicable for On-premise Organizations ONLY.

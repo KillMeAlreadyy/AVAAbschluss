@@ -1,0 +1,12 @@
+Text & Barcode OCR Advance settings
+
+
+Question:
+Where can I find a list of possible properties and values for my OCR Text and Barcode configurations?
+
+Answer:
+Since DocuWare 7.3, it is now possible to apply "Advance settings" to you text or barcode OCR process. This is located at the bottom of your Text and Barcode Recognition configuration. 
+For a list of properties and values regarding these Advanced Settings, please refer to; Configurations for Text Recognition. 
+
+
+KBA applicable for both Cloud and On-premise Organizations.

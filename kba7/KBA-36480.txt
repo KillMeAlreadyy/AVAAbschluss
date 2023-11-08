@@ -1,0 +1,5 @@
+Document Processing configurations missing functionality while settings up configurations
+
+
+Question:Why are some of the features grayed out while trying to configure a Document Processing job?Answer:Some features within the Document processing module require a specific license to be used. For more information on licensing, please refer to the following knowledge-based article: Licensing of Desktop Apps - Printer, Scan & Import.You can check which modules you currently have licenses for via the DocuWare Administration Tool. 
+KBA applicable for On-premise Organizations ONLY.

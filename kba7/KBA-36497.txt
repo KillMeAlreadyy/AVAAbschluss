@@ -1,0 +1,6 @@
+Error during upgrade simulation: CREATE DATABASE permission denied in database 'master'.
+
+
+Behavior:While running the DocuWare database upgrade simulation, this error occurs: 
+"CREATE DATABASE permission denied in database 'master'."Solution: This error occurs when the current SQL user has insufficient permissions. The following article explains the needed SQL server permissions during the upgrade and installation process: Database Guidelines
+KBA applicable for On-premise Organizations ONLY.

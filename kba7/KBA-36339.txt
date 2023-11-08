@@ -1,0 +1,123 @@
+DocuWare Desktop Performance Guide (7.x)
+
+
+Question:
+How to improve the performance of DocuWare Desktop?
+
+Solution:
+The DocuWare Desktop Apps have good default settings for most scenarios of their usage. We continuously evaluate and optimize them. For really heavy usage, like importing thousands of documents per hour, DocuWare Desktop Apps need some fine tuning.
+This article will help you to get the most out of DocuWare Import. Generally, we recommend using the latest DocuWare version and/or to install the latest available Minor Update.
+
+DocuWare Desktop Architecture Overview
+ 
+
+DocuWare Desktop is split into two main parts - client and server side. On the client side you install the DocuWare Desktop Apps whereas on the server side you install the DocuWare Desktop Server components.
+The DocuWare Desktop Apps and the DocuWare Platform communicate via http(s) only. In the DocuWare Desktop Service, which is the main framework of the Desktop Apps all documents that are processed are covered in jobs.
+These jobs exist for reliability reasons not only in memory, but they are also persistent in a database (file). Although this decreases performance a bit, documents are the highest priority value. So, we designed our software that it may crash, or the service may be terminated at any time without losing a document.
+
+After the document is successfully stored in DocuWare, the Platform gives feedback to the Docuware Desktop Service. Only then the job is marked as successful in the history, removed from the temp folder and a notification triggered.
+
+If you run DocuWare Import on the server and all monitored folders are local and accessible by the user running DocuWare Desktop Service (local system), the DocuWare Desktop Apps doesn't have to be started.
+DocuWare Import will continue to work also when the DocuWare Desktop Apps are not started or there is no user logged on to the server. It is only necessary that DocuWare Desktop Service is running.
+Provide enough resources
+
+Running OCR (optical character recognition) and processing thousands of documents requires a bit more resources. So, make sure you are providing these resources.
+If you are running DocuWare Import on a dedicated server following resources are recommended
+- CPU cores: 4 (3,2 GHz)
+	- RAM: 8 GB
+
+If you are running DocuWare Import together with the other DocuWare Services on the server following resources are recommended:
+- CPU Cores: 8 (3,2 GHz)
+-  RAM: 16 GB
+
+DocuWare Desktop works heavily with the hard disk. One of the easiest performance tweaks is the setup of a SSD for the %ProgramData%\DocuWare\Jobs\ folder.
+
+Stop influence from real-time antivirus protection
+
+Many antivirus programs have a real-time scanning functionality which protects the system, but can also slow it down.
+	Please exclude the following file locations and URL from real-time watching:
+   - %ProgramData%\DocuWare\*
+   - %TEMP%\DocuWare\*
+   - %LOCALAPPDATA%\DocuWare\*
+   - DocuWare HTTP Base URL: e.g. http://<servername/IP>/DocuWare/*
+	 
+Import from local folders
+If large amounts of small files are imported from a remote location (i.e. network share) the performance can significantly decrease. It is better to import documents from local folders.
+	 
+Reduce unnecessary overhead of OCR or barcode recognition
+One of the most time consuming tasks in document processing is optical character recognition (OCR) and barcode recognition. 
+
+The biggest performance improvement can be achieved when OCR is done before the import (if possible).
+
+For DocuWare on-premises systems (but not for DocuWare cloud systems) it is possible to reduce text and barcode recognition to a minimum.
+The needed option is available for DocuWare Import and Scanner, but not for Printer.
+The activate the performance enhancement, check the option ‘Disable text and barcode recognition ’ on the General page of an Import configuration.
+
+
+ 
+
+Please be aware that you can only use this option if you have not defined neither barcode nor text recognition zones (tab "Processing").
+ 
+
+Optimize Desktop Apps parameters
+Starting with DocuWare version 6.9, some parameters for Desktop Apps can be optimized by using the so-called Overrides files.
+
+	Please find preconfigured Overrides files for different use cases here:
+
+	Use case 1: Import of many small documents with a small number of pages
+https://dwsupport.blob.core.windows.net/supportdownloads/additional/DocuWare_Desktop_Performance_Guide/Import_Overrides_Small_Documents.zip
+
+Use case 2: Import of a few large documents with many pages
+https://dwsupport.blob.core.windows.net/supportdownloads/additional/DocuWare_Desktop_Performance_Guide/Import_Overrides_Large_Documents.zip
+
+Use case 3: Combination of use case 1 and use case 2
+https://dwsupport.blob.core.windows.net/supportdownloads/additional/DocuWare_Desktop_Performance_Guide/Import_Overrides_Combined_Documents.zip
+
+The combination can be used, but will not be 100 percent accurate.
+	We recommend to split the processing of different use cases on separate clients/server.
+
+	To use the Overrides files follow the steps described below:
+	 
+	
+Download and unpack the ZIP file that matches your use case
+Stop DocuWare Desktop Apps and DocuWare Desktop Service
+Copy the files into the DocuWare Desktop installation directory
+		x86: C:\Programme\DocuWare\Desktop\ 
+		x64: C:\Programme (x86)\DocuWare\Desktop\
+Start DocuWare Desktop Service and DocuWare Desktop Apps.
+		The new settings will be active immediately.
+
+IMPORTANT: The Overrides files will keep their settings after an upgrade of DocuWare
+
+
+
+Explanation of parameters:
+DocuWare.DesktopService.exe.config.overrides
+
+DiscardFinishedJobsImmediately
+If this parameter is set to "true", jobs will be deleted from the database immediately after they have been processed.
+	 
+RemoveTempFile
+With this parameter you can define which jobs are deleted automatically.
+	The setting "KeepErrorAndWarning“ keeps all jobs temporarily that ran into errors or warnings.
+	Depending on the number of such jobs, this can lead to an unnecessary expansion of the database.
+	 
+EnqueueLimit
+The queue of Import jobs can be increased with this parameter.
+	This only makes sense if the DocuWare system is very performant.
+	 
+ 
+	 
+ConcurrencyMaximum
+
+This parameter defines the number of documents processed concurrently.
+The value should not be set higher than twice the real core count of the system.
+
+DocuWare.Desktop.exe.config.overrides
+
+TrayNotificationLevel
+
+By default for every DocuWare Desktop job a tray notification will be shown.
+	The default value of the parameter "TrayNotificationLevel" is "Info".
+	To avoid a performance reduction by these notifications, you can change the notification level for DocuWare Desktop.
+

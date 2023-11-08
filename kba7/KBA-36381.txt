@@ -1,0 +1,24 @@
+Best Practice to Delete a File Cabinet in DocuWare Cloud
+
+
+Question:
+What is the best way to delete a DocuWare File Cabinet from my Cloud system?
+
+Answer:
+It is not recommended to delete a file cabinet that still has documents in it. This will cause these documents to become orphaned documents in the database and will not free up any storage.
+Note: In the event that a file cabinet is deleted with orphaned documents, there is a recovery fee charged to re-instate the file cabinet.
+
+The recommended method to deleting a file cabinet in the cloud would be as follows:
+
+First, delete all documents within the file cabinet. You can do this manually (100 at a time) by selecting all documents on the page of a result list (CTRL + A), right click and select "Delete"
+
+
+
+Note: Another option you have is to configure a DocuWare Deletion Policy that will automatically purge documents. (How to Create a Deletion Policy) 
+	 
+You'll then want to remove any association to trays, roles/groups, users which can be done via the configurations page. (Where To Find These Associations)
+	 
+Once all of the above has been completed, the file cabinet will be ready to be deleted without leaving behind any orphaned documents.
+
+
+KBA applicable for Cloud Organizations ONLY.

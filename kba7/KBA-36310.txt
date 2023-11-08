@@ -1,0 +1,19 @@
+Download DocuWare Version 7.3
+
+
+
+DocuWare Version 7.3 is available for download as a zip file.
+Please read the documentation located in the folder “! Documentation” before you run the upgrade.
+
+DocuWare Setup Version 7.3
+Technical Notes for DocuWare version 7.3
+What's New in DocuWare Version 7.3
+
+The latest setup file will always be available to download using the following link. Please note, the file “DW73.zip” has a size of around 1.54GB. 
+https://go.docuware.com/download-dw73
+
+The latest version of the “What’s new” and the “Important Changes” documentation you can download here:
+
+What's new in DocuWare Version 7.3
+Technical Notes: Changes with DocuWare Version 7.3
+

@@ -1,0 +1,21 @@
+How can I enable Microsoft Office Online with DocuWare?
+
+
+Question:
+How can I enable Microsoft Office Online with DocuWare?
+
+Answer:
+In order to enable and use Microsoft Office Online with DocuWare, you'll need to do the following:
+
+Navigate to the "Configurations" page from the DocuWare web client.
+
+Go into the "Organization Settings" plugin.
+
+Enable the Microsoft Office Online option under "Online editing" and Save
+
+	 
+
+Note: In order to successfully use this option users will need to have Edit rights to the corresponding file cabinet for this to work.
+
+Using Microsoft Office Online should now be possible.
+KBA applicable for Cloud Organizations ONLY.

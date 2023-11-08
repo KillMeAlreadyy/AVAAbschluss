@@ -1,0 +1,7 @@
+ERROR: "Exception: Warning: Fatal error 615 occurred" when upgrading DocuWare
+
+
+Behavior:During the upgrade/installation process of your DocuWare system the installer returns the error,
+"Exception: Warning: Fatal error 615 occurred."Solution:This occurs when the database user does not have sufficient permissions set in the database. This prevents the completion of needed task.(e.g., dropping the temp DB created during the simulation.) Privileges in the database must be elevated for the successful upgrade/installation of your DocuWare system. The correct permissions needed to successfully upgrade/install your DocuWare system can be found here: Database Guidelines
+KBA applicable for On-premise Organizations ONLY.
+ 

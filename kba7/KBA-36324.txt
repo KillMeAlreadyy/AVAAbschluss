@@ -1,0 +1,6 @@
+How to Subscribe to Cloud Outage Notifications
+
+
+Scenario:How can I receive Cloud infrastructure updates?Solution:You may subscribe to receive Cloud outage email notifications directly from your Web Client by doing the following:
+1. Click-on the notification bell next to your username, and then click the "Cloud Status" hyperlink.2. Fill in your email address, then click on the "Get Updates" button.3. You should receive the following message once completed, as seen below.You will now receive email updates in regards to Cloud infrastructure behaviors that may affect your organization.
+KBA applicable for Cloud Organizations ONLY.

@@ -1,0 +1,6 @@
+How to find your Intelligent Indexing user in DocuWare Cloud
+
+
+Scenario:You are having troubles with Intelligent Indexing and DocuWare Support requests your Intelligent Indexing user for further troubleshooting.Answer:Please complete the following in order to find your Intelligent Indexing user;
+From the Web Client, open the "Configurations" page.Go to the Intelligent Indexing plugin.Take a screenshot of or take a note of the "User Connected" value.
+KBA applicable for Cloud Organizations ONLY.

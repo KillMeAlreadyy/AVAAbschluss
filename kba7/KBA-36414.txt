@@ -1,0 +1,21 @@
+Changes in the Admin Tool Cannot be saved
+
+
+
+Behavior:
+When attempting to save changes in the DocuWare Administration Tool, you receive the following error:
+"cannot save changes, please see logging for details"
+Additionally, when trying to add an additional Organization, you receive the error: 
+"Object Reference Not Set to an Instance of an Object"
+Solution:
+This is due to a mismatch between settings dlls files in the Admin Tool folder and the Web\Settings folder. To fix this issue, do the following:
+
+Please navigate to "C:\Program Files\DocuWare\Web\Settings\bin" and copy these 4 dlls selected in the picture below.
+
+
+	 
+Then go to C:\Program Files (x86)\DocuWare\Admin Tool Online and paste them there.
+
+Restart your DocuWare Administration Tool. Saving changes or adding an additional organization should now work without error.
+KBA applicable for On-premise Organizations ONLY.
+

@@ -1,0 +1,21 @@
+Simulation error: "Cannot open backup device (The system cannot find the path specified.)"
+
+
+
+
+Behavior:
+This error message occurs when performing an upgrade simulation:
+
+"Cannot open backup device 'C:\ProgramData\DocuWare\SimulationBackup\xxxxxxxx.bak'. Operating system error 3(The system cannot find the path specified.)"
+
+Solution:
+This error traditional appears due to these two reasons:
+
+The user running the SQL service may not have the full permissions to the location referenced in the error. (may be a network path)
+There is not enough space on your drive.
+
+Check the NTFS permissions to the folder referenced in the error and make sure the correct permissions are set.
+
+KBA applicable for On-premise Organizations ONLY.
+ 
+

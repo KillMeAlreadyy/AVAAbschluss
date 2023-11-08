@@ -1,0 +1,16 @@
+ERROR: "The job could not be started" constantly appearing.
+
+
+
+
+Behavior:
+Every few minutes a reoccurring error appears in a notification window "The job could not be started." There are no import jobs and the Desktop Application has no error's in the history tab.
+
+
+
+
+Solution:
+This error occurs when a document is dropped into a "hotfolder" to be imported, this is not supported. Go into the folder location specified in the error and delete the document if not needed, otherwise you can move it into a different location. Its also possible that the document is corrupted, you may want to check this before attempting to re-import it else where. Once the document is gone from the folder the error should no longer occur.
+KBA applicable for both Cloud and On-premise Organizations.
+ 
+

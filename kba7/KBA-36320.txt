@@ -1,0 +1,8 @@
+How to I create an Import Job
+
+
+Question:How do I create import jobs?Answer:Import jobs are created via the DocuWare Desktop application. After you create a import configuration, you will need to create an import job to execute the configuration.If you have not yet created an import configuration, please refer to the following article to do so; How do I create an import configuration?
+1. Log into your DocuWare account and select the drop down next to your username. Select "Desktop Apps" then select the option "Install Desktop Apps".2. An application named "ClientSetup" will be downloaded, once ran it will begin the installation process. Select the option "Import" then click the install button.3. One installed, launch DocuWare Desktop apps and select the tab labeled "Import." This is where we will create our new import job.4. Choose the "Create new import Job" option. Here, you have the options to:
+Set the name of the job.Select the folder that this job will monitor and import from.Choose the configuration which this import will use.The language which the document will be read in.Select if the documents will be autorotated (in case they are scanned sideways or upside down).Check the file age (Make sure the document is fully written into the folder before imported).
+5. One everything is set as intended, select the "Save" option. You may then start your import job.Your import job will now begin to process the documents based on the settings of the import job and import configuration.
+KBA applicable for both Cloud and On-premise Organizations.

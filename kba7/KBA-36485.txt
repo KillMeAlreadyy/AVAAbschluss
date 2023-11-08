@@ -1,0 +1,27 @@
+Authentication Server does not appear registered in Administration
+
+
+
+​​​​​Scenario:
+You have a multi-server DocuWare system with SSL enabled on all communication channels. A new Authentication Server was installed but you cannot enable SSL. In DocuWare Administrator, the Service options are blank and the server status is "Stopped".
+
+
+Solution:
+This is a result of  the DocuWare Administration Tool having SSL enabled but the new Authentication Server does not. The "NotSecure" communication channel needs to be enabled in the "DocuWare.Administration.exe.settings" file.
+This setting file would be located in C:\Program Files (x86)\DocuWare\AdminTool. You simply need to make sure "NotSecure" is set to "true";
+
+
+
+Once this change has been made, we can restart DocuWare Administration and the Service options will be filled in as intended.
+
+
+
+You can then set up SSL as the communications channels, choose the certificate, and SSL would now be enabled on the new Authentication Server.
+
+Now we must revert "NotSecure" back to "false" in the DocuWare.Administration.exe.settings file.
+
+
+
+Finally, restart the new Authentication Server service. DocuWare Administration will now recognize the new Authentication Server and SSL will be enabled.
+KBA applicable for On-premise Organizations ONLY.
+

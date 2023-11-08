@@ -1,0 +1,23 @@
+Cannot Access Administration Tool from client machines
+
+
+Behavior:
+When trying to access the DocuWare Administration tool, you receive the following error:
+
+ 
+However, you have verified that the Authentication service is running, and you are able to access the Administration tool from the DocuWare server.
+Solution:
+Please complete the following to resolve this error message;
+
+ Choose the "DocuWare Authentication" method from the dropdown.
+In the "Address" bar, plug in the IP Address of the server where the Authentication service is installed.
+For the "Port" bar, plug in the port your system has configured for the Authentication service, by default this value is 9000 on most systems.
+
+
+	 
+Type in your DocuWare Username and Password.
+Login to the Administration tool, which should now succeed without error.
+
+Note: If the error persists after taking the above steps, there may be a firewall or antivirus blocking the connection from client machines to the server.
+You'll need to reach out to your organization's Network Administrator for further troubleshooting.
+KBA applicable for On-premise Organizations ONLY.

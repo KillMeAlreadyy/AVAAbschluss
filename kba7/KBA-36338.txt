@@ -1,0 +1,17 @@
+Configuring DocuWare to use Azure Service Bus
+
+
+
+Scenario:
+You have DocuWare services installed on an Azure Virtual Machine. You are having trouble placing documents into a Tray (i.e. Execution Timeout Error) or running any kind of predefined workflow such as Autoindex, Transfer, Synchronization, or Deletion Policy, which returns a "Server is Not Responding" error.
+
+***Note: The installation of Azure Message Bus is not covered by DocuWare Support, we highly recommend having this done by your IT administrator, your Authorized DocuWare Partner, or by our Professional Services department (a fee will be incurred). ***
+
+Cause:
+Azure Virtual Machines utilize the Azure Service Bus as opposed to the Microsoft Messaging Queuing service used in a standard installation of DocuWare.
+DocuWare and the Azure Virtual Machine needs to be configured to work with the Azure Service Bus.
+
+Solution:
+Go to the following link for installation instructions: DocuWare Azure Service Bus
+KBA applicable for On-premise Organizations ONLY.
+

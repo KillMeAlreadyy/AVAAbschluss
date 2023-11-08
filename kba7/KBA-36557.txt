@@ -1,0 +1,9 @@
+How to install the User Sync V2
+
+
+Question:How do you install the User Sync V2?
+Answer:The User Sync V2 app can be installed when installing the DocuWare Desktop Apps. Please refer to link below on how to install DocuWare Desktop Apps:Installing DocuWare Desktop Apps
+ 
+
+ 
+KBA applicable for both Cloud and On-premise Organizations.

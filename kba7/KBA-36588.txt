@@ -1,0 +1,5 @@
+Is it possible to upgrade the windows version of my DocuWare server?
+
+
+Question:Is it possible to upgrade the windows version of my DocuWare server?Answer:It is indeed possible as long as the version of Windows is supported by your DocuWare system. This information can be found within the installation files of your current DocuWare version. As a precautionary measure, we suggest taking a backup of your DocuWare database before any changes are made. (Note: Operating Systems are considered external components and is not part of the standard support contract.)
+KBA applicable for On-premise Organizations ONLY.

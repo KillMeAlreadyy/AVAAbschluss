@@ -1,0 +1,25 @@
+Readability of the document when processed with Intelligent Indexing
+
+
+Behavior:
+Intelligent Indexing does not recognize all areas of the document, so some index terms have to be entered manually.
+Solution:
+In order for Intelligent Indexing to recognize all configured index terms and fill the index fields with them, the relevant areas on the document must be machine-readable and have sufficient quality.
+If certain areas of a document cannot be read by Intelligent Indexing, there is no text shot for these areas in the original document (PDF).
+In order to make these areas usable for Intelligent Indexing, the OCR must generate a new text shot for the document so that the complete document is made available for the full text and for Intelligent Indexing.
+In cloud systems, this can be implemented via an import job. To force the creation of a new text shot during the import job, only one file must be adapted.
+In the file "...\DocuWare\Desktop\DocuWare.DesktopService.exe.config", add the following key to the <appSettings> section:
+<add key="UseOcrForNativePdf" value="true"/>.
+Then restart the DocuWare Desktop Service.
+For On Premises systems you can force the creation of a new text shot in general, e.g. also when dragging and dropping into the mailbox.
+To do this, add/change the following value in the "DocuWare.Imaging.Worker.exe.config" file in the \DocuWare\Common\Imaging\ directory. 
+Previously:
+    <TextExtractionMethods>.
+      <add fileType="Raster" method="Ocr"/>
+    </TextExtractionMethods>
+After:
+    <TextExtractionMethods> 
+      <add fileType="Raster" method="Ocr"/>
+       <add fileType="Pdf" method="ToOcr"/> 
+    </TextExtractionMethods> 
+Both changes have the effect that the processing time of the documents increases slightly, because the OCR needs time to create the new text shot.

@@ -1,0 +1,25 @@
+How can I sort my configurations within DocuWare Configuration?
+
+
+
+Question:
+How can I sort the configurations on the DocuWare Configuration page?
+Answer:
+Two types of sorting are offered within DocuWare
+Note: The sorting options change between plugin for flexibility.
+
+The below plugins offer sorting capabilities:
+
+Document Processing
+Forms
+General Mail
+Indexing Assistance
+File Cabinets
+Document Relations
+Notifications
+Stamps
+Document Trays
+Smart Connect
+
+KBA applicable for both Cloud and On-premise Organizations.
+

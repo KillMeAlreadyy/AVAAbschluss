@@ -1,0 +1,5 @@
+ERROR: "Multiple connections to the workflow database were found" when upgrading to 7.4 or higher
+
+
+Behavior:While attempting to upgrade to DocuWare version 7.4 or higher, you receive the following error; Solution:This occurs when more than one of your database connections has the "Workflow Manager" option selected in the "Used for" section.Check each database connection and make sure only one has the "Workflow Manager" option selected.
+KBA applicable for On-premise Organizations ONLY.

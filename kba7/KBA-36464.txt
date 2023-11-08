@@ -1,0 +1,26 @@
+"The uploaded document could not be analyzed" When uploading a sample document in document processing.
+
+
+Behavior:
+When uploading a sample document into your Document Processing configuration an error occurs;
+
+"The uploaded document could not be analyzed. Ensure that the document is a valid PDF and is not password protected" 
+
+
+
+Solution:
+This error can be caused by a variety of different reasons such as:
+
+Check and verify your PDF is valid and not corrupted. Also, make sure the PDF is not password protected.(Applicable to cloud organizations) 
+	 
+Check the system storage path in the admin tool to make sure the folder location is accessible. This location needs to be accessible via DocuWare administration and file explorer, if not this will need to be adjusted. (On-Premise only)
+
+
+	 
+Check you web connections and make sure the URL you're using is correct (On-Premise only)
+
+
+
+If the following suggestions listed above did not resolve the issue, please contact our support team for further assistance. 
+On how to submit a support request, please follow refer to this article: https://support.docuware.com/en-us/knowledgebase/article/KBA-36198
+KBA applicable for both Cloud and On-premise Organizations.

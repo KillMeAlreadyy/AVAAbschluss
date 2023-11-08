@@ -1,0 +1,24 @@
+How to enable Debug logging for Cloud User Sync V2
+
+
+Question:
+How do you enable Debug logging for User Sync V2 in DocuWare Cloud?
+
+Answer:
+To enable Debug logging for Cloud User Sync V2, we will need to access the .config file for this App. 
+
+Please open "C:\Program Files (x86)\DocuWare\User Synchronization" and locate the file named "DocuWare.ADSync.exe.config."
+
+
+Navigate through the file until you see the highlighted area below.
+
+
+Change the "Error" value to "Debug" as highlighted below.
+
+
+Save this file to apply the changes in the log level then run the User Sync to create the Debug log.
+
+The debug log should now be found in C:\ProgramData\DocuWare\Logs.
+
+After creating the debug logs, it is necessary to adjust the DocuWare.ADSync.exe.config file back to "Error" , save and close it .
+KBA applicable for Cloud Organizations ONLY.

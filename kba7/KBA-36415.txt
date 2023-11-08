@@ -1,0 +1,29 @@
+ERROR: "A direct upgrade of DocuWare Server Setup is not possible from the currently installed version."
+
+
+
+
+Behavior:
+After running the Installer for DocuWare versions 7 or higher a similar error occurs: 
+
+"A direct upgrade of DocuWare Server Setup is not possible from the currently installed version. 6.12-7"
+
+Solution:
+This occurs when a server component from a previous version failed to uninstall correctly. Please complete the following to resolve this error:
+
+ On the DocuWare server navigate to the following location C:\Windows\Installer. Most of the time the folder is hidden so you will have to type the path manually.
+	You can also follow this article which shows how to unhide hidden folders and documents. How to Hide/Unhide Windows Files and Folders
+	 
+Once in the installer folder, add the "Subject" column to the folder view (If not currently present). 
+
+
+
+	 
+Click the subject column to sort by name, look for duplicate DocuWare installer names. The most common setup which causes problems is "DocuWare Job Server Setup," you can tell which one is older by the "Date modified" column.
+
+
+	 
+Once successfully uninstalled re-run the installer.
+
+KBA applicable for On-premise Organizations ONLY.
+

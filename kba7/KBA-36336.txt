@@ -1,0 +1,17 @@
+How do I create a Transfer job?
+
+
+Question:How do I create a Transfer job?Answer:To learn how to create and customize a Transfer job for your DocuWare On-premise or DocuWare Cloud system, please follow the steps below:
+1. Log into the Web Client select the drop down next to your name and select the "Configurations" option. 
+2. Next, find and select the "Transfer" plugin on the configurations page. 
+3. Select the option "New Transfer" located at the center of the page.4. On the landing page of the new transfer job, you're given the the options to:
+Select the transfer source and target file cabinetDelete the documents from the source cabinet once movedEnable transfer for cabinets with version management enabled Set a filter to transfer only specific documents
+For more information, each of these options will have a    icon located to the right of it. When hovering over this icon, you will provided a brief description.Note: There will be document duplication if a job is ran more then once without a filter or without deleting the documents from the source cabinet.Note: Cloud organizations can only transfer within the same organization.
+5. On the "Schedule" tab, you're given the option to select when and how often this job will re-occur. These options include:
+DailyWeeklyMonthlyNever
+
+6. On the "Permissions" tab you have the option to grant users the ability to administrate or run this job.
+7. Once you have configured your transfer job, save your changes and head back to the page where you selected new transfer. You should now see your job listed on this page.If the job is set to a schedule, it will run once that criteria is met, otherwise selecting the "Start Now" icon will begin your job.
+ 
+KBA applicable for both Cloud and On-premise Organizations.
+

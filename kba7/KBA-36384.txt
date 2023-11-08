@@ -1,0 +1,24 @@
+How to enable Debug logging for Cloud Workflow Designer
+
+
+Question:
+How do you enable Debug logging for Workflow Designer in DocuWare Cloud?
+
+Answer:
+To enable Debug logging for Cloud Workflow Designer, we will need to access the .config file for Workflow Designer. 
+
+Please open "C:\Program Files (x86)\DocuWare\Workflow Designer" and locate the file name "DocuWare.Bpw.Designer.exe.config."
+
+
+Navigate through the file until you locate the highlighted area below.
+
+
+Change the "Error" value to "Debug" as highlighted below.
+
+
+Once this is completed,  save this file to apply the changes in the log level. 
+
+Use the Workflow Designer to create the debug log. The debug log should now be found in this location C:\ProgramData\DocuWare\Logs\Bpw.
+
+After creating the debug logs, it is necessary to adjust the DocuWare.Bpw.Designer.exe.config file back to "Error," save and close it.
+KBA applicable for Cloud Organizations ONLY.

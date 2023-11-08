@@ -1,0 +1,77 @@
+Throttling cloud requests
+
+
+
+Question:
+Why do I get an error message in my tool that my requests are throttled?
+
+Answer:
+To prevent you from putting too much strain on your own cloud system, too frequent requests are throttled.
+The reason for this is that too frequent requests that are not necessary can have a negative impact on your workflows.
+
+Currently, the following requests are throttled and limited to:
+
+
+
+Functionality
+Throttling
+API Uri
+
+
+Account Logins (starting 6. April 2022)
+60 calls per minute
+Account/Logon
+
+
+File Cabinet Description
+60 calls per Minute
+FileCabinets/Index
+
+
+
+
+This means, for example, that if a client tries to log in more than 60 times in a minute, the 61th login request is throttled.
+Throttling means:
+
+Normally, a request is delivered within a few milliseconds. When a request is throttled, the response is sent after 10 seconds.
+The HTTP status 429 status code is returned.
+The request will not be processed. Your application has to send the request again
+
+ 
+If you receive an HTTP status of 429, please check your platform application carefully.
+An optimized platform application helps you and all other DocuWare users to get a faster response from your DocuWare cloud system.
+ 
+You can find a best practices example on how to deal with throttling on our developers homepage 
+
+Please note that throttling only applies to SDK tools that connect to the DocuWare platform. Actions within the web client that are performed by a user are not throttled.
+
+Attention:
+If a platform application uses the same DocuWare user login as a DocuWare client (e.B. desktop app) and the visible IP address for the DocuWare server is the same, 
+then it can also happen that the DocuWare client is throttled.
+The reason is that the application server counts all requests of a DocuWare user + IP address per time period. If, for example, the platform application has already 
+requested "FileCabinets/Index" 60 times in one minute and then the desktop app also tries to get this information, then the desktop app is throttled. It is therefore 
+important that all platform applications are carefully programmed to avoid further problems or side effects.
+ 
+
+On 6. April 2022 throttling is introduced in the Identity Service. That means that certain requests will be blocked if they exceed a threshold. Currently, there is a limit of
+60 requests per minute for the following endpoints:
+
+All POST requests to the Account controller - all paths that start with “/Account”
+All requests to the Identity Service API - all paths that start with “/api”
+All requests to the OIDC authorize endpoint - all paths that start with “/connect/authorize”
+All requests to the OIDC token endpoint - all paths that start with “/connect/token”
+
+When the threshold is reached the endpoints will return a response like this:
+
+Status code: HTTP status code 429 (Too Many Requests)
+Retry-After: 58 (HTTP header)
+Content: API calls quota exceeded! maximum admitted 60 per 1m.
+
+If the threshold is still not reached the response contains the following headers:
+
+X-Rate-Limit-Limit: the rate limit period (eg. 1m, 12h, 1d)
+X-Rate-Limit-Remaining: number of request remaining
+X-Rate-Limit-Reset: UTC date time (ISO 8601) when the limits resets
+
+
+

@@ -1,0 +1,27 @@
+ERROR: "Cannot find Active Authentication Server" when on Configurations page
+
+
+
+Behavior:
+When trying to access the Configurations page on a multi-server environment, you receive the error:
+
+"Login failed: Cannot find active Authentication server. All servers are either stopped or the communication channel settings don't allow a connection"
+
+You've verified that all DocuWare services are in a "Running" state.
+
+Solution:
+In order to fix this error, please execute the following;
+
+Navigate to the drive where DocuWare web components are installed and go to "Program Files\Web\Settings\bin" then edit the "DocuWare.WAFServices.settings" file.
+***NOTE: Make a copy of this file before making any changes!***
+
+
+Change the Authentication Server name from "localhost" to the server name where the DocuWare Authentication Service is currently running.
+
+
+	 
+Perform an IISRESET and accessing the configurations page should now be successful.
+	Unsure of how to reset IIS? Please follow  KBA-34532  to reset IIS correctly.
+
+KBA applicable for On-premise Organizations ONLY.
+

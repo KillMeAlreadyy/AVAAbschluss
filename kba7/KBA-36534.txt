@@ -1,0 +1,14 @@
+Cloud Storage Notifications : Who and When
+
+Views: 243
+Question:
+Who gets the Cloud Storage notifications and when?
+
+Answer:
+When certain storage limits are reached or exceeded, DocuWare automatically sends email notifications to the organization administrator and the ADP contact. This applies in each case when 85%, 90%, 95%, 99%, and 100% of the storage limit is reached or exceeded.
+
+When 85% of the storage limit is reached or exceeded, these notifications go to the ADP contact for indirect customers, and to the organization administrator for direct customers.
+When 90%, 95%, 99%, and 100% of the storage limit is reached or exceeded, the notifications go to the organization administrator and ADP contact for indirect customers, and only to the organization administrator for direct customers.
+Notifications are sent when the remaining storage volume is less than 100 days. The calculation is based on the storage behavior of the last 30 days.
+
+KBA applicable for Cloud Organizations ONLY.

@@ -1,0 +1,15 @@
+ERROR: "There is insufficient free space on disk volume '*:\' to create the database." while running DocuWare upgrade simulator.
+
+
+Behavior: 
+An error occurs while running your DocuWare upgrade simulation:
+ERROR: There is insufficient free space on disk volume '*:\' to create the database. The database requires xxxxxxxxxxxx additional free bytes, while only xxxxxxxxxxxx bytes are available.
+Problems were identified while planning for the RESTORE statement. Previous messages provide details.
+Solution:
+To resolve this issue, please add or clear space on the referenced drive where the database is installed.
+
+During this process, the DocuWare simulation takes a back up of not only your dwsystem and dwworkflowengine databases, but the transaction logs as well (MSSQL). 
+In some instances, when transaction logs are left unmaintained their growth can be unlimited, this can cause your transaction logs to grow hundreds of times larger then your actual DocuWare databases. 
+In these cases your transaction logs can be truncated, this will reduce the amount of space needed for the simulation to occur. Please refer to this article explaining the process on how to do so: Truncate logs .(Note: Only applicable if transactional backups are not used)
+KBA applicable for On-premise Organizations ONLY.
+ 

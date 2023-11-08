@@ -1,0 +1,5 @@
+Is it possible for the Document Processing configuration to delete blank pages?
+
+
+Question:Is it possible for the Document Processing configuration to delete blank pages?
+Answer:At this time the Document Processing configurations cannot remove blank pages from your documents. However, if you're using the scan functionality from the Desktop application, there is a option to delete blank pages from your scanned documents. KBA applicable for both Cloud and On-premise Organizations.

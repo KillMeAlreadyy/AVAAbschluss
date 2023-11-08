@@ -1,0 +1,7 @@
+DocuWare Single Sign-On and Multi Factor Authentication
+
+
+Question:How does Multi Factor Authentication work in DocuWare? How can I configure this?
+Answer:Multi Factor Authentication is not configured or executed by DocuWare. To enable MFA for a user you would need to configure this in your Microsoft Azure environment.Once a user authenticates, they are sent to Azure where the credentials can be verified. Azure processes the MFA and once verified, the user login is redirected back to DocuWare.
+Note: Information applicable for Cloud & On-Premise systems starting in DocuWare version 7.4.It is recommended to reach out to Microsoft for issues or questions in relation to the Multi Factor Authentication of a user.
+KBA applicable for both Cloud and On-premise Organizations.

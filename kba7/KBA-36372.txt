@@ -1,0 +1,27 @@
+The index 'IX .....' is dependent on column 'DOCUMENTCHANGE'.
+
+
+
+Behavior:
+Content upgrader fails when upgrading to DocuWare version 7 with the following error:
+
+"Upgrade failed. ---> DocuWare.Common.Exceptions.DWDBException: The index 'IX520f39d913f34d0fb21c6d201538' -is dependent on column 'DOCUMENTCHANGE'.
+ALTER TABLE ALTER COLUMN DOCUMENTCHANGE failed because one or more objects access this column."
+
+Solution:
+This occurs when the index referenced in the error prevents the upgrader from making needed database changes during the upgrade. This can be fixed by deleting the referenced index.
+
+***NOTE: Make sure to take a complete database backup before making any of the following changes.***
+
+Access the database and find the table named "DWSYS" in the "dwdata" database.
+(DWSYS table will only be present in systems that were formerly on DocuWare versions 6.12 or below)
+
+	 
+Expand the table and expand the indexes folder within the table. This is where you will find the index referenced in your log, find the index then delete it.
+(Note: The index will be different in every system, check your error log for the correct Index)
+
+
+	3. Refresh the database instance to make sure the index was removed, then retry the Content Upgrader.
+
+KBA applicable for On-premise Organizations ONLY.
+

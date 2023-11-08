@@ -1,0 +1,5 @@
+How to uninstall Desktop apps (7.4+)
+
+
+Question: How do I uninstall Desktop apps in DocuWare 7.4 and higher?Answer:Starting in DocuWare 7.4, DocuWare Desktop apps can be uninstalled from the Client Setup.
+ From the drop down in the DocuWare web client, select Desktop apps then select "Install Desktop Apps."  Download and launch the client setup, once launched you will see all modules currently installed on your system. From here, select Uninstall. If you are operating on DocuWare 7.6 or higher, once the Client Setup window appears, select Remove Apps.  On the "Uninstall Desktop Apps" screen, you're given a list of modules which can be uninstalled. Select the desired module(s) you wish to remove by checking each module then select uninstall.  After they've been successfully uninstalled, you can continue to use your Desktop apps. KBA applicable for both Cloud and On-premise Organizations.
