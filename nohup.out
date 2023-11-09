@@ -1,161 +1,177 @@
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-[32m2023-11-08 14:53:18 +0000[0m - dagit - [34mWARNING[0m - The `dagit` CLI command is deprecated and will be removed in dagster 2.0. Please use `dagster-webserver` instead.
-[32m2023-11-08 14:53:18 +0000[0m - dagit - [34mINFO[0m - Using temporary directory /home/Kevin/AVAAbschluss/tmpzx15o21g for storage. This will be removed when dagster-webserver exits.
-[32m2023-11-08 14:53:18 +0000[0m - dagit - [34mINFO[0m - To persist information across sessions, set the environment variable DAGSTER_HOME to a directory to use.
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-[32m2023-11-08 14:53:21 +0000[0m - dagster.code_server - [34mINFO[0m - Started Dagster code server for file langchain_help.py in process 3695759
-[32m2023-11-08 14:53:21 +0000[0m - dagit - [34mINFO[0m - Serving dagster-webserver on http://0.0.0.0:3000 in process 3695751
-[32m2023-11-08 14:55:01 +0000[0m - dagster.code_server - [34mINFO[0m - Stopping server once all current RPC calls terminate or 60 seconds pass
-[32m2023-11-08 14:55:01 +0000[0m - dagster.code_server - [34mINFO[0m - Code server was interrupted
-[32m2023-11-08 14:55:01 +0000[0m - dagster.code_server - [34mINFO[0m - Shutting down Dagster code server for file langchain_help.py in process 3695759
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-[32m2023-11-08 14:55:50 +0000[0m - dagit - [34mWARNING[0m - The `dagit` CLI command is deprecated and will be removed in dagster 2.0. Please use `dagster-webserver` instead.
-[32m2023-11-08 14:55:50 +0000[0m - dagit - [34mINFO[0m - Using temporary directory /home/Kevin/AVAAbschluss/tmpfktip6_5 for storage. This will be removed when dagster-webserver exits.
-[32m2023-11-08 14:55:50 +0000[0m - dagit - [34mINFO[0m - To persist information across sessions, set the environment variable DAGSTER_HOME to a directory to use.
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-[32m2023-11-08 14:55:53 +0000[0m - dagster.code_server - [34mINFO[0m - Started Dagster code server for file langchain_help.py in process 3696765
-[32m2023-11-08 14:55:53 +0000[0m - dagit - [34mINFO[0m - Serving dagster-webserver on http://0.0.0.0:3000 in process 3696761
-[32m2023-11-08 14:57:45 +0000[0m - dagster.code_server - [34mINFO[0m - Stopping server once all current RPC calls terminate or 60 seconds pass
-[32m2023-11-08 14:57:45 +0000[0m - dagster.code_server - [34mINFO[0m - Code server was interrupted
-[32m2023-11-08 14:57:45 +0000[0m - dagster.code_server - [34mINFO[0m - Shutting down Dagster code server for file langchain_help.py in process 3696765
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-[32m2023-11-08 14:57:52 +0000[0m - dagit - [34mWARNING[0m - The `dagit` CLI command is deprecated and will be removed in dagster 2.0. Please use `dagster-webserver` instead.
-[32m2023-11-08 14:57:52 +0000[0m - dagit - [34mINFO[0m - Using temporary directory /home/Kevin/AVAAbschluss/tmpyds4yk3w for storage. This will be removed when dagster-webserver exits.
-[32m2023-11-08 14:57:52 +0000[0m - dagit - [34mINFO[0m - To persist information across sessions, set the environment variable DAGSTER_HOME to a directory to use.
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-[32m2023-11-08 14:57:55 +0000[0m - dagster.code_server - [34mINFO[0m - Started Dagster code server for file langchain_help.py in process 3697804
-[32m2023-11-08 14:57:55 +0000[0m - dagit - [34mINFO[0m - Serving dagster-webserver on http://0.0.0.0:3000 in process 3697796
-[32m2023-11-08 14:58:05 +0000[0m - dagster.code_server - [34mINFO[0m - Stopping server once all current RPC calls terminate or 60 seconds pass
-[32m2023-11-08 14:58:05 +0000[0m - dagster.code_server - [34mINFO[0m - Code server was interrupted
-[32m2023-11-08 14:58:05 +0000[0m - dagster.code_server - [34mINFO[0m - Shutting down Dagster code server for file langchain_help.py in process 3697804
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-[32m2023-11-08 14:58:26 +0000[0m - dagit - [34mWARNING[0m - The `dagit` CLI command is deprecated and will be removed in dagster 2.0. Please use `dagster-webserver` instead.
-[32m2023-11-08 14:58:26 +0000[0m - dagit - [34mINFO[0m - Using temporary directory /home/Kevin/AVAAbschluss/tmp0d4b54es for storage. This will be removed when dagster-webserver exits.
-[32m2023-11-08 14:58:26 +0000[0m - dagit - [34mINFO[0m - To persist information across sessions, set the environment variable DAGSTER_HOME to a directory to use.
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-[32m2023-11-08 14:58:29 +0000[0m - dagster.code_server - [34mINFO[0m - Started Dagster code server for file langchain_help.py in process 3698070
-[32m2023-11-08 14:58:29 +0000[0m - dagit - [34mINFO[0m - Serving dagster-webserver on http://0.0.0.0:3000 in process 3698067
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-2023-11-08 14:59:03 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698416 - RUN_START - Started execution of run for "__ASSET_JOB".
-2023-11-08 14:59:03 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698416 - ENGINE_EVENT - Executing steps using multiprocess executor: parent process (pid: 3698416)
-2023-11-08 14:59:03 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698416 - source_docs - STEP_WORKER_STARTING - Launching subprocess for "source_docs".
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-2023-11-08 14:59:05 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698436 - STEP_WORKER_STARTED - Executing step "source_docs" in subprocess.
-2023-11-08 14:59:05 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698436 - source_docs - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
-2023-11-08 14:59:05 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698436 - source_docs - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
-2023-11-08 14:59:05 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698436 - LOGS_CAPTURED - Started capturing logs in process (pid: 3698436).
-2023-11-08 14:59:05 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698436 - source_docs - STEP_START - Started execution of step "source_docs".
-2023-11-08 14:59:05 +0000 - dagster - ERROR - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698436 - source_docs - STEP_FAILURE - Execution of step "source_docs" failed.
-
-dagster._core.errors.DagsterExecutionStepExecutionError: Error occurred while executing op "source_docs"::
-
-FileNotFoundError: [Errno 2] No such file or directory: 'wpCloud.pdf'
-
-Stack Trace:
-  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_core/execution/plan/utils.py", line 54, in op_execution_error_boundary
-    yield
-  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_utils/__init__.py", line 461, in iterate_with_context
-    next_output = next(iterator)
-  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_core/execution/plan/compute_generator.py", line 131, in _coerce_op_compute_fn_to_iterator
-    result = invoke_compute_fn(
-  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_core/execution/plan/compute_generator.py", line 125, in invoke_compute_fn
-    return fn(context, **args_to_pass) if context_arg_provided else fn(**args_to_pass)
-  File "/home/Kevin/AVAAbschluss/langchain_help.py", line 25, in source_docs
-    return list(get_docs())
-  File "/home/Kevin/AVAAbschluss/langchain_help.py", line 52, in get_docs
-    sources.append(get_pdffile_data("https://go.docuware.com/WPCloud-EN", "wpCloud.pdf"))
-  File "/home/Kevin/AVAAbschluss/langchain_help.py", line 143, in get_pdffile_data
-    reader = PdfReader(filename)
-  File "/home/Kevin/.local/lib/python3.8/site-packages/PyPDF2/_reader.py", line 317, in __init__
-    with open(stream, "rb") as fh:
-
-2023-11-08 14:59:05 +0000 - dagster - ERROR - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - search_index - Dependencies for step search_index failed: ['source_docs']. Not executing.
-2023-11-08 14:59:06 +0000 - dagster - DEBUG - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698416 - ENGINE_EVENT - Multiprocess executor: parent process exiting after 2.48s (pid: 3698416)
-2023-11-08 14:59:06 +0000 - dagster - ERROR - __ASSET_JOB - a32ba7df-1d1a-4413-9966-22f060bcb002 - 3698416 - RUN_FAILURE - Execution of run for "__ASSET_JOB" failed. Steps failed: ['source_docs'].
-[32m2023-11-08 15:06:17 +0000[0m - dagster.code_server - [34mINFO[0m - Stopping server once all current RPC calls terminate or 60 seconds pass
-[32m2023-11-08 15:06:17 +0000[0m - dagster.code_server - [34mINFO[0m - Code server was interrupted
-[32m2023-11-08 15:06:17 +0000[0m - dagster.code_server - [34mINFO[0m - Shutting down Dagster code server for file langchain_help.py in process 3698070
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-[32m2023-11-08 15:09:13 +0000[0m - dagit - [34mWARNING[0m - The `dagit` CLI command is deprecated and will be removed in dagster 2.0. Please use `dagster-webserver` instead.
-[32m2023-11-08 15:09:13 +0000[0m - dagit - [34mINFO[0m - Using temporary directory /home/Kevin/AVAAbschluss/tmpvn_g_0uo for storage. This will be removed when dagster-webserver exits.
-[32m2023-11-08 15:09:13 +0000[0m - dagit - [34mINFO[0m - To persist information across sessions, set the environment variable DAGSTER_HOME to a directory to use.
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-[32m2023-11-08 15:09:16 +0000[0m - dagster.code_server - [34mINFO[0m - Started Dagster code server for file langchain_help.py in process 3702714
-[32m2023-11-08 15:09:16 +0000[0m - dagit - [34mINFO[0m - Serving dagster-webserver on http://0.0.0.0:3000 in process 3702695
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-2023-11-08 15:10:17 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703292 - RUN_START - Started execution of run for "__ASSET_JOB".
-2023-11-08 15:10:17 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703292 - ENGINE_EVENT - Executing steps using multiprocess executor: parent process (pid: 3703292)
-2023-11-08 15:10:17 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703292 - source_docs - STEP_WORKER_STARTING - Launching subprocess for "source_docs".
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-2023-11-08 15:10:18 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703319 - STEP_WORKER_STARTED - Executing step "source_docs" in subprocess.
-2023-11-08 15:10:18 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703319 - source_docs - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
-2023-11-08 15:10:18 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703319 - source_docs - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
-2023-11-08 15:10:19 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703319 - LOGS_CAPTURED - Started capturing logs in process (pid: 3703319).
-2023-11-08 15:10:19 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703319 - source_docs - STEP_START - Started execution of step "source_docs".
-2023-11-08 15:10:22 +0000 - dagster - ERROR - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - search_index - Dependencies for step search_index failed: ['source_docs']. Not executing.
-2023-11-08 15:10:22 +0000 - dagster - DEBUG - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703292 - ENGINE_EVENT - Multiprocess executor: parent process exiting after 5.79s (pid: 3703292)
-2023-11-08 15:10:22 +0000 - dagster - ERROR - __ASSET_JOB - 2a24e60d-3ab9-4464-9fb2-1779b634eb18 - 3703292 - RUN_FAILURE - Execution of run for "__ASSET_JOB" failed. Steps failed: ['source_docs'].
-[32m2023-11-08 15:10:59 +0000[0m - dagster.code_server - [34mINFO[0m - Code server was interrupted
-[32m2023-11-08 15:10:59 +0000[0m - dagster.code_server - [34mINFO[0m - Shutting down Dagster code server for file langchain_help.py in process 3702714
-[32m2023-11-08 15:10:59 +0000[0m - dagit - [34mINFO[0m - Server for dagit was shut down.
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-[32m2023-11-08 15:21:07 +0000[0m - dagit - [34mWARNING[0m - The `dagit` CLI command is deprecated and will be removed in dagster 2.0. Please use `dagster-webserver` instead.
-[32m2023-11-08 15:21:07 +0000[0m - dagit - [34mINFO[0m - Using temporary directory /home/Kevin/AVAAbschluss/tmpd3jnc2dd for storage. This will be removed when dagster-webserver exits.
-[32m2023-11-08 15:21:07 +0000[0m - dagit - [34mINFO[0m - To persist information across sessions, set the environment variable DAGSTER_HOME to a directory to use.
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-[32m2023-11-08 15:21:10 +0000[0m - dagster.code_server - [34mINFO[0m - Started Dagster code server for file langchain_help.py in process 3704931
-[32m2023-11-08 15:21:10 +0000[0m - dagit - [34mINFO[0m - Serving dagster-webserver on http://0.0.0.0:3000 in process 3704921
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-2023-11-08 15:21:25 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705119 - RUN_START - Started execution of run for "__ASSET_JOB".
-2023-11-08 15:21:25 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705119 - ENGINE_EVENT - Executing steps using multiprocess executor: parent process (pid: 3705119)
-2023-11-08 15:21:25 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705119 - source_docs - STEP_WORKER_STARTING - Launching subprocess for "source_docs".
-/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.18) or chardet (3.0.4) doesn't match a supported version!
-  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
-2023-11-08 15:21:27 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705142 - STEP_WORKER_STARTED - Executing step "source_docs" in subprocess.
-2023-11-08 15:21:27 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705142 - source_docs - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
-2023-11-08 15:21:27 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705142 - source_docs - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
-2023-11-08 15:21:27 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705142 - LOGS_CAPTURED - Started capturing logs in process (pid: 3705142).
-2023-11-08 15:21:27 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705142 - source_docs - STEP_START - Started execution of step "source_docs".
-2023-11-08 15:21:32 +0000 - dagster - ERROR - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705142 - source_docs - STEP_FAILURE - Execution of step "source_docs" failed.
-
-dagster._core.errors.DagsterExecutionStepExecutionError: Error occurred while executing op "source_docs"::
-
-FileNotFoundError: [Errno 2] No such file or directory: '/home/Kevin/AVAAbschluss/kba7'
-
-Stack Trace:
-  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_core/execution/plan/utils.py", line 54, in op_execution_error_boundary
-    yield
-  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_utils/__init__.py", line 461, in iterate_with_context
-    next_output = next(iterator)
-  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_core/execution/plan/compute_generator.py", line 131, in _coerce_op_compute_fn_to_iterator
-    result = invoke_compute_fn(
-  File "/home/Kevin/.local/lib/python3.8/site-packages/dagster/_core/execution/plan/compute_generator.py", line 125, in invoke_compute_fn
-    return fn(context, **args_to_pass) if context_arg_provided else fn(**args_to_pass)
-  File "/home/Kevin/AVAAbschluss/langchain_help.py", line 25, in source_docs
-    return list(get_docs())
-  File "/home/Kevin/AVAAbschluss/langchain_help.py", line 75, in get_docs
-    for filename in os.listdir(directory):
-
-2023-11-08 15:21:32 +0000 - dagster - ERROR - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - search_index - Dependencies for step search_index failed: ['source_docs']. Not executing.
-2023-11-08 15:21:32 +0000 - dagster - DEBUG - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705119 - ENGINE_EVENT - Multiprocess executor: parent process exiting after 6.7s (pid: 3705119)
-2023-11-08 15:21:32 +0000 - dagster - ERROR - __ASSET_JOB - c8084fe4-2c56-4a1b-beae-e52fed604a55 - 3705119 - RUN_FAILURE - Execution of run for "__ASSET_JOB" failed. Steps failed: ['source_docs'].
-[32m2023-11-08 15:22:22 +0000[0m - dagster.code_server - [34mINFO[0m - Stopping server once all current RPC calls terminate or 60 seconds pass
-[32m2023-11-08 15:22:22 +0000[0m - dagster.code_server - [34mINFO[0m - Code server was interrupted
-[32m2023-11-08 15:22:22 +0000[0m - dagster.code_server - [34mINFO[0m - Shutting down Dagster code server for file langchain_help.py in process 3704931
+ * Ignoring a call to 'app.run()' that would block the current 'flask' CLI command.
+   Only call 'app.run()' in an 'if __name__ == "__main__"' guard.
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://10.8.0.7:80
+Press CTRL+C to quit
+62.153.77.125 - - [09/Nov/2023 13:53:17] "GET / HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 13:53:18] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 13:53:18] "GET /static/ava.png HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 13:53:21] "POST /process_data HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 13:53:21] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 13:53:21] "GET /static/ava.png HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 13:53:44] "POST /bad_bot HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 13:53:44] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 13:53:44] "GET /static/ava.png HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 13:53:49] "GET / HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 13:53:49] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 13:53:49] "GET /static/ava.png HTTP/1.1" 304 -
+ * Ignoring a call to 'app.run()' that would block the current 'flask' CLI command.
+   Only call 'app.run()' in an 'if __name__ == "__main__"' guard.
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://10.8.0.7:80
+Press CTRL+C to quit
+62.153.77.125 - - [09/Nov/2023 13:55:47] "GET / HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 13:55:47] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 13:55:47] "GET /static/ava.png HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 13:55:57] "POST /process_data HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 13:55:57] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 13:55:58] "GET /static/ava.png HTTP/1.1" 304 -
+ * Ignoring a call to 'app.run()' that would block the current 'flask' CLI command.
+   Only call 'app.run()' in an 'if __name__ == "__main__"' guard.
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://10.8.0.7:80
+Press CTRL+C to quit
+62.153.77.125 - - [09/Nov/2023 15:57:13] "GET / HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 15:57:13] "GET /static/css/style.css HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 15:57:14] "GET /static/ava.png HTTP/1.1" 304 -
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Downloading (…)olve/main/vocab.json:   0%|          | 0.00/1.04M [00:00<?, ?B/s]Downloading (…)olve/main/vocab.json: 100%|██████████| 1.04M/1.04M [00:00<00:00, 62.1MB/s]
+Downloading (…)olve/main/merges.txt:   0%|          | 0.00/456k [00:00<?, ?B/s]Downloading (…)olve/main/merges.txt: 100%|██████████| 456k/456k [00:00<00:00, 45.6MB/s]
+Downloading (…)/main/tokenizer.json:   0%|          | 0.00/1.36M [00:00<?, ?B/s]Downloading (…)/main/tokenizer.json: 100%|██████████| 1.36M/1.36M [00:00<00:00, 24.7MB/s]
+Downloading (…)lve/main/config.json:   0%|          | 0.00/665 [00:00<?, ?B/s]Downloading (…)lve/main/config.json: 100%|██████████| 665/665 [00:00<00:00, 355kB/s]
+Token indices sequence length is longer than the specified maximum sequence length for this model (1691 > 1024). Running this sequence through the model will result in indexing errors
+62.153.77.125 - - [09/Nov/2023 15:57:19] "POST /process_data HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 15:57:19] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 15:57:19] "GET /static/ava.png HTTP/1.1" 304 -
+ * Ignoring a call to 'app.run()' that would block the current 'flask' CLI command.
+   Only call 'app.run()' in an 'if __name__ == "__main__"' guard.
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://10.8.0.7:80
+Press CTRL+C to quit
+62.153.77.125 - - [09/Nov/2023 16:00:29] "GET / HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 16:00:29] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:00:29] "GET /static/ava.png HTTP/1.1" 304 -
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Token indices sequence length is longer than the specified maximum sequence length for this model (2266 > 1024). Running this sequence through the model will result in indexing errors
+62.153.77.125 - - [09/Nov/2023 16:00:42] "POST /process_data HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 16:00:43] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:00:43] "GET /static/ava.png HTTP/1.1" 304 -
+ * Ignoring a call to 'app.run()' that would block the current 'flask' CLI command.
+   Only call 'app.run()' in an 'if __name__ == "__main__"' guard.
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://10.8.0.7:80
+Press CTRL+C to quit
+62.153.77.125 - - [09/Nov/2023 16:01:55] "GET / HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 16:01:55] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:01:55] "GET /static/ava.png HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:02:07] "POST /process_data HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 16:02:07] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:02:07] "GET /static/ava.png HTTP/1.1" 304 -
+ * Ignoring a call to 'app.run()' that would block the current 'flask' CLI command.
+   Only call 'app.run()' in an 'if __name__ == "__main__"' guard.
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://10.8.0.7:80
+Press CTRL+C to quit
+62.153.77.125 - - [09/Nov/2023 16:02:44] "GET / HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 16:02:44] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:02:44] "GET /static/ava.png HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:02:46] "POST /process_data HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 16:02:47] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:02:47] "GET /static/ava.png HTTP/1.1" 304 -
+ * Ignoring a call to 'app.run()' that would block the current 'flask' CLI command.
+   Only call 'app.run()' in an 'if __name__ == "__main__"' guard.
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://10.8.0.7:80
+Press CTRL+C to quit
+62.153.77.125 - - [09/Nov/2023 16:09:40] "GET / HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 16:09:41] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:09:41] "GET /static/ava.png HTTP/1.1" 304 -
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Token indices sequence length is longer than the specified maximum sequence length for this model (1691 > 1024). Running this sequence through the model will result in indexing errors
+62.153.77.125 - - [09/Nov/2023 16:09:45] "POST /process_data HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 16:09:46] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:09:46] "GET /static/ava.png HTTP/1.1" 304 -
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/home/Kevin/.local/lib/python3.8/site-packages/flask/cli.py", line 1064, in main
+    cli.main()
+  File "/home/Kevin/.local/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/Kevin/.local/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/Kevin/.local/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/Kevin/.local/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/Kevin/.local/lib/python3.8/site-packages/click/decorators.py", line 92, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/home/Kevin/.local/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/Kevin/.local/lib/python3.8/site-packages/flask/cli.py", line 912, in run_command
+    raise e from None
+  File "/home/Kevin/.local/lib/python3.8/site-packages/flask/cli.py", line 898, in run_command
+    app = info.load_app()
+  File "/home/Kevin/.local/lib/python3.8/site-packages/flask/cli.py", line 313, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/home/Kevin/.local/lib/python3.8/site-packages/flask/cli.py", line 219, in locate_app
+    __import__(module_name)
+  File "/home/Kevin/AVAAbschluss/app.py", line 2, in <module>
+    from langchain_help import return_answer, htmlerize
+  File "/home/Kevin/AVAAbschluss/langchain_help.py", line 228, in <module>
+    chain = load_qa_with_sources_chain(AzureOpenAI(deployment_name="text-davinci-003",model_name="text-davinci-003",temperature=0,max_tokens=-1), chain_type="stuff", prompt=PROMPT)
+  File "pydantic/main.py", line 341, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for AzureOpenAI
+__root__
+  Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
+ * Ignoring a call to 'app.run()' that would block the current 'flask' CLI command.
+   Only call 'app.run()' in an 'if __name__ == "__main__"' guard.
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://10.8.0.7:80
+Press CTRL+C to quit
+62.153.77.125 - - [09/Nov/2023 16:19:47] "GET / HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 16:19:47] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:19:47] "GET /static/ava.png HTTP/1.1" 304 -
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Token indices sequence length is longer than the specified maximum sequence length for this model (1691 > 1024). Running this sequence through the model will result in indexing errors
+62.153.77.125 - - [09/Nov/2023 16:19:54] "POST /process_data HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 16:19:54] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:19:54] "GET /static/ava.png HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:22:25] "GET / HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 16:22:26] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:22:26] "GET /static/ava.png HTTP/1.1" 304 -
+Token indices sequence length is longer than the specified maximum sequence length for this model (2266 > 1024). Running this sequence through the model will result in indexing errors
+62.153.77.125 - - [09/Nov/2023 16:22:41] "POST /process_data HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 16:22:41] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:22:42] "GET /static/ava.png HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:25:13] "GET / HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 16:25:13] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:25:13] "GET /static/ava.png HTTP/1.1" 304 -
+Token indices sequence length is longer than the specified maximum sequence length for this model (2478 > 1024). Running this sequence through the model will result in indexing errors
+62.153.77.125 - - [09/Nov/2023 16:26:02] "POST /process_data HTTP/1.1" 200 -
+62.153.77.125 - - [09/Nov/2023 16:26:03] "GET /static/css/style.css HTTP/1.1" 304 -
+62.153.77.125 - - [09/Nov/2023 16:26:03] "GET /static/ava.png HTTP/1.1" 304 -

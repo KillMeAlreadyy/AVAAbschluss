@@ -26,7 +26,7 @@ def process_data_bad():
     uniqueid = request.form['uuidtxt']
     input_data = request.form['input_data']
     txtanswer = request.form['output_data']
-    filename = os.path.join("/home/gptbot/flask/logs", uniqueid + "_bad.txt")
+    filename = os.path.join("/home/Kevin/AVAAbschluss/logs", uniqueid + "_bad.txt")
     with open(filename, "w") as f: 
         f.write("Suggestion: ")
         f.write(badreason)

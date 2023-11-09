@@ -225,7 +225,7 @@ PROMPT = PromptTemplate(template=template, input_variables=["summaries", "questi
 
 
 #Azure OpenAI Service Chain
-chain = load_qa_with_sources_chain(AzureOpenAI(deployment_name="text-davinci-003-chatbot",model_name="text-davinci-003",temperature=0,max_tokens=-1), chain_type="stuff", prompt=PROMPT)
+chain = load_qa_with_sources_chain(AzureOpenAI(deployment_name="text-davinci-003",model_name="text-davinci-003",temperature=0,max_tokens=-1), chain_type="stuff", prompt=PROMPT)
 
 def print_answer(question):
 
@@ -258,7 +258,7 @@ def return_answer(question, logfilename):
 
     question = bleach.clean(question)
 
-    with open("/home/gptbot/flask/search_index.pickle", "rb") as f:
+    with open("/home/Kevin/AVAAbschluss/search_index.pickle", "rb") as f:
         search_index= pickle.load(f)
 
 

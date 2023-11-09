@@ -1,0 +1,3 @@
+Input: What is the latest Version of Doucware
+Output:  The latest version of DocuWare is 7.3.
+SOURCES: https://support.docuware.com/en-us/knowledgebase/article/KBA-36259, https://support.docuware.com/en-us/knowledgebase/article/KBA-36309, https://support.docuware.com/en-US/support/docuware-support-lifecycle-policy/
